@@ -248,6 +248,61 @@ ul, ol {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
+/* ---------- Language Switcher ---------- */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  background: var(--bg-glass);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 12px;
+  margin-left: 8px;
+}
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 32px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  position: relative;
+  padding: 0;
+}
+
+.lang-btn .lang-flag {
+  width: 24px;
+  height: 16px;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  transition: opacity var(--transition-base);
+  opacity: 0.6;
+}
+
+.lang-btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.lang-btn:hover .lang-flag {
+  opacity: 1;
+}
+
+.lang-btn.active {
+  background: rgba(124, 58, 237, 0.15);
+  border-color: rgba(124, 58, 237, 0.3);
+  box-shadow: 0 0 12px rgba(124, 58, 237, 0.15);
+}
+
+.lang-btn.active .lang-flag {
+  opacity: 1;
+}
+
 /* ---------- Hero Section ---------- */
 .hero {
   position: relative;
@@ -494,6 +549,15 @@ ul, ol {
   flex-shrink: 0;
 }
 
+.card-icon-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  flex-shrink: 0;
+  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
 .card-icon.purple {
   background: rgba(124, 58, 237, 0.15);
   box-shadow: 0 0 20px rgba(124, 58, 237, 0.1);
@@ -602,6 +666,18 @@ ul, ol {
   flex-shrink: 0;
 }
 
+.store-badge.coming-soon {
+  background: rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.3);
+  color: var(--accent-gold-soft);
+  cursor: default;
+}
+
+.store-badge.coming-soon:hover {
+  transform: none;
+  background: rgba(245, 158, 11, 0.15);
+}
+
 /* ---------- Web Project Showcase ---------- */
 .web-showcase {
   position: relative;
@@ -686,6 +762,29 @@ ul, ol {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.browser-content-preview {
+  padding: 0;
+  min-height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.browser-content-preview a {
+  display: block;
+  line-height: 0;
+}
+
+.browser-content-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.browser-content-preview:hover img {
+  transform: scale(1.03);
 }
 
 .browser-content .mock-header {
@@ -843,6 +942,10 @@ ul, ol {
 
 .channel-icon.github-icon {
   background: rgba(255, 255, 255, 0.08);
+}
+
+.channel-icon.instagram-icon {
+  background: linear-gradient(135deg, rgba(131, 58, 180, 0.2), rgba(253, 29, 29, 0.2), rgba(252, 176, 69, 0.2));
 }
 
 .channel-label {
@@ -1183,6 +1286,10 @@ ul, ol {
 
   .nav-menu-btn {
     display: flex;
+    z-index: 1001;
+  }
+
+  .lang-switcher {
     z-index: 1001;
   }
 

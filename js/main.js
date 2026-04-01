@@ -1,10 +1,238 @@
 /* ============================================
    Centaur Studios — Main JavaScript
-   Star field, scroll animations, navigation
+   Star field, scroll animations, navigation,
+   i18n language switching
    ============================================ */
 
 (function () {
   'use strict';
+
+  // ---------- Translations ----------
+  const translations = {
+    en: {
+      // Nav
+      'nav.products': 'Products',
+      'nav.about': 'About Me',
+      'nav.contact': 'Contact',
+      'nav.privacy': 'Privacy',
+
+      // Hero
+      'hero.title_before': 'Crafting ',
+      'hero.title_gradient': 'Digital Experiences',
+      'hero.subtitle': "We build premium mobile apps and web experiences that people love to use. From fitness tracking to gaming — we push the boundaries of what's possible.",
+      'hero.cta_explore': 'Explore Our Work',
+      'hero.cta_contact': 'Get in Touch',
+
+      // Products
+      'products.badge': '🚀 Our Products',
+      'products.title': "Apps & Platforms We've Built",
+      'products.description': 'Each product is crafted with attention to detail, performance, and user delight.',
+
+      // GrindLog
+      'products.grindlog.platform': 'iOS — App Store',
+      'products.grindlog.desc': 'The smartest way to reach your fitness goals. Track your workouts, monitor your progress with detailed analytics, earn badges, and stay motivated with a gamified experience.',
+      'products.grindlog.f1': 'Workout Tracking',
+      'products.grindlog.f2': 'Analytics',
+      'products.grindlog.f3': 'Gamification',
+      'products.grindlog.f4': 'PRO Subscription',
+
+      // Reels Çarkı
+      'products.reels.platform': 'Android — Google Play',
+      'products.reels.desc': "Can't decide what to watch? Spin the wheel and let fate decide! A fun, engaging way to discover your next favorite content with a beautifully animated spin wheel.",
+      'products.reels.f1': 'Spin Wheel',
+      'products.reels.f2': 'Entertainment',
+      'products.reels.f3': 'Customizable',
+      'products.reels.f4': 'Fun',
+
+      // LoL Trivia
+      'products.lol.platform': 'Android — Google Play',
+      'products.lol.desc': 'Think you know League of Legends? Test your knowledge with hundreds of challenging trivia questions. Multiple game modes including Time Attack with dynamic difficulty.',
+      'products.lol.f2': 'Trivia',
+      'products.lol.f3': 'Time Attack',
+      'products.lol.f4': 'Leaderboards',
+      'products.lol.coming_soon': 'Coming Soon',
+
+      // QuizBall
+      'products.quizball.platform': 'Web Platform',
+      'products.quizball.desc': 'The ultimate football trivia platform. Thousands of questions about teams, players, and football history. Beautiful UI, SEO-optimized, and built with Next.js for blazing-fast performance.',
+      'products.quizball.f1': 'Football Trivia',
+      'products.quizball.f3': 'SEO Optimized',
+      'products.quizball.f4': 'Responsive',
+      'products.quizball.cta': 'Visit Website',
+
+      // About
+      'about.badge': '✨ About Me',
+      'about.title': 'Built with Passion',
+      'about.heading': 'Who I Am',
+      'about.p1': "I'm Ege Can Bilir, the founder of Centaur Studios & Development and an independent app and web developer. I create engaging mobile applications and web platforms that are not just functional, but genuinely delightful to use.",
+      'about.p2': 'From fitness apps that keep you motivated, to trivia games that challenge your mind — every product I ship is crafted with care, attention to detail, and a deep understanding of what users want.',
+      'about.p3': 'I work across iOS, Android, and the web, using modern technologies like React Native, Next.js, and Expo to deliver cross-platform excellence.',
+      'about.stat_products': 'Products',
+      'about.stat_platforms': 'Platforms',
+      'about.stat_founded': 'Founded',
+      'about.stat_passion': 'Passion',
+
+      // Contact
+      'contact.badge': '📬 Contact',
+      'contact.title': 'Let\'s Work Together',
+      'contact.description': 'Looking for a custom app, a web platform, or a creative collaboration? I\'d love to hear about your project.',
+      'contact.heading': 'Get in Touch',
+      'contact.text': 'Whether you need a mobile app developed from scratch, a web platform built to scale, or want to explore a partnership — I\'m always open to exciting new projects and collaborations.',
+      'contact.form_name': 'Name',
+      'contact.form_name_ph': 'Your name',
+      'contact.form_email': 'Email',
+      'contact.form_message': 'Message',
+      'contact.form_message_ph': 'Your message...',
+      'contact.form_submit': 'Send Message →',
+
+      // Footer
+      'footer.description': 'Crafting digital experiences that people love. Independent studio building premium apps and web platforms.',
+      'footer.products': 'Products',
+      'footer.legal': 'Legal',
+      'footer.privacy': 'Privacy Policy',
+      'footer.terms': 'Terms of Service',
+      'footer.app_privacy': 'App Privacy',
+      'footer.grindlog_privacy': 'GrindLog Privacy',
+      'footer.reels_privacy': 'Reels Çarkı Privacy',
+      'footer.lol_privacy': 'LoL Trivia Privacy',
+      'footer.copyright': '© 2026 Centaur Studios. All rights reserved.'
+    },
+
+    tr: {
+      // Nav
+      'nav.products': 'Ürünler',
+      'nav.about': 'Hakkımda',
+      'nav.contact': 'İletişim',
+      'nav.privacy': 'Gizlilik',
+
+      // Hero
+      'hero.title_before': 'Dijital ',
+      'hero.title_gradient': 'Deneyimler Üretiyoruz',
+      'hero.subtitle': 'Kullanıcıların severek kullandığı premium mobil uygulamalar ve web deneyimleri geliştiriyoruz. Fitness takibinden oyunlara — mümkün olanın sınırlarını zorluyoruz.',
+      'hero.cta_explore': 'Çalışmalarımızı İncele',
+      'hero.cta_contact': 'İletişime Geç',
+
+      // Products
+      'products.badge': '🚀 Ürünlerimiz',
+      'products.title': 'Geliştirdiğimiz Uygulama ve Platformlar',
+      'products.description': 'Her ürün detaylara özen gösterilerek, performans ve kullanıcı memnuniyeti ön planda tutularak geliştirildi.',
+
+      // GrindLog
+      'products.grindlog.platform': 'iOS — App Store',
+      'products.grindlog.desc': 'Fitness hedeflerinize ulaşmanın en akıllı yolu. Antrenmanlarınızı takip edin, detaylı analizlerle ilerlemenizi izleyin, rozetler kazanın ve oyunlaştırılmış bir deneyimle motive kalın.',
+      'products.grindlog.f1': 'Antrenman Takibi',
+      'products.grindlog.f2': 'Analitik',
+      'products.grindlog.f3': 'Oyunlaştırma',
+      'products.grindlog.f4': 'PRO Abonelik',
+
+      // Reels Çarkı
+      'products.reels.platform': 'Android — Google Play',
+      'products.reels.desc': 'Ne izleyeceğinize karar veremiyorsanız çarkı çevirin ve kaderinize bırakın! Güzel bir animasyonlu çark ile bir sonraki favori içeriğinizi keşfetmenin eğlenceli yolu.',
+      'products.reels.f1': 'Çark Çevirme',
+      'products.reels.f2': 'Eğlence',
+      'products.reels.f3': 'Özelleştirilebilir',
+      'products.reels.f4': 'Eğlenceli',
+
+      // LoL Trivia
+      'products.lol.platform': 'Android — Google Play',
+      'products.lol.desc': "League of Legends'ı ne kadar bildiğinizi düşünüyorsunuz? Yüzlerce zorlu bilgi yarışması sorusuyla kendinizi test edin. Dinamik zorluklu Time Attack dahil birden fazla oyun modu.",
+      'products.lol.f2': 'Bilgi Yarışması',
+      'products.lol.f3': 'Zamana Karşı',
+      'products.lol.f4': 'Sıralama',
+      'products.lol.coming_soon': 'Yakında',
+
+      // QuizBall
+      'products.quizball.platform': 'Web Platformu',
+      'products.quizball.desc': 'Nihai futbol bilgi yarışması platformu. Takımlar, oyuncular ve futbol tarihi hakkında binlerce soru. Güzel arayüz, SEO optimizasyonlu ve Next.js ile geliştirilmiş hızlı performans.',
+      'products.quizball.f1': 'Futbol Bilgi Yarışması',
+      'products.quizball.f3': 'SEO Optimizasyonlu',
+      'products.quizball.f4': 'Duyarlı Tasarım',
+      'products.quizball.cta': 'Siteyi Ziyaret Et',
+
+      // About
+      'about.badge': '✨ Hakkımda',
+      'about.title': 'Tutkuyla Üretildi',
+      'about.heading': 'Ben Kimim',
+      'about.p1': 'Ben Ege Can Bilir, Centaur Studios & Development\'ın kurucusu ve bağımsız uygulama/web geliştiricisiyim. İlgi çekici mobil uygulamalar ve web platformları geliştiriyorum — sadece işlevsel değil, aynı zamanda kullanımı gerçekten keyifli ürünler ortaya koymayı hedefliyorum.',
+      'about.p2': 'Sizi motive eden fitness uygulamalarından, zihninize meydan okuyan bilgi yarışması oyunlarına — çıkardığım her ürün özenle, detaylara dikkat edilerek ve kullanıcıların ne istediğini derinlemesine anlayarak hazırlanmıştır.',
+      'about.p3': 'iOS, Android ve web genelinde React Native, Next.js ve Expo gibi modern teknolojileri kullanarak platformlar arası mükemmellik sunuyorum.',
+      'about.stat_products': 'Ürün',
+      'about.stat_platforms': 'Platform',
+      'about.stat_founded': 'Kuruluş',
+      'about.stat_passion': 'Tutku',
+
+      // Contact
+      'contact.badge': '📬 İletişim',
+      'contact.title': 'Birlikte Çalışalım',
+      'contact.description': 'Özel bir uygulama, web platformu veya yaratıcı bir işbirliği mi arıyorsunuz? Projenizi duymak isterim.',
+      'contact.heading': 'İletişime Geçin',
+      'contact.text': 'Sıfırdan bir mobil uygulama geliştirmek, ölçeklenebilir bir web platformu oluşturmak veya bir ortaklık keşfetmek istiyorsanız — heyecan verici yeni projelere ve işbirliklerine her zaman açığım.',
+      'contact.form_name': 'İsim',
+      'contact.form_name_ph': 'Adınız',
+      'contact.form_email': 'E-posta',
+      'contact.form_message': 'Mesaj',
+      'contact.form_message_ph': 'Mesajınız...',
+      'contact.form_submit': 'Mesaj Gönder →',
+
+      // Footer
+      'footer.description': 'İnsanların sevdiği dijital deneyimler üretiyoruz. Premium uygulamalar ve web platformları geliştiren bağımsız stüdyo.',
+      'footer.products': 'Ürünler',
+      'footer.legal': 'Yasal',
+      'footer.privacy': 'Gizlilik Politikası',
+      'footer.terms': 'Kullanım Koşulları',
+      'footer.app_privacy': 'Uygulama Gizliliği',
+      'footer.grindlog_privacy': 'GrindLog Gizlilik',
+      'footer.reels_privacy': 'Reels Çarkı Gizlilik',
+      'footer.lol_privacy': 'LoL Trivia Gizlilik',
+      'footer.copyright': '© 2026 Centaur Studios. Tüm hakları saklıdır.'
+    }
+  };
+
+  let currentLang = localStorage.getItem('cs-lang') || 'en';
+
+  function setLanguage(lang) {
+    currentLang = lang;
+    localStorage.setItem('cs-lang', lang);
+    document.documentElement.setAttribute('lang', lang);
+
+    // Update all data-i18n elements
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      if (translations[lang] && translations[lang][key]) {
+        el.textContent = translations[lang][key];
+      }
+    });
+
+    // Update placeholders
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+      const key = el.getAttribute('data-i18n-placeholder');
+      if (translations[lang] && translations[lang][key]) {
+        el.setAttribute('placeholder', translations[lang][key]);
+      }
+    });
+
+    // Update active button state
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+    });
+  }
+
+  function initLanguageSwitcher() {
+    const buttons = document.querySelectorAll('.lang-btn');
+    if (!buttons.length) return;
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        if (lang && lang !== currentLang) {
+          setLanguage(lang);
+        }
+      });
+    });
+
+    // Apply saved language on load
+    setLanguage(currentLang);
+  }
 
   // ---------- Star Field Background ----------
   function initStarField() {
@@ -196,7 +424,7 @@
         e.preventDefault();
         const btn = form.querySelector('.btn-submit');
         const originalText = btn.textContent;
-        btn.textContent = '✓ Message received!';
+        btn.textContent = currentLang === 'tr' ? '✓ Mesajınız alındı!' : '✓ Message received!';
         btn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
 
         setTimeout(() => {
@@ -245,6 +473,7 @@
 
   // ---------- Initialize Everything ----------
   document.addEventListener('DOMContentLoaded', () => {
+    initLanguageSwitcher();
     initStarField();
     initNavigation();
     initSmoothScroll();
