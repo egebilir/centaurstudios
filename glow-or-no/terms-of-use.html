@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Use — Glow or No</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0D0800;
+      --card: #1A1200;
+      --accent: #FF2D55;
+      --gold: #FFD700;
+      --text: #FFFFFF;
+      --subtext: #AAAAAA;
+      --border: #2A1F00;
+      --green: #00D97E;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* Background texture */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 20% 20%, rgba(255,45,85,0.06) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(255,107,26,0.04) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    /* Header */
+    header {
+      padding: 60px 0 48px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 48px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      text-decoration: none;
+    }
+
+    .brand-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .brand-dot {
+      width: 4px;
+      height: 4px;
+      background: var(--accent);
+      border-radius: 50%;
+    }
+
+    .brand-studio {
+      font-size: 11px;
+      color: var(--subtext);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(36px, 6vw, 52px);
+      font-weight: 900;
+      color: var(--text);
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+
+    h1 span {
+      color: var(--accent);
+    }
+
+    .meta {
+      font-size: 13px;
+      color: var(--subtext);
+      letter-spacing: 1px;
+    }
+
+    /* Table of Contents */
+    .toc {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 48px;
+    }
+
+    .toc-title {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .toc ol {
+      list-style: none;
+      counter-reset: toc;
+      display: grid;
+      gap: 8px;
+    }
+
+    .toc li {
+      counter-increment: toc;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .toc li::before {
+      content: counter(toc, decimal-leading-zero);
+      font-size: 11px;
+      color: var(--accent);
+      font-weight: 500;
+      min-width: 24px;
+    }
+
+    .toc a {
+      color: var(--subtext);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    .toc a:hover { color: var(--text); }
+
+    /* Sections */
+    .section {
+      margin-bottom: 48px;
+      scroll-margin-top: 24px;
+    }
+
+    .section-number {
+      font-size: 11px;
+      color: var(--accent);
+      letter-spacing: 2px;
+      font-weight: 500;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      color: var(--subtext);
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    ul, ol {
+      color: var(--subtext);
+      font-size: 15px;
+      padding-left: 0;
+      list-style: none;
+      display: grid;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    ul li, ol li {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    ul li::before {
+      content: '→';
+      color: var(--accent);
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    ol { counter-reset: list; }
+    ol li { counter-increment: list; }
+    ol li::before {
+      content: counter(list) '.';
+      color: var(--accent);
+      flex-shrink: 0;
+      font-weight: 500;
+      min-width: 20px;
+    }
+
+    /* Highlight boxes */
+    .highlight {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--green);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+
+    .highlight p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .highlight.warning {
+      border-left-color: #FF6B1A;
+    }
+
+    strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    /* Contact card */
+    .contact-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px;
+      text-align: center;
+      margin-top: 48px;
+    }
+
+    .contact-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .contact-card p {
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 32px 0 0;
+      border-top: 1px solid var(--border);
+      margin-top: 64px;
+    }
+
+    footer p {
+      font-size: 12px;
+      color: #444444;
+    }
+
+    footer a {
+      color: var(--subtext);
+    }
+
+    /* Back to top */
+    .back-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--subtext);
+      text-decoration: none;
+      margin-top: 12px;
+      letter-spacing: 1px;
+      transition: color 0.2s;
+    }
+
+    .back-top:hover { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+    <header>
+      <a href="https://centaurstudios.online" class="brand">
+        <span class="brand-logo">Glow or No</span>
+        <span class="brand-dot"></span>
+        <span class="brand-studio">Centaur Studios</span>
+      </a>
+      <h1>Terms of <span>Use</span></h1>
+      <p class="meta">Effective Date: May 22, 2026</p>
+    </header>
+
+    <div class="toc">
+      <p class="toc-title">Table of Contents</p>
+      <ol>
+        <li><a href="#acceptance">Acceptance</a></li>
+        <li><a href="#description-of-service">Description of Service</a></li>
+        <li><a href="#photo-feedback-disclaimer">Photo Feedback Disclaimer</a></li>
+        <li><a href="#user-responsibilities">User Responsibilities</a></li>
+        <li><a href="#ai-output">AI Output</a></li>
+        <li><a href="#acceptable-use">Acceptable Use</a></li>
+        <li><a href="#intellectual-property">Intellectual Property</a></li>
+        <li><a href="#availability">Availability</a></li>
+        <li><a href="#limitation-of-liability">Limitation of Liability</a></li>
+        <li><a href="#changes">Changes to Terms</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ol>
+    </div>
+
+    <div class="section" id="acceptance">
+      <p class="section-number">01 — Acceptance</p>
+      <h2>Acceptance</h2>
+      <p>By using the Glow or No app, you agree to these Terms of Use for Glow or No. If you do not agree to these terms, please do not use the application.</p>
+    </div>
+
+    <div class="section" id="description-of-service">
+      <p class="section-number">02 — Description of Service</p>
+      <h2>Description of Service</h2>
+      <p>Glow or No provides AI-powered photo setup feedback, including the following features:</p>
+      <ul>
+        <li>Glow Check</li>
+        <li>Roast & Fixes</li>
+        <li>Retake Plan</li>
+        <li>Platform Fit</li>
+        <li>Best Photo Picker</li>
+      </ul>
+    </div>
+
+    <div class="section" id="photo-feedback-disclaimer">
+      <p class="section-number">03 — Photo Feedback Disclaimer</p>
+      <h2>Photo Feedback Disclaimer</h2>
+      <p>Please note the following regarding the feedback provided by the app:</p>
+      <ul>
+        <li>Feedback is generated by AI and may not always be accurate.</li>
+        <li>The app is intended solely for entertainment and photo coaching purposes.</li>
+        <li>The app does not provide professional, medical, psychological, or legal advice.</li>
+        <li>The app does <strong>not</strong> measure personal worth, attractiveness, health, or identity.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="user-responsibilities">
+      <p class="section-number">04 — User Responsibilities</p>
+      <h2>User Responsibilities</h2>
+      <p>As a user of Glow or No, you agree to the following:</p>
+      <ul>
+        <li>You will only upload photos that you have the right to use.</li>
+        <li>You will not upload illegal, explicit, harmful, or non-consensual images.</li>
+        <li>You will not upload images of others without their permission.</li>
+        <li>You will not misuse the app in any way.</li>
+        <li>You will not attempt to reverse engineer, overload, or abuse the service.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="ai-output">
+      <p class="section-number">05 — AI Output</p>
+      <h2>AI Output</h2>
+      <p>Our app relies on AI models, and as such:</p>
+      <ul>
+        <li>AI results may vary from photo to photo.</li>
+        <li>Scores and suggestions are subjective photo-context feedback.</li>
+        <li>Best Photo Picker rankings are comparative among selected photos and may differ from your Glow Score.</li>
+      </ul>
+      <div class="highlight warning">
+        <p><strong>Important:</strong> "Picker Score" is a relative comparison score among the photos selected for Best Photo Picker. "Glow Score" is an individual photo analysis score.</p>
+      </div>
+    </div>
+
+    <div class="section" id="acceptable-use">
+      <p class="section-number">06 — Acceptable Use</p>
+      <h2>Acceptable Use</h2>
+      <p>You agree to not engage in any unlawful, abusive, exploitative, or harmful use of the Glow or No application and its services.</p>
+    </div>
+
+    <div class="section" id="intellectual-property">
+      <p class="section-number">07 — Intellectual Property</p>
+      <h2>Intellectual Property</h2>
+      <p>Centaur Studios retains all ownership and rights to the app, its branding, user interface, and software.</p>
+      <p>Users retain all ownership rights to the photos they upload and process using the app.</p>
+    </div>
+
+    <div class="section" id="availability">
+      <p class="section-number">08 — Availability</p>
+      <h2>Availability</h2>
+      <p>We strive to keep the service running smoothly. However, the service may change, pause, or be unavailable at times. AI and backend services may occasionally fail or produce delayed responses. We are not liable for any downtime or disruptions.</p>
+    </div>
+
+    <div class="section" id="limitation-of-liability">
+      <p class="section-number">09 — Limitation of Liability</p>
+      <h2>Limitation of Liability</h2>
+      <p>To the maximum extent permitted by applicable law, Centaur Studios shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from your use of Glow or No.</p>
+    </div>
+
+    <div class="section" id="changes">
+      <p class="section-number">10 — Changes to Terms</p>
+      <h2>Changes to Terms</h2>
+      <p>We may modify these Terms of Use at any time. Continued use of the app after such changes have been made constitutes acceptance of the new terms.</p>
+    </div>
+
+    <div class="section" id="contact">
+      <p class="section-number">11 — Contact Us</p>
+      <h2>Contact Us</h2>
+      <p>If you have any questions about these Terms of Use, please contact us.</p>
+    </div>
+
+    <div class="contact-card">
+      <h3>Get in Touch</h3>
+      <a href="mailto:support@centaurstudios.online" class="contact-btn">support@centaurstudios.online</a>
+      <p style="margin-top: 16px; font-size: 13px;">
+        <strong>Centaur Studios</strong><br />
+        <a href="https://centaurstudios.online" target="_blank">centaurstudios.online</a>
+      </p>
+    </div>
+
+    <footer>
+      <p>© 2026 Centaur Studios. All rights reserved.</p>
+      <p style="margin-top: 8px;">
+        <a href="https://centaurstudios.online/glow-or-no/privacy-policy.html">Privacy Policy</a>
+        &nbsp;·&nbsp;
+        <a href="https://centaurstudios.online">Back to Centaur Studios</a>
+      </p>
+      <a href="#" class="back-top">↑ Back to top</a>
+    </footer>
+
+  </div>
+</body>
+</html>
