@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Guess The Champion - Play Now</title>
+    <meta name="description" content="Test your League of Legends knowledge! Can you guess the champion from this zoomed-in picture?">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Guess The Champion</h1>
+            <div class="lives">
+                <span class="heart active">❤️</span>
+                <span class="heart active">❤️</span>
+                <span class="heart active">❤️</span>
+            </div>
+        </header>
+
+        <!-- Question Area -->
+        <div class="question-container">
+            <h2 class="question-title">Who is this?</h2>
+            <div class="image-frame">
+                <div class="champion-image" id="championImage"></div>
+            </div>
+        </div>
+
+        <!-- Word Slots -->
+        <div class="word-container" id="wordContainer">
+            <!-- Slots will be injected by JS -->
+        </div>
+
+        <!-- Letter Pool -->
+        <div class="letters-pool" id="lettersPool">
+            <!-- Letters will be injected by JS -->
+        </div>
+    </div>
+
+    <!-- Result Modal (Hidden by default) -->
+    <div class="modal-overlay" id="resultModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Victory!</h2>
+            </div>
+            <div class="modal-body">
+                <div class="full-champion-image"></div>
+                <p id="modalMessage">You correctly guessed <strong>YASUO</strong>!</p>
+                <p class="cta-text">Think you know them all? Play the full game and climb the leaderboard!</p>
+                <a href="https://play.google.com/store/apps/details?id=com.egeknows.championguesslol" class="download-btn" id="downloadBtn">
+                    Download on Google Play
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
