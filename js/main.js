@@ -60,6 +60,14 @@
       'products.quizball.f4': 'Responsive',
       'products.quizball.cta': 'Visit Website',
 
+      // Pusula
+      'products.pusula.platform': 'iOS & Android',
+      'products.pusula.desc': 'A spiritual companion app offering personalized Qur\'anic verses, dua generation, and an AI-powered spiritual guide to support your daily journey.',
+      'products.pusula.f1': 'AI Guide',
+      'products.pusula.f2': 'Qur\'an Verses',
+      'products.pusula.f3': 'Duas',
+      'products.pusula.f4': 'Spiritual Journey',
+
       // About
       'about.badge': '✨ About Me',
       'about.title': 'Built with Passion',
@@ -95,6 +103,8 @@
       'footer.grindlog_privacy': 'GrindLog Privacy',
       'footer.reels_privacy': 'Reels Çarkı Privacy',
       'footer.lol_privacy': 'LoL Trivia Privacy',
+      'footer.pusula_privacy': 'Pusula Privacy',
+      'footer.pusula_terms': 'Pusula Terms',
       'footer.copyright': '© 2026 Centaur Studios. All rights reserved.'
     },
 
@@ -149,6 +159,14 @@
       'products.quizball.f4': 'Duyarlı Tasarım',
       'products.quizball.cta': 'Siteyi Ziyaret Et',
 
+      // Pusula
+      'products.pusula.platform': 'iOS & Android',
+      'products.pusula.desc': 'Duygularınıza özel Kur\'an ayetleri, dua üretimi ve yapay zeka destekli Manevi Rehber ile günlük manevi yolculuğunuzda size eşlik eden bir uygulama.',
+      'products.pusula.f1': 'Yapay Zeka Rehber',
+      'products.pusula.f2': 'Kur\'an Ayetleri',
+      'products.pusula.f3': 'Dualar',
+      'products.pusula.f4': 'Manevi Yolculuk',
+
       // About
       'about.badge': '✨ Hakkımda',
       'about.title': 'Tutkuyla Üretildi',
@@ -184,6 +202,8 @@
       'footer.grindlog_privacy': 'GrindLog Gizlilik',
       'footer.reels_privacy': 'Reels Çarkı Gizlilik',
       'footer.lol_privacy': 'LoL Trivia Gizlilik',
+      'footer.pusula_privacy': 'Pusula Gizlilik',
+      'footer.pusula_terms': 'Pusula Şartlar',
       'footer.copyright': '© 2026 Centaur Studios. Tüm hakları saklıdır.'
     }
   };
