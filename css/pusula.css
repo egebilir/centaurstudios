@@ -1,0 +1,709 @@
+/* ============================================
+   Pusula — Landing Page Theme
+   Teal & gold, warm and spiritual, distinct from
+   the main Centaur Studios cosmic palette.
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  /* Re-tint the shared design tokens for this page only */
+  --bg-primary: #0b1e1b;
+  --bg-secondary: #112a26;
+  --bg-card: rgba(26, 58, 54, 0.45);
+  --bg-card-hover: rgba(26, 58, 54, 0.7);
+  --bg-glass: rgba(212, 175, 138, 0.06);
+  --bg-glass-border: rgba(212, 175, 138, 0.18);
+
+  --text-primary: #f3ede2;
+  --text-secondary: #aec2bc;
+  --text-muted: #6d857f;
+
+  --accent-purple: #d4af8a;
+  --accent-purple-soft: #e8caa0;
+  --accent-cyan: #5fb8a6;
+  --accent-cyan-soft: #8fd6c6;
+  --accent-gold: #d4af8a;
+  --accent-gold-soft: #e8caa0;
+  --accent-green: #6db98f;
+
+  --gradient-hero: linear-gradient(135deg, #d4af8a 0%, #f3e3c4 50%, #d4af8a 100%);
+  --gradient-purple: linear-gradient(135deg, #b98a5e, #d4af8a);
+  --gradient-cyan: linear-gradient(135deg, #3f8a7a, #5fb8a6);
+  --gradient-gold: linear-gradient(135deg, #d4af8a, #f3e3c4);
+
+  --font-heading: 'Instrument Serif', 'Outfit', serif;
+
+  --pusula-teal: #1a3a36;
+  --pusula-teal-deep: #0b1e1b;
+  --pusula-gold: #d4af8a;
+  --pusula-gold-soft: #f3e3c4;
+}
+
+.nav.scrolled {
+  background: rgba(11, 30, 27, 0.88);
+}
+
+body {
+  background-image:
+    radial-gradient(ellipse 900px 500px at 15% -5%, rgba(212, 175, 138, 0.08), transparent 60%),
+    radial-gradient(ellipse 900px 600px at 85% 15%, rgba(95, 184, 166, 0.06), transparent 60%);
+}
+
+/* ---------- Hero ---------- */
+.pusula-hero {
+  position: relative;
+  padding: 150px 24px 90px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.pusula-hero::before {
+  content: '';
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 900px;
+  max-width: 160vw;
+  background: radial-gradient(circle, rgba(212, 175, 138, 0.14) 0%, rgba(95, 184, 166, 0.07) 40%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.pusula-hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.pusula-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  background: var(--bg-glass);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 100px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent-gold-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 24px;
+}
+
+.pusula-hero-title {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  font-weight: 500;
+  line-height: 1.12;
+  margin-bottom: 22px;
+  color: var(--text-primary);
+}
+
+.pusula-hero-title .accent {
+  background: var(--gradient-hero);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-style: normal;
+}
+
+.pusula-hero-subtitle {
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  color: var(--text-secondary);
+  max-width: 480px;
+  margin-bottom: 36px;
+  line-height: 1.7;
+}
+
+.pusula-hero-ctas {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.pusula-trust-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.pusula-trust-row span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pusula-trust-row svg {
+  width: 14px;
+  height: 14px;
+  color: var(--accent-green);
+  flex-shrink: 0;
+}
+
+/* ---------- Buttons ---------- */
+.pusula-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 30px;
+  border-radius: var(--btn-radius);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: all var(--transition-base);
+  white-space: nowrap;
+}
+
+.pusula-btn-primary {
+  background: var(--gradient-gold);
+  color: #142622;
+  box-shadow: 0 8px 28px rgba(212, 175, 138, 0.25);
+}
+
+.pusula-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(212, 175, 138, 0.35);
+}
+
+.pusula-btn-secondary {
+  background: var(--bg-glass);
+  color: var(--text-primary);
+  border: 1px solid var(--bg-glass-border);
+  backdrop-filter: blur(12px);
+}
+
+.pusula-btn-secondary:hover {
+  background: rgba(212, 175, 138, 0.12);
+  border-color: rgba(212, 175, 138, 0.3);
+  transform: translateY(-2px);
+}
+
+/* ---------- Phone Mockup ---------- */
+.pusula-hero-visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 460px;
+}
+
+.pusula-phone {
+  position: relative;
+  width: 260px;
+  border: 1px solid rgba(212, 175, 138, 0.25);
+  border-radius: 28px;
+  background: linear-gradient(160deg, var(--pusula-teal) 0%, #0e2420 100%);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  aspect-ratio: 1284 / 2778;
+  display: block;
+  text-decoration: none;
+  transition: transform var(--transition-base);
+}
+
+.pusula-phone:hover {
+  transform: translateY(-6px);
+}
+
+.pusula-phone img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.pusula-phone .pusula-phone-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 40%, rgba(212, 175, 138, 0.18), transparent 65%), var(--pusula-teal);
+}
+
+.pusula-phone .pusula-phone-fallback img {
+  width: 46%;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.85;
+}
+
+.pusula-hero-visual .pusula-phone-front {
+  width: 300px;
+  z-index: 2;
+}
+
+/* ---------- Steps ---------- */
+.pusula-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.pusula-step {
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: var(--card-radius);
+  padding: 32px 28px;
+  position: relative;
+}
+
+.pusula-step-number {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 2.4rem;
+  color: var(--accent-gold-soft);
+  opacity: 0.5;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.pusula-step h3 {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.pusula-step p {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+/* ---------- Features ---------- */
+.pusula-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.pusula-feature-card {
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: var(--card-radius);
+  padding: 30px 26px;
+  transition: all var(--transition-base);
+}
+
+.pusula-feature-card:hover {
+  background: var(--bg-card-hover);
+  border-color: rgba(212, 175, 138, 0.35);
+  transform: translateY(-4px);
+}
+
+.pusula-feature-icon {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(212, 175, 138, 0.12);
+  color: var(--accent-gold-soft);
+  margin-bottom: 18px;
+}
+
+.pusula-feature-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.pusula-feature-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.pusula-feature-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* ---------- Screenshot Showcase ---------- */
+.pusula-showcase-track {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.pusula-showcase-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pusula-showcase-track .pusula-phone {
+  width: 100%;
+  border-radius: 22px;
+}
+
+.pusula-shot-caption {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.pusula-showcase-caption {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin-top: 32px;
+}
+
+/* ---------- Trust / Sources ---------- */
+.pusula-trust-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.pusula-trust-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 16px;
+  padding: 22px 24px;
+}
+
+.pusula-trust-item svg {
+  width: 22px;
+  height: 22px;
+  color: var(--accent-gold-soft);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.pusula-trust-item h4 {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.pusula-trust-item p {
+  color: var(--text-secondary);
+  font-size: 0.86rem;
+  line-height: 1.6;
+}
+
+.pusula-disclaimer {
+  margin-top: 24px;
+  padding: 18px 22px;
+  border-radius: 14px;
+  border: 1px solid rgba(212, 175, 138, 0.25);
+  background: rgba(212, 175, 138, 0.05);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+/* ---------- Pro Pricing ---------- */
+.pusula-pro-layout {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 48px;
+  align-items: center;
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.pusula-pro-layout .pusula-phone {
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.pusula-pro-shot {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pusula-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.pusula-pro-layout .pusula-pricing-grid {
+  grid-template-columns: 1fr;
+  max-width: none;
+  margin: 0;
+}
+
+.pusula-price-card {
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: var(--card-radius);
+  padding: 34px 30px;
+  position: relative;
+}
+
+.pusula-price-card.featured {
+  border-color: var(--accent-gold);
+  background: linear-gradient(160deg, rgba(212, 175, 138, 0.12), var(--bg-card));
+  box-shadow: 0 20px 50px rgba(212, 175, 138, 0.1);
+}
+
+.pusula-price-badge {
+  position: absolute;
+  top: -14px;
+  left: 30px;
+  background: var(--gradient-gold);
+  color: #142622;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.pusula-price-plan {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-gold-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+
+.pusula-price-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+  color: var(--text-primary);
+}
+
+.pusula-price-card .pusula-price-note {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin-bottom: 20px;
+}
+
+.pusula-price-features {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 0;
+}
+
+.pusula-price-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.pusula-price-features svg {
+  width: 16px;
+  height: 16px;
+  color: var(--accent-green);
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.pusula-pricing-note {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  margin-top: 24px;
+}
+
+/* ---------- FAQ ---------- */
+.pusula-faq {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.pusula-faq-item {
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 14px;
+  margin-bottom: 14px;
+  overflow: hidden;
+}
+
+.pusula-faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 20px 24px;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.pusula-faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.pusula-faq-item summary::after {
+  content: '+';
+  font-size: 1.4rem;
+  color: var(--accent-gold-soft);
+  flex-shrink: 0;
+  transition: transform var(--transition-base);
+  font-family: var(--font-body);
+  font-weight: 400;
+}
+
+.pusula-faq-item[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.pusula-faq-item p {
+  padding: 0 24px 22px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+/* ---------- Download Band ---------- */
+.pusula-download-band {
+  position: relative;
+  background: linear-gradient(160deg, rgba(212, 175, 138, 0.1), var(--bg-card));
+  border: 1px solid var(--bg-glass-border);
+  border-radius: 28px;
+  padding: 64px 40px;
+  text-align: center;
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.pusula-download-band h2 {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: clamp(1.9rem, 3.4vw, 2.8rem);
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.pusula-download-band p {
+  color: var(--text-secondary);
+  max-width: 480px;
+  margin: 0 auto 32px;
+}
+
+/* ---------- Store Link Toast ---------- */
+.pusula-toast {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translate(-50%, 20px);
+  background: var(--pusula-teal);
+  border: 1px solid rgba(212, 175, 138, 0.3);
+  color: var(--text-primary);
+  padding: 14px 22px;
+  border-radius: 12px;
+  font-size: 0.88rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  z-index: 2000;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  max-width: calc(100vw - 40px);
+  text-align: center;
+}
+
+.pusula-toast.visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  .pusula-hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .pusula-hero-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pusula-trust-row {
+    justify-content: center;
+  }
+
+  .pusula-hero-ctas {
+    justify-content: center;
+  }
+
+  .pusula-hero-visual {
+    min-height: 380px;
+  }
+
+  .pusula-steps,
+  .pusula-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pusula-pro-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .pusula-pro-layout .pusula-phone {
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pusula-hero {
+    padding: 120px 20px 60px;
+  }
+
+  .pusula-steps,
+  .pusula-features-grid,
+  .pusula-trust-grid,
+  .pusula-pricing-grid,
+  .pusula-showcase-track {
+    grid-template-columns: 1fr;
+  }
+
+  .pusula-showcase-track {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .pusula-download-band {
+    padding: 44px 24px;
+  }
+}

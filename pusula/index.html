@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pusula: Kur'an, Ayet ve Dua — write down how you feel and receive a matching Qur'anic verse, AI-guided reflection, dua generation, and a spiritual companion. Free on iOS, Android coming soon.">
+    <meta name="keywords" content="Pusula, Kuran, ayet, dua, manevi rehber, spiritual app, Quran app, dua generator">
+    <meta name="author" content="Centaur Studios">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Pusula: Kur'an, Ayet ve Dua — Your Spiritual Companion">
+    <meta property="og:description" content="Write down how you feel and Pusula finds the Qur'anic verse that speaks to it — recited aloud, translated, and gently reflected on by AI.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://centaurstudios.online/pusula/">
+    <meta property="og:image" content="https://centaurstudios.online/assets/images/apps/pusula.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pusula: Kur'an, Ayet ve Dua — Your Spiritual Companion">
+    <meta name="twitter:description" content="Write down how you feel and receive a matching Qur'anic verse, AI reflection, and dua — free on iOS.">
+
+    <title>Pusula: Kur'an, Ayet ve Dua — Centaur Studios</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../assets/images/apps/pusula.png">
+    <link rel="apple-touch-icon" href="../assets/images/apps/pusula.png">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://centaurstudios.online/pusula/">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pusula.css">
+
+    <style>
+        html[lang="en"] .lang-tr { display: none !important; }
+        html[lang="tr"] .lang-en { display: none !important; }
+    </style>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Pusula: Kur'an, Ayet ve Dua",
+        "operatingSystem": "iOS",
+        "applicationCategory": "LifestyleApplication",
+        "url": "https://centaurstudios.online/pusula/",
+        "image": "https://centaurstudios.online/assets/images/apps/pusula.png",
+        "author": {
+            "@type": "Organization",
+            "name": "Centaur Studios",
+            "url": "https://centaurstudios.online"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "url": "https://apps.apple.com/tr/app/pusula-quran-verses-prayers/id6786255399"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Star Field Canvas -->
+    <canvas class="stars-canvas" id="starsCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="nav" id="mainNav">
+        <div class="container nav-inner">
+            <a href="../index.html" class="nav-logo">
+                <img src="../assets/images/apps/pusula.png" alt="Pusula">
+                <span>Pusula</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#how-it-works" class="lang-en">How It Works</a>
+                <a href="#how-it-works" class="lang-tr">Nasıl Çalışır</a>
+                <a href="#features" class="lang-en">Features</a>
+                <a href="#features" class="lang-tr">Özellikler</a>
+                <a href="#pro" class="lang-en">Pusula Pro</a>
+                <a href="#pro" class="lang-tr">Pusula Pro</a>
+                <a href="#faq" class="lang-en">FAQ</a>
+                <a href="#faq" class="lang-tr">SSS</a>
+                <a href="privacy-policy.html" class="lang-en">Privacy</a>
+                <a href="privacy-policy.html" class="lang-tr">Gizlilik</a>
+                <a href="#" class="js-store-link pusula-btn pusula-btn-primary" style="padding: 8px 20px; font-size: 0.85rem;">
+                    <span class="lang-en">Download</span>
+                    <span class="lang-tr">İndir</span>
+                </a>
+            </div>
+            <div class="lang-switcher" id="langSwitcher">
+                <button class="lang-btn active" data-lang="en" id="langEn" aria-label="English">
+                    <svg class="lang-flag" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#012169"/><path d="M0 0L60 40M60 0L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0L60 40" stroke="#C8102E" stroke-width="4" clip-path="polygon(30 20,60 40,60 30)"/><path d="M60 0L0 40" stroke="#C8102E" stroke-width="4" clip-path="polygon(30 20,0 10,0 0)"/><path d="M30 0V40M0 20H60" stroke="#fff" stroke-width="12"/><path d="M30 0V40M0 20H60" stroke="#C8102E" stroke-width="6"/></svg>
+                </button>
+                <button class="lang-btn" data-lang="tr" id="langTr" aria-label="Türkçe">
+                    <svg class="lang-flag" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#E30A17"/><circle cx="23" cy="20" r="10" fill="#fff"/><circle cx="26" cy="20" r="8" fill="#E30A17"/><polygon points="35,20 30.7,22.4 31.5,17.6 28,15 32.8,14.8 35,10 37.2,14.8 42,15 38.5,17.6 39.3,22.4" fill="#fff" transform="scale(0.6) translate(22,13)"/></svg>
+                </button>
+            </div>
+            <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pusula-hero">
+        <div class="pusula-hero-inner">
+            <div class="reveal">
+                <div class="pusula-eyebrow">
+                    <span class="lang-en">🧭 Your Spiritual Companion</span>
+                    <span class="lang-tr">🧭 Manevi Yol Arkadaşınız</span>
+                </div>
+
+                <h1 class="pusula-hero-title">
+                    <span class="lang-en">How are you <span class="accent">feeling</span> today?</span>
+                    <span class="lang-tr">Nasıl <span class="accent">hissediyorsun?</span></span>
+                </h1>
+
+                <p class="pusula-hero-subtitle lang-en">
+                    Write down how you feel and Pusula finds the Qur'anic verse that speaks to it —
+                    recited aloud, translated, and gently reflected on by AI.
+                </p>
+                <p class="pusula-hero-subtitle lang-tr">
+                    Duygularını yaz, sana en yakın Kur'an ayetini bul, sesli dinle ve yapay zeka
+                    destekli bir yorumla iç huzuruna bir adım daha yaklaş.
+                </p>
+
+                <div class="pusula-hero-ctas">
+                    <a href="#" class="js-store-link pusula-btn pusula-btn-primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                        <span class="lang-en">Download for Free</span>
+                        <span class="lang-tr">Ücretsiz İndir</span>
+                    </a>
+                    <a href="#features" class="pusula-btn pusula-btn-secondary">
+                        <span class="lang-en">Explore Features</span>
+                        <span class="lang-tr">Özellikleri Keşfet</span>
+                    </a>
+                </div>
+
+                <div class="pusula-trust-row">
+                    <span class="lang-en"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>No account needed</span>
+                    <span class="lang-tr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Hesap gerektirmez</span>
+                    <span class="lang-en"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Diyanet-approved translation</span>
+                    <span class="lang-tr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Diyanet İşleri meali</span>
+                    <span class="lang-en"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Privacy by design</span>
+                    <span class="lang-tr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Gizlilik önce gelir</span>
+                </div>
+            </div>
+
+            <div class="pusula-hero-visual reveal reveal-delay-2">
+                <a href="#" class="js-store-link pusula-phone pusula-phone-front">
+                    <div class="pusula-phone-fallback"><img src="../assets/images/apps/pusula.png" alt=""></div>
+                    <img src="screenshots/web/1.webp" alt="Pusula app screenshot" loading="eager" fetchpriority="high" onerror="this.style.display='none'">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge reveal">
+                    <span class="lang-en">🧭 How It Works</span>
+                    <span class="lang-tr">🧭 Nasıl Çalışır</span>
+                </div>
+                <h2 class="section-title reveal reveal-delay-1">
+                    <span class="lang-en">A spiritual pause, in three steps</span>
+                    <span class="lang-tr">Üç adımda manevi bir mola</span>
+                </h2>
+                <p class="section-description reveal reveal-delay-2">
+                    <span class="lang-en">Pusula isn't complicated — it's simply there when you need it.</span>
+                    <span class="lang-tr">Pusula karmaşık değil — ihtiyaç duyduğun anda yanında.</span>
+                </p>
+            </div>
+
+            <div class="pusula-steps">
+                <div class="pusula-step reveal">
+                    <div class="pusula-step-number">01</div>
+                    <h3><span class="lang-en">Write what you feel</span><span class="lang-tr">Hissini yaz</span></h3>
+                    <p class="lang-en">Anxious, hopeful, grateful, tired — describe it in a few words, just as it is.</p>
+                    <p class="lang-tr">Kaygılı, umutlu, minnettar ya da yorgun... o an ne hissediyorsan birkaç kelimeyle anlat.</p>
+                </div>
+                <div class="pusula-step reveal reveal-delay-1">
+                    <div class="pusula-step-number">02</div>
+                    <h3><span class="lang-en">Find your verse, listen</span><span class="lang-tr">Ayetini bul, dinle</span></h3>
+                    <p class="lang-en">Receive a matching verse in Arabic and translation, with word-by-word audio recitation.</p>
+                    <p class="lang-tr">Sana uygun ayet; Arapçası, Türkçe meali ve kelime kelime sesli okumasıyla önüne gelir.</p>
+                </div>
+                <div class="pusula-step reveal reveal-delay-2">
+                    <div class="pusula-step-number">03</div>
+                    <h3><span class="lang-en">Reflect, pray, continue</span><span class="lang-tr">Yorumla, dua et, ilerle</span></h3>
+                    <p class="lang-en">Read an AI-guided reflection, generate a personal dua, chat with your Spiritual Guide, and continue your 14-day journey.</p>
+                    <p class="lang-tr">Yapay zeka destekli bir yorum oku, kişisel bir dua oluştur, Manevi Rehber'le sohbet et ve 14 günlük yolculuğunda ilerle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge reveal">
+                    <span class="lang-en">✨ Features</span>
+                    <span class="lang-tr">✨ Özellikler</span>
+                </div>
+                <h2 class="section-title reveal reveal-delay-1">
+                    <span class="lang-en">What's waiting for you in Pusula</span>
+                    <span class="lang-tr">Pusula'da seni bekleyenler</span>
+                </h2>
+                <p class="section-description reveal reveal-delay-2">
+                    <span class="lang-en">Every feature is designed to add something real to your daily spiritual life.</span>
+                    <span class="lang-tr">Her özellik, günlük manevi hayatına gerçek bir katkı sunması için tasarlandı.</span>
+                </p>
+            </div>
+
+            <div class="pusula-features-grid">
+                <div class="pusula-feature-card reveal">
+                    <div class="pusula-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></div>
+                    <h3><span class="lang-en">A Verse for Your Mood</span><span class="lang-tr">Duyguna Özel Ayet</span></h3>
+                    <p class="lang-en">Tell Pusula how you feel, and it surfaces the verse that speaks to it most.</p>
+                    <p class="lang-tr">Ne hissettiğini anlat, yapay zeka sana en anlamlı gelecek ayeti bulsun.</p>
+                </div>
+                <div class="pusula-feature-card reveal reveal-delay-1">
+                    <div class="pusula-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                    <h3><span class="lang-en">AI-Powered Reflection</span><span class="lang-tr">Yapay Zeka Yorumu</span></h3>
+                    <p class="lang-en">A short, personalized reflection follows every verse you receive.</p>
+                    <p class="lang-tr">Her ayetin ardından, o an için kişiselleştirilmiş kısa bir tefekkür yorumu.</p>
+                </div>
+                <div class="pusula-feature-card reveal reveal-delay-2">
+                    <div class="pusula-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+                    <h3><span class="lang-en">Dua Generator</span><span class="lang-tr">Dua Üretici</span></h3>
+                    <p class="lang-en">Share what's on your heart and receive a dua that puts it into words.</p>
+                    <p class="lang-tr">İçinden geçeni anlat, sana özel bir dua ile duygularını sözlere dök.</p>
+                </div>
+                <div class="pusula-feature-card reveal">
+                    <div class="pusula-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
+                    <h3><span class="lang-en">Manevi Rehber — Your Spiritual Guide</span><span class="lang-tr">Manevi Rehber</span></h3>
+                    <p class="lang-en">Talk things through with an AI companion built for spiritual conversation.</p>
+                    <p class="lang-tr">Sorularını yapay zeka destekli bir sohbet arkadaşıyla konuş, ilham al.</p>
+                </div>
+                <div class="pusula-feature-card reveal reveal-delay-1">
+                    <div class="pusula-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+                    <h3><span class="lang-en">The 14-Day Spiritual Journey</span><span class="lang-tr">14 Günlük Manevi Yolculuk</span></h3>
+                    <p class="lang-en">Progress day by day, keep your streak, and draw inspiration from timeless stories.</p>
+                    <p class="lang-tr">Günlük adımlarla ilerle, serini koru, kıssalarla ilham al.</p>
+                </div>
+                <div class="pusula-feature-card reveal reveal-delay-2">
+                    <div class="pusula-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+                    <h3><span class="lang-en">Favorites & Reflection Notes</span><span class="lang-tr">Favoriler & Tefekkür Notların</span></h3>
+                    <p class="lang-en">Save the verses that moved you, revisit your history, and add your own notes.</p>
+                    <p class="lang-tr">Sana dokunan ayetleri sakla, geçmişini gör, kendi notlarını ekle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshot Showcase -->
+    <section class="section" id="showcase">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge reveal">
+                    <span class="lang-en">📱 Inside the App</span>
+                    <span class="lang-tr">📱 Uygulamadan Görüntüler</span>
+                </div>
+                <h2 class="section-title reveal reveal-delay-1">
+                    <span class="lang-en">See Pusula from the inside</span>
+                    <span class="lang-tr">Pusula'yı içeriden gör</span>
+                </h2>
+            </div>
+
+            <div class="pusula-showcase-track reveal reveal-delay-1">
+                <div class="pusula-showcase-item">
+                    <a href="#" class="js-store-link pusula-phone">
+                        <div class="pusula-phone-fallback"><img src="../assets/images/apps/pusula.png" alt=""></div>
+                        <img src="screenshots/web/2.webp" alt="Verse and AI reflection screen in Pusula" loading="lazy" onerror="this.style.display='none'">
+                    </a>
+                    <p class="pusula-shot-caption">
+                        <span class="lang-en">A verse for your mood, explained</span>
+                        <span class="lang-tr">Duyguna uygun ayet ve yorumu</span>
+                    </p>
+                </div>
+                <div class="pusula-showcase-item">
+                    <a href="#" class="js-store-link pusula-phone">
+                        <div class="pusula-phone-fallback"><img src="../assets/images/apps/pusula.png" alt=""></div>
+                        <img src="screenshots/web/4.webp" alt="Dua generator screen in Pusula" loading="lazy" onerror="this.style.display='none'">
+                    </a>
+                    <p class="pusula-shot-caption">
+                        <span class="lang-en">Tell Pusula how you feel, get a personal dua</span>
+                        <span class="lang-tr">Duanı Pusula senin için oluştursun</span>
+                    </p>
+                </div>
+                <div class="pusula-showcase-item">
+                    <a href="#" class="js-store-link pusula-phone">
+                        <div class="pusula-phone-fallback"><img src="../assets/images/apps/pusula.png" alt=""></div>
+                        <img src="screenshots/web/5.webp" alt="Manevi Rehber chat screen in Pusula" loading="lazy" onerror="this.style.display='none'">
+                    </a>
+                    <p class="pusula-shot-caption">
+                        <span class="lang-en">Chat with your Manevi Rehber, anytime</span>
+                        <span class="lang-tr">Manevi Rehber'le istediğin an sohbet et</span>
+                    </p>
+                </div>
+            </div>
+            <p class="pusula-showcase-caption">
+                <span class="lang-en">Tap any screen to download the app instantly.</span>
+                <span class="lang-tr">Bir görsele dokunarak uygulamayı hemen indir.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Trust & Sources -->
+    <section class="section" id="trust">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge reveal">
+                    <span class="lang-en">🕊️ Trust & Sources</span>
+                    <span class="lang-tr">🕊️ Güven & Kaynaklar</span>
+                </div>
+                <h2 class="section-title reveal reveal-delay-1">
+                    <span class="lang-en">Built on verified sources, with care</span>
+                    <span class="lang-tr">Doğru kaynaklardan, özenle</span>
+                </h2>
+                <p class="section-description reveal reveal-delay-2">
+                    <span class="lang-en">Verse text and translation come from verified sources; AI is used only for reflection and conversation.</span>
+                    <span class="lang-tr">Ayetlerin metni ve meali güvenilir kaynaklardan; yapay zeka yalnızca yorum ve sohbet için kullanılır.</span>
+                </p>
+            </div>
+
+            <div class="pusula-trust-grid reveal reveal-delay-1">
+                <div class="pusula-trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    <div>
+                        <h4><span class="lang-en">Diyanet Translation</span><span class="lang-tr">Diyanet Meali</span></h4>
+                        <p class="lang-en">Turkish translations follow the Presidency of Religious Affairs (Diyanet) meal.</p>
+                        <p class="lang-tr">Türkçe çeviriler, Diyanet İşleri Başkanlığı mealine dayanır.</p>
+                    </div>
+                </div>
+                <div class="pusula-trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    <div>
+                        <h4>Sahih International</h4>
+                        <p class="lang-en">English translations use the trusted Sahih International rendering.</p>
+                        <p class="lang-tr">İngilizce meal, güvenilir Sahih International çevirisine dayanır.</p>
+                    </div>
+                </div>
+                <div class="pusula-trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5.08A6 6 0 1 0 19 11"/><circle cx="16" cy="6" r="3"/></svg>
+                    <div>
+                        <h4><span class="lang-en">Recitation by Mishari Alafasy</span><span class="lang-tr">Mişarî Râşid el-Afâsî Tilaveti</span></h4>
+                        <p class="lang-en">Verse audio is delivered via the Quran.com (QDC) API.</p>
+                        <p class="lang-tr">Ayet ses kayıtları, Quran.com (QDC) API üzerinden sağlanır.</p>
+                    </div>
+                </div>
+                <div class="pusula-trust-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <div>
+                        <h4><span class="lang-en">No Account, Anonymous by Design</span><span class="lang-tr">Hesapsız & Anonim</span></h4>
+                        <p class="lang-en">No sign-in required — your data is tied only to an anonymous device ID, in line with KVKK/GDPR.</p>
+                        <p class="lang-tr">Giriş yapmana gerek yok; verilerin yalnızca anonim bir cihaz kimliğiyle ilişkilendirilir (KVKK/GDPR uyumlu).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pusula-disclaimer reveal reveal-delay-2">
+                <span class="lang-en">
+                    <strong>Note:</strong> The AI-generated commentary, duas, and Manevi Rehber replies in Pusula are not a fatwa
+                    or the opinion of a religious authority — they are intended for spiritual support and inspiration.
+                    For important religious matters, please consult a qualified scholar.
+                </span>
+                <span class="lang-tr">
+                    <strong>Not:</strong> Pusula'daki yapay zeka yorumları, dualar ve Manevi Rehber yanıtları bir fetva ya da
+                    din otoritesinin görüşü değildir; manevi destek ve ilham amaçlıdır.
+                    Önemli dinî konularda ehil bir din görevlisine danışmanızı öneririz.
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pusula Pro -->
+    <section class="section" id="pro">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge reveal">💛 Pusula Pro</div>
+                <h2 class="section-title reveal reveal-delay-1">
+                    <span class="lang-en">An unlimited spiritual experience</span>
+                    <span class="lang-tr">Sınırsız bir manevi deneyim</span>
+                </h2>
+                <p class="section-description reveal reveal-delay-2">
+                    <span class="lang-en">The free version is fully usable within daily fair-use limits — watch an optional rewarded ad anytime for extra uses. Pusula Pro removes the limits entirely.</span>
+                    <span class="lang-tr">Ücretsiz sürüm, günlük adil kullanım limitleri dahilinde tamamen kullanılabilir — istersen ödüllü reklam izleyerek ekstra hak kazanabilirsin. Pusula Pro bu sınırları tamamen kaldırır.</span>
+                </p>
+            </div>
+
+            <div class="pusula-pro-layout reveal reveal-delay-1">
+                <div class="pusula-pro-shot">
+                    <a href="#" class="js-store-link pusula-phone">
+                        <div class="pusula-phone-fallback"><img src="../assets/images/apps/pusula.png" alt=""></div>
+                        <img src="screenshots/web/3.webp" alt="Derin Rehberlik (Deep Guidance) screen, a Pusula Pro feature" loading="lazy" onerror="this.style.display='none'">
+                    </a>
+                    <p class="pusula-shot-caption">
+                        <span class="lang-en">"Deep Guidance" — exclusive to Pusula Pro</span>
+                        <span class="lang-tr">"Derin Rehberlik" — yalnızca Pusula Pro'da</span>
+                    </p>
+                </div>
+
+                <div>
+                    <div class="pusula-pricing-grid">
+                        <div class="pusula-price-card">
+                            <div class="pusula-price-plan"><span class="lang-en">Monthly</span><span class="lang-tr">Aylık</span></div>
+                            <h3>Pusula Pro</h3>
+                            <p class="pusula-price-note"><span class="lang-en">Cancel anytime</span><span class="lang-tr">İstediğin zaman iptal et</span></p>
+                            <ul class="pusula-price-features">
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span class="lang-en">No daily usage limits</span><span class="lang-tr">Günlük kullanım sınırı yok</span></li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span class="lang-en">Completely ad-free</span><span class="lang-tr">Reklamsız deneyim</span></li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span class="lang-en">"Deep Guidance" content unlocked</span><span class="lang-tr">"Derin Rehberlik" içerikleri açılır</span></li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span class="lang-en">Unlimited Manevi Rehber chat</span><span class="lang-tr">Sınırsız Manevi Rehber sohbeti</span></li>
+                            </ul>
+                        </div>
+                        <div class="pusula-price-card featured">
+                            <div class="pusula-price-badge"><span class="lang-en">7-Day Free Trial</span><span class="lang-tr">7 Gün Ücretsiz</span></div>
+                            <div class="pusula-price-plan"><span class="lang-en">Yearly</span><span class="lang-tr">Yıllık</span></div>
+                            <h3>Pusula Pro</h3>
+                            <p class="pusula-price-note"><span class="lang-en">First 7 days free, cancel anytime</span><span class="lang-tr">İlk 7 gün ücretsiz, istediğin zaman iptal et</span></p>
+                            <ul class="pusula-price-features">
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span class="lang-en">No daily usage limits</span><span class="lang-tr">Günlük kullanım sınırı yok</span></li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span class="lang-en">Completely ad-free</span><span class="lang-tr">Reklamsız deneyim</span></li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span class="lang-en">"Deep Guidance" content unlocked</span><span class="lang-tr">"Derin Rehberlik" içerikleri açılır</span></li>
+                                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span class="lang-en">Unlimited Manevi Rehber chat</span><span class="lang-tr">Sınırsız Manevi Rehber sohbeti</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="pusula-pricing-note">
+                        <span class="lang-en">Prices are shown in the App Store / Google Play based on your region. Purchases are processed by Apple/Google.</span>
+                        <span class="lang-tr">Fiyatlar, App Store ve Google Play'de bölgene göre gösterilir. Satın almalar Apple/Google tarafından işlenir.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge reveal">
+                    <span class="lang-en">❓ FAQ</span>
+                    <span class="lang-tr">❓ Sıkça Sorulan Sorular</span>
+                </div>
+                <h2 class="section-title reveal reveal-delay-1">
+                    <span class="lang-en">Good to know</span>
+                    <span class="lang-tr">Bilmen İyi Olur</span>
+                </h2>
+            </div>
+
+            <div class="pusula-faq reveal reveal-delay-1">
+                <details class="pusula-faq-item">
+                    <summary><span class="lang-en">Do I need to create an account to use Pusula?</span><span class="lang-tr">Pusula'yı kullanmak için hesap oluşturmam gerekiyor mu?</span></summary>
+                    <p class="lang-en">No. Pusula works with an anonymous ID generated automatically on your device — no email or password required.</p>
+                    <p class="lang-tr">Hayır. Pusula, cihazında otomatik oluşturulan anonim bir kimlikle çalışır; e-posta ya da şifre gerekmez.</p>
+                </details>
+                <details class="pusula-faq-item">
+                    <summary><span class="lang-en">Is my data safe?</span><span class="lang-tr">Verilerim güvende mi?</span></summary>
+                    <p class="lang-en">Yes. We don't collect information that identifies you — what you write is linked only to an anonymous device ID. See our <a href="privacy-policy.html" style="color: var(--accent-gold-soft);">Privacy Policy</a> for details.</p>
+                    <p class="lang-tr">Evet. Kimliğini belirleyen bilgi toplamayız; yazdıkların yalnızca anonim cihaz kimliğinle ilişkilendirilir. Detaylar için <a href="privacy-policy.html" style="color: var(--accent-gold-soft);">Gizlilik Politikamıza</a> bakabilirsin.</p>
+                </details>
+                <details class="pusula-faq-item">
+                    <summary><span class="lang-en">Are Pusula's reflections a religious ruling?</span><span class="lang-tr">Pusula'daki yorumlar dinî bir hüküm mü?</span></summary>
+                    <p class="lang-en">No. The AI commentary, duas, and Manevi Rehber replies are meant for spiritual support and inspiration — not a fatwa or the opinion of a religious authority.</p>
+                    <p class="lang-tr">Hayır. Yapay zeka yorumları, dualar ve Manevi Rehber yanıtları manevi destek ve ilham amaçlıdır; bir fetva ya da din otoritesinin görüşü değildir.</p>
+                </details>
+                <details class="pusula-faq-item">
+                    <summary><span class="lang-en">Is Pusula free?</span><span class="lang-tr">Pusula ücretsiz mi?</span></summary>
+                    <p class="lang-en">Yes, it's fully usable for free within daily fair-use limits, and you can watch optional rewarded ads for extra uses. Pusula Pro removes the limits entirely.</p>
+                    <p class="lang-tr">Evet, günlük adil kullanım limitleri dahilinde tamamen ücretsiz kullanılabilir; ekstra hak için isteğe bağlı ödüllü reklamlar izleyebilirsin. Sınırları tamamen kaldırmak için Pusula Pro'ya geçebilirsin.</p>
+                </details>
+                <details class="pusula-faq-item">
+                    <summary><span class="lang-en">How do I cancel Pusula Pro?</span><span class="lang-tr">Pusula Pro'yu nasıl iptal ederim?</span></summary>
+                    <p class="lang-en">You can manage or cancel anytime from your device's subscription settings (iOS: Settings > [your name] > Subscriptions; Android: Google Play > Subscriptions).</p>
+                    <p class="lang-tr">Aboneliğini istediğin zaman cihazının abonelik ayarlarından (iOS: Ayarlar > [adın] > Abonelikler, Android: Google Play > Abonelikler) yönetebilir veya iptal edebilirsin.</p>
+                </details>
+                <details class="pusula-faq-item">
+                    <summary><span class="lang-en">Is Pusula available on Android?</span><span class="lang-tr">Pusula Android'de var mı?</span></summary>
+                    <p class="lang-en">Yes! Pusula is available on both the App Store and Google Play.</p>
+                    <p class="lang-tr">Evet! Pusula hem App Store'da hem de Google Play'de yayında.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Band -->
+    <section class="section" id="download">
+        <div class="container">
+            <div class="pusula-download-band reveal">
+                <h2>
+                    <span class="lang-en">Take a small spiritual pause today</span>
+                    <span class="lang-tr">Bugün küçük bir manevi mola ver</span>
+                </h2>
+                <p>
+                    <span class="lang-en">Write a sentence, and let a verse find you. Download Pusula now.</span>
+                    <span class="lang-tr">Bir cümle yaz, bir ayet bulsun. Pusula'yı hemen indir.</span>
+                </p>
+                <div class="card-actions" style="justify-content: center;">
+                    <a href="https://apps.apple.com/tr/app/pusula-quran-verses-prayers/id6786255399" class="store-badge" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                        App Store
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=online.centaurstudios.pusula" class="store-badge" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+                        Google Play
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <img src="../assets/images/apps/pusula.png" alt="Pusula">
+                        <span>Pusula</span>
+                    </div>
+                    <p class="lang-en">Pusula is a spiritual companion app built by Centaur Studios.</p>
+                    <p class="lang-tr">Pusula, Centaur Studios tarafından geliştirilen bir manevi yol arkadaşı uygulamasıdır.</p>
+                </div>
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h4><span class="lang-en">Legal</span><span class="lang-tr">Yasal</span></h4>
+                        <ul>
+                            <li><a href="privacy-policy.html"><span class="lang-en">Privacy Policy</span><span class="lang-tr">Gizlilik Politikası</span></a></li>
+                            <li><a href="terms-of-use.html"><span class="lang-en">Terms of Use</span><span class="lang-tr">Kullanım Şartları</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4><span class="lang-en">Studio</span><span class="lang-tr">Stüdyo</span></h4>
+                        <ul>
+                            <li><a href="../index.html#cardPusula"><span class="lang-en">Back to Centaur Studios</span><span class="lang-tr">Centaur Studios'a Dön</span></a></li>
+                            <li><a href="mailto:support@centaurstudios.online">support@centaurstudios.online</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <span class="lang-en">© 2026 Centaur Studios. All rights reserved.</span>
+                    <span class="lang-tr">© 2026 Centaur Studios. Tüm hakları saklıdır.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast for Android "coming soon" -->
+    <div class="pusula-toast" id="pusulaToast"></div>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+    <script src="../js/pusula.js"></script>
+</body>
+</html>

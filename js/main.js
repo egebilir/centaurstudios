@@ -67,6 +67,7 @@
       'products.pusula.f2': 'Qur\'an Verses',
       'products.pusula.f3': 'Duas',
       'products.pusula.f4': 'Spiritual Journey',
+      'products.pusula.cta': 'Learn More',
 
       // About
       'about.badge': '✨ About Me',
@@ -166,6 +167,7 @@
       'products.pusula.f2': 'Kur\'an Ayetleri',
       'products.pusula.f3': 'Dualar',
       'products.pusula.f4': 'Manevi Yolculuk',
+      'products.pusula.cta': 'Daha Fazla',
 
       // About
       'about.badge': '✨ Hakkımda',
