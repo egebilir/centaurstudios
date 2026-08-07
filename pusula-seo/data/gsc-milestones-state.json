@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "notes": "Populated exclusively by scripts/gsc/detect-milestones.mjs. Tracks which Search Console milestones have already been notified about, per page and per (page, primary_keyword) pair, so nothing fires twice.",
+  "indexed_pages": {},
+  "page_queries": {}
+}

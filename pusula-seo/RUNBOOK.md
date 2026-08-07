@@ -20,7 +20,9 @@ Confirm required env vars are set (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` at m
 node scripts/orchestrator.mjs
 ```
 
-This is deterministic — it processes any pending Telegram commands (replying already, before you even see this), pulls daily metrics if connected, runs the weekly refresh scan if due, checks milestones, and prints a JSON `due` object. **Everything below is keyed off that JSON.** If a flag is `false`, skip that section entirely.
+This is deterministic — it processes any pending Telegram commands (replying already, before you even see this), pulls daily metrics if connected, checks and sends Search Console milestones (new pages indexed, first impression/click, ranking moves — see below), runs the weekly refresh scan if due, checks publish-count milestones, and prints a JSON `due` object. **Everything below is keyed off that JSON.** If a flag is `false`, skip that section entirely.
+
+**Search Console milestones need no action from you** — `runGscMilestoneCheck` inside the orchestrator already detected and sent them (once a day, deduplicated via `data/gsc-milestones-state.json`) before you saw this output. They're mentioned here only so you understand what already happened and don't second-guess a Telegram message that appears alongside your other output. This runs regardless of `paused` — celebrating/flagging what Search Console already reported isn't "automation" in the sense pause is meant to stop.
 
 ## 2. `due.agentActions` contains `"publish_now"`
 

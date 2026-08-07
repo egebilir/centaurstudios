@@ -18,10 +18,11 @@ import { readJSON, writeJSON, appendJSONL } from './lib/json-store.mjs';
 import { isMain } from './lib/cli.mjs';
 import { processPendingTelegramInput } from './telegram/commands.mjs';
 import { sendMessage } from './telegram/client.mjs';
-import { formatMilestone } from './telegram/format.mjs';
+import { formatMilestone, formatGscMilestoneEvent } from './telegram/format.mjs';
 import { fetchGscPerformance } from './gsc/fetch-performance.mjs';
 import { fetchGa4Metrics } from './ga4/fetch-metrics.mjs';
 import { fetchPosthogMetrics } from './posthog/fetch-metrics.mjs';
+import { detectGscMilestones } from './gsc/detect-milestones.mjs';
 import { analyzeContent } from './refresh/analyze-content.mjs';
 import { loadAllContent, isPublished } from './lib/content-index.mjs';
 
@@ -93,6 +94,25 @@ async function runDailyMetricsPull(state) {
   state.last_run.gsc_pull = new Date().toISOString();
 }
 
+/**
+ * Search Console milestones: new page indexed, first impression/click,
+ * ranking improvements/drops, top-10 reached. Runs once a day (GSC data
+ * has real reporting lag, no point checking hourly), always — regardless
+ * of the `paused` flag, since detecting and celebrating what's already
+ * happened isn't "automation" in the sense pause is meant to stop.
+ * detectGscMilestones() itself guarantees no duplicate notifications.
+ */
+async function runGscMilestoneCheck(state) {
+  if (alreadyRanToday(state.last_run.gsc_milestones)) return;
+
+  const events = await detectGscMilestones();
+  for (const event of events) {
+    await sendMessage(formatGscMilestoneEvent(event));
+  }
+
+  state.last_run.gsc_milestones = new Date().toISOString();
+}
+
 async function runMilestoneCheck() {
   const published = loadAllContent().filter(isPublished);
   const milestonesFile = readJSON(MILESTONES_PATH);
@@ -134,6 +154,9 @@ export async function runOrchestratorTick() {
 
   // 2. Daily metrics pull — always, regardless of pause (observing isn't automating).
   await runDailyMetricsPull(state);
+
+  // 2.5. Search Console milestones — also always-on, same reasoning.
+  await runGscMilestoneCheck(state);
 
   // 3. Scheduled content/report jobs — skipped while paused.
   if (!state.paused) {

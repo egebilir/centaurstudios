@@ -82,3 +82,119 @@ export function formatMilestone({ metric, value, context }) {
   if (context) lines.push('', escapeMd(context));
   return lines.join('\n');
 }
+
+/* ---------- Search Console milestones ----------
+ * These are individual, atomic event notifications (not aggregate reports),
+ * so they don't go through formatReport()'s Top-Actions structure — each
+ * one is already a single, complete thing worth a message on its own.
+ * Positive events are framed as genuine wins, not just data points — per
+ * the brief, the assistant should celebrate, not only report problems. */
+
+export function formatIndexedMilestone({ url, totalIndexed }) {
+  return [
+    '🎉 *Google yeni bir sayfayı indeksledi*',
+    '',
+    'URL:',
+    escapeMd(url),
+    '',
+    'Toplam indekslenen sayfa:',
+    escapeMd(String(totalIndexed))
+  ].join('\n');
+}
+
+export function formatFirstImpression({ title, keyword }) {
+  return [
+    '📈 *İlk Google Gösterimi*',
+    '',
+    'Makale:',
+    escapeMd(title),
+    '',
+    'Anahtar Kelime:',
+    escapeMd(keyword)
+  ].join('\n');
+}
+
+export function formatFirstClick({ title, keyword }) {
+  return [
+    '🚀 *İlk Organik Tıklama*',
+    '',
+    'Makale:',
+    escapeMd(title),
+    '',
+    'Anahtar Kelime:',
+    escapeMd(keyword)
+  ].join('\n');
+}
+
+export function formatRankingImprovement({ title, keyword, from, to }) {
+  return [
+    '🏆 *Sıralama İyileşti*',
+    '',
+    'Makale:',
+    escapeMd(title),
+    '',
+    'Anahtar Kelime:',
+    escapeMd(keyword),
+    '',
+    'Pozisyon:',
+    `${escapeMd(String(from))} → ${escapeMd(String(to))}`
+  ].join('\n');
+}
+
+export function formatTop10Reached({ title, keyword, position }) {
+  return [
+    "🔥 *İlk 10'a Girdi*",
+    '',
+    'Makale:',
+    escapeMd(title),
+    '',
+    'Anahtar Kelime:',
+    escapeMd(keyword),
+    '',
+    'Güncel Pozisyon:',
+    escapeMd(String(position))
+  ].join('\n');
+}
+
+export function formatRankingDrop({ title, keyword, from, to, recommendedAction }) {
+  const lines = [
+    '⚠️ *Sıralama Düştü*',
+    '',
+    'Makale:',
+    escapeMd(title),
+    '',
+    'Anahtar Kelime:',
+    escapeMd(keyword),
+    '',
+    'Pozisyon:',
+    `${escapeMd(String(from))} → ${escapeMd(String(to))}`
+  ];
+  if (recommendedAction) {
+    lines.push('', 'Önerilen Aksiyon:', escapeMd(recommendedAction));
+  }
+  return lines.join('\n');
+}
+
+const DEFAULT_RANKING_DROP_ACTION =
+  "İçeriği tazelemeyi düşünebilirsin: başlığı/meta açıklamayı güçlendirmek, güncel bir örnek ya da ek bir bölüm eklemek sıralamayı toparlayabilir.";
+
+/** Routes a detect-milestones.mjs event to its formatter. Single entry
+ * point so orchestrator.mjs doesn't need a parallel switch statement. */
+export function formatGscMilestoneEvent(event) {
+  switch (event.type) {
+    case 'indexed':
+      return formatIndexedMilestone(event);
+    case 'first_impression':
+      return formatFirstImpression(event);
+    case 'first_click':
+      return formatFirstClick(event);
+    case 'ranking_improvement':
+      return formatRankingImprovement(event);
+    case 'top10_reached':
+      return formatTop10Reached(event);
+    case 'ranking_drop':
+      return formatRankingDrop({ ...event, recommendedAction: DEFAULT_RANKING_DROP_ACTION });
+    default:
+      throw new Error(`Unknown GSC milestone event type: "${event.type}"`);
+  }
+}

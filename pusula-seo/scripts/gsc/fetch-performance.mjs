@@ -22,10 +22,10 @@ function fmt(d) {
   return d.toISOString().slice(0, 10);
 }
 
-async function queryWindow(searchconsole, siteUrl, startDate, endDate, dimensions = []) {
+async function queryWindow(searchconsole, siteUrl, startDate, endDate, dimensions = [], rowLimit = 200) {
   const res = await searchconsole.searchanalytics.query({
     siteUrl,
-    requestBody: { startDate: fmt(startDate), endDate: fmt(endDate), dimensions, rowLimit: 200 }
+    requestBody: { startDate: fmt(startDate), endDate: fmt(endDate), dimensions, rowLimit }
   });
   return res.data.rows || [];
 }
@@ -59,11 +59,15 @@ export async function fetchGscPerformance({ days = 7 } = {}) {
     const currStart = new Date(now.getTime() - days * 86400000);
     const prevStart = new Date(currStart.getTime() - days * 86400000);
 
-    const [currRows, prevRows, byPage, byQuery] = await Promise.all([
+    const [currRows, prevRows, byPage, byQuery, byPageQuery] = await Promise.all([
       queryWindow(searchconsole, siteUrl, currStart, now),
       queryWindow(searchconsole, siteUrl, prevStart, currStart),
       queryWindow(searchconsole, siteUrl, currStart, now, ['page']),
-      queryWindow(searchconsole, siteUrl, currStart, now, ['query'])
+      queryWindow(searchconsole, siteUrl, currStart, now, ['query']),
+      // Combined page+query breakdown — needed to answer "how does article X
+      // rank for its specific target keyword Y", which per-page and per-query
+      // aggregates alone can't answer. Used by detect-milestones.mjs.
+      queryWindow(searchconsole, siteUrl, currStart, now, ['page', 'query'], 500)
     ]);
 
     const curr = totals(currRows);
@@ -76,6 +80,15 @@ export async function fetchGscPerformance({ days = 7 } = {}) {
     const queries = byQuery
       .map((r) => ({ query: r.keys[0], clicks: r.clicks, impressions: r.impressions, ctr: r.ctr, position: r.position }))
       .sort((a, b) => b.impressions - a.impressions);
+
+    const pageQueries = byPageQuery.map((r) => ({
+      page: r.keys[0],
+      query: r.keys[1],
+      clicks: r.clicks,
+      impressions: r.impressions,
+      ctr: r.ctr,
+      position: r.position
+    }));
 
     return {
       connected: true,
@@ -90,7 +103,8 @@ export async function fetchGscPerformance({ days = 7 } = {}) {
         avgPosition: curr.avgPosition - prev.avgPosition
       },
       pages,
-      queries
+      queries,
+      pageQueries
     };
   } catch (err) {
     return { connected: false, service: SERVICE_NAME, error: err.message };
