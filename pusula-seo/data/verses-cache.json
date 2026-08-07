@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "source_apis": {
+    "arabic": "api.alquran.cloud edition=quran-uthmani",
+    "turkish": "api.alquran.cloud edition=tr.diyanet"
+  },
+  "notes": "Populated exclusively by scripts/fetch-verse.mjs. Never hand-edit verse text — every entry must be traceable to the source API call. Keyed by 'sure:ayet'.",
+  "verses": {
+    "2:153": {
+      "ref": "2:153",
+      "surah_number": 2,
+      "surah_name_arabic": "سُورَةُ البَقَرَةِ",
+      "surah_name_english": "Al-Baqara",
+      "ayah_number": 153,
+      "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
+      "tr_diyanet": "Ey İnananlar! Sabır ve namazla yardım dileyin. Allah, muhakkak ki sabredenlerle beraberdir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:14:56.264Z"
+    },
+    "94:5": {
+      "ref": "94:5",
+      "surah_number": 94,
+      "surah_name_arabic": "سُورَةُ الشَّرۡحِ",
+      "surah_name_english": "Ash-Sharh",
+      "ayah_number": 5,
+      "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "tr_diyanet": "Elbette güçlükle beraber şüphesiz bir kolaylık vardır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:14:56.340Z"
+    },
+    "94:6": {
+      "ref": "94:6",
+      "surah_number": 94,
+      "surah_name_arabic": "سُورَةُ الشَّرۡحِ",
+      "surah_name_english": "Ash-Sharh",
+      "ayah_number": 6,
+      "arabic": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا",
+      "tr_diyanet": "Gerçekten, güçlükle beraber bir kolaylık vardır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:14:56.422Z"
+    },
+    "2:155": {
+      "ref": "2:155",
+      "surah_number": 2,
+      "surah_name_arabic": "سُورَةُ البَقَرَةِ",
+      "surah_name_english": "Al-Baqara",
+      "ayah_number": 155,
+      "arabic": "وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ",
+      "tr_diyanet": "Muhakkak sizi biraz korku, biraz açlık ve mallardan, canlardan, ürünlerden biraz eksiltmekle deneriz, sabredenleri müjdele.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.230Z"
+    },
+    "2:156": {
+      "ref": "2:156",
+      "surah_number": 2,
+      "surah_name_arabic": "سُورَةُ البَقَرَةِ",
+      "surah_name_english": "Al-Baqara",
+      "ayah_number": 156,
+      "arabic": "ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
+      "tr_diyanet": "Onlara bir musibet geldiğinde: \"Biz Allah'ınız ve elbette O'na döneceğiz\" derler.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.305Z"
+    },
+    "2:157": {
+      "ref": "2:157",
+      "surah_number": 2,
+      "surah_name_arabic": "سُورَةُ البَقَرَةِ",
+      "surah_name_english": "Al-Baqara",
+      "ayah_number": 157,
+      "arabic": "أُو۟لَٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌۭ مِّن رَّبِّهِمْ وَرَحْمَةٌۭ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ",
+      "tr_diyanet": "Rablerinin mağfiret ve rahmeti onlaradır. O'nun yolunda olanlar da onlardır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.375Z"
+    },
+    "3:200": {
+      "ref": "3:200",
+      "surah_number": 3,
+      "surah_name_arabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surah_name_english": "Aal-i-Imraan",
+      "ayah_number": 200,
+      "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "tr_diyanet": "Ey İnananlar! Sabredin, düşmanlarınızdan daha sabırlı olun, cihada hazır bulunun, Allah'a karşı gelmekten sakının ki başarıya erişebilesiniz.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.441Z"
+    },
+    "39:10": {
+      "ref": "39:10",
+      "surah_number": 39,
+      "surah_name_arabic": "سُورَةُ الزُّمَرِ",
+      "surah_name_english": "Az-Zumar",
+      "ayah_number": 10,
+      "arabic": "قُلْ يَٰعِبَادِ ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ رَبَّكُمْ ۚ لِلَّذِينَ أَحْسَنُوا۟ فِى هَٰذِهِ ٱلدُّنْيَا حَسَنَةٌۭ ۗ وَأَرْضُ ٱللَّهِ وَٰسِعَةٌ ۗ إِنَّمَا يُوَفَّى ٱلصَّٰبِرُونَ أَجْرَهُم بِغَيْرِ حِسَابٍۢ",
+      "tr_diyanet": "Şöyle de: \"Ey inanan kullarım! Rabbinize karşı gelmekten sakının; bu dünyada iyilik yapanlara iyilik vardır. Allah'ın yarattığı yeryüzü geniştir. Yalnız sabredenlere, ecirleri sonsuz olarak ödenecektir.\"",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.511Z"
+    },
+    "16:127": {
+      "ref": "16:127",
+      "surah_number": 16,
+      "surah_name_arabic": "سُورَةُ النَّحۡلِ",
+      "surah_name_english": "An-Nahl",
+      "ayah_number": 127,
+      "arabic": "وَٱصْبِرْ وَمَا صَبْرُكَ إِلَّا بِٱللَّهِ ۚ وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُ فِى ضَيْقٍۢ مِّمَّا يَمْكُرُونَ",
+      "tr_diyanet": "Sabret, senin sabrın ancak Allah'ın yardımıyladır; onlara üzülme, kurdukları düzenlerden de endişe etme.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.587Z"
+    },
+    "21:83": {
+      "ref": "21:83",
+      "surah_number": 21,
+      "surah_name_arabic": "سُورَةُ الأَنبِيَاءِ",
+      "surah_name_english": "Al-Anbiyaa",
+      "ayah_number": 83,
+      "arabic": "۞ وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُۥٓ أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+      "tr_diyanet": "Eyyub da: \"Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin\" diye Rabbine nida etmişti.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.656Z"
+    },
+    "21:84": {
+      "ref": "21:84",
+      "surah_number": 21,
+      "surah_name_arabic": "سُورَةُ الأَنبِيَاءِ",
+      "surah_name_english": "Al-Anbiyaa",
+      "ayah_number": 84,
+      "arabic": "فَٱسْتَجَبْنَا لَهُۥ فَكَشَفْنَا مَا بِهِۦ مِن ضُرٍّۢ ۖ وَءَاتَيْنَٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَٰبِدِينَ",
+      "tr_diyanet": "Biz de onun duasını kabul etmiş ve başına gelenleri kaldırmıştık. Katımızdan bir rahmet ve kulluk edenlere bir hatıra olmak üzere ona tekrar ailesini ve kaybettikleriyle bir mislini daha vermiştik.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.721Z"
+    },
+    "38:44": {
+      "ref": "38:44",
+      "surah_number": 38,
+      "surah_name_arabic": "سُورَةُ صٓ",
+      "surah_name_english": "Saad",
+      "ayah_number": 44,
+      "arabic": "وَخُذْ بِيَدِكَ ضِغْثًۭا فَٱضْرِب بِّهِۦ وَلَا تَحْنَثْ ۗ إِنَّا وَجَدْنَٰهُ صَابِرًۭا ۚ نِّعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ أَوَّابٌۭ",
+      "tr_diyanet": "\"Ey Eyyub! Eline bir demet sap alıp onunla vur, yeminini bozma\" demiştik. Doğrusu Biz onu sabırlı bulmuştuk. Ne iyi kuldu, daima Allah'a yönelirdi.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.785Z"
+    },
+    "3:159": {
+      "ref": "3:159",
+      "surah_number": 3,
+      "surah_name_arabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surah_name_english": "Aal-i-Imraan",
+      "ayah_number": 159,
+      "arabic": "فَبِمَا رَحْمَةٍۢ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ",
+      "tr_diyanet": "Allah'ın rahmetinden dolayı, sen onlara karşı yumuşak davrandın. Eğer kaba ve katı kalbli olsaydın, şüphesiz etrafından dağılır giderlerdi. Onları affet, onlara mağfiret dile, iş hakkında onlara danış, fakat karar verdin mi Allah'a güven, doğrusu Allah güvenenleri sever.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.852Z"
+    },
+    "65:3": {
+      "ref": "65:3",
+      "surah_number": 65,
+      "surah_name_arabic": "سُورَةُ الطَّلَاقِ",
+      "surah_name_english": "At-Talaaq",
+      "ayah_number": 3,
+      "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍۢ قَدْرًۭا",
+      "tr_diyanet": "Kadınların iddet süreleri biteceğinde, onları ya uygun bir şekilde alıkoyun, ya da onlardan ayrılın; içinizden de iki adil şahit getirin; şahidliği Allah için yapın; işte bu, Allah'a ve ahiret gününe inanan kimseye verilen öğüttür. Allah, kendisine karşı gelmekten sakınan kimseye kurtuluş yolu sağlar, ona beklemediği yerden rızık verir. Allah'a güvenen kimseye O yeter. Allah, buyruğunu yerine getirendir. Allah her şey için bir ölçü var etmiştir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.925Z"
+    },
+    "16:61": {
+      "ref": "16:61",
+      "surah_number": 16,
+      "surah_name_arabic": "سُورَةُ النَّحۡلِ",
+      "surah_name_english": "An-Nahl",
+      "ayah_number": 61,
+      "arabic": "وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِظُلْمِهِم مَّا تَرَكَ عَلَيْهَا مِن دَآبَّةٍۢ وَلَٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَـْٔخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ",
+      "tr_diyanet": "Allah insanları haksızlıklarından ötürü yakalayacak olsaydı, yeryüzünde canlı bırakmazdı. Fakat onları belirli bir süreye kadar erteler. Süreleri dolunca onu ne bir saat geciktirebilirler ne de öne alabilirler.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:20:17.996Z"
+    },
+    "38:41": {
+      "ref": "38:41",
+      "surah_number": 38,
+      "surah_name_arabic": "سُورَةُ صٓ",
+      "surah_name_english": "Saad",
+      "ayah_number": 41,
+      "arabic": "وَٱذْكُرْ عَبْدَنَآ أَيُّوبَ إِذْ نَادَىٰ رَبَّهُۥٓ أَنِّى مَسَّنِىَ ٱلشَّيْطَٰنُ بِنُصْبٍۢ وَعَذَابٍ",
+      "tr_diyanet": "Kulumuz Eyyub'u da an; Rabbine: \"Doğrusu şeytan bana yorgunluk ve azap verdi\" diye seslenmişti.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:26:04.444Z"
+    },
+    "38:42": {
+      "ref": "38:42",
+      "surah_number": 38,
+      "surah_name_arabic": "سُورَةُ صٓ",
+      "surah_name_english": "Saad",
+      "ayah_number": 42,
+      "arabic": "ٱرْكُضْ بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌۢ بَارِدٌۭ وَشَرَابٌۭ",
+      "tr_diyanet": "\"Ayağını yere vur! İşte yıkanacak ve içilecek soğuk bir su\" dedik.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:26:04.525Z"
+    },
+    "38:43": {
+      "ref": "38:43",
+      "surah_number": 38,
+      "surah_name_arabic": "سُورَةُ صٓ",
+      "surah_name_english": "Saad",
+      "ayah_number": 43,
+      "arabic": "وَوَهَبْنَا لَهُۥٓ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنَّا وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ",
+      "tr_diyanet": "Katımızdan bir rahmet ve akıl sahiplerine bir öğüt olmak üzere, ona tekrar ailesini ve geçmiş olanlarla bir mislini daha vermiştik.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:26:04.600Z"
+    },
+    "6:84": {
+      "ref": "6:84",
+      "surah_number": 6,
+      "surah_name_arabic": "سُورَةُ الأَنۡعَامِ",
+      "surah_name_english": "Al-An'aam",
+      "ayah_number": 84,
+      "arabic": "وَوَهَبْنَا لَهُۥٓ إِسْحَٰقَ وَيَعْقُوبَ ۚ كُلًّا هَدَيْنَا ۚ وَنُوحًا هَدَيْنَا مِن قَبْلُ ۖ وَمِن ذُرِّيَّتِهِۦ دَاوُۥدَ وَسُلَيْمَٰنَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَىٰ وَهَٰرُونَ ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+      "tr_diyanet": "Ona İshak'ı, Yakub'u bağışladık, her birini doğru yola eriştirdik. Daha önce Nuh'u ve soyundan Davud'u, Süleyman'ı, Eyyub'u, Yusuf'u, Musa'yı ve Harun'u -ki işlerini iyi yapanlara böylece karşılık veririz-, Zekeriya'yı, Yahya'yı, İsa'yı ve İlyas'ı -ki hepsi iyilerdendir-, İsmail'i, Elyesa'ı, Yunus'u, Lut'u -ki hepsini dünyalara üstün kıldık- doğru yola eriştirdik.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-07T15:27:22.534Z"
+    }
+  }
+}

@@ -25,15 +25,42 @@
     }, 3200);
   }
 
+  function withUtm(url, link) {
+    var slug = link.getAttribute('data-slug');
+    var cluster = link.getAttribute('data-cluster');
+    if (!slug && !cluster) return url;
+    try {
+      var u = new URL(url);
+      u.searchParams.set('utm_source', 'website');
+      u.searchParams.set('utm_medium', 'organic');
+      u.searchParams.set('utm_campaign', cluster || 'unknown');
+      u.searchParams.set('utm_content', slug || 'unknown');
+      return u.toString();
+    } catch (e) {
+      return url;
+    }
+  }
+
+  function trackStoreClick(link) {
+    if (typeof window.pusulaTrack === 'function') {
+      window.pusulaTrack('app_store_click', {
+        article_slug: link.getAttribute('data-slug'),
+        cluster: link.getAttribute('data-cluster'),
+        path: window.location.pathname
+      });
+    }
+  }
+
   function initStoreLinks() {
     var links = document.querySelectorAll('.js-store-link');
     var android = isAndroid();
 
     links.forEach(function (link) {
       if (android && PLAY_STORE_URL) {
-        link.href = PLAY_STORE_URL;
+        link.href = withUtm(PLAY_STORE_URL, link);
         link.target = '_blank';
         link.rel = 'noopener';
+        link.addEventListener('click', function () { trackStoreClick(link); });
       } else if (android && !PLAY_STORE_URL) {
         link.removeAttribute('href');
         link.style.cursor = 'pointer';
@@ -45,12 +72,27 @@
             : 'The Android version of Pusula is coming very soon! 🌿');
         });
       } else {
-        link.href = APP_STORE_URL;
+        link.href = withUtm(APP_STORE_URL, link);
         link.target = '_blank';
         link.rel = 'noopener';
+        link.addEventListener('click', function () { trackStoreClick(link); });
       }
     });
   }
 
-  document.addEventListener('DOMContentLoaded', initStoreLinks);
+  // Static store badges (e.g. the two explicit App Store / Google Play
+  // buttons in the download band) already have the correct per-store href
+  // baked in — they don't go through initStoreLinks' smart-redirect logic,
+  // but should still be tracked and UTM-tagged like everything else.
+  function initStaticStoreBadges() {
+    document.querySelectorAll('.store-badge:not(.js-store-link)').forEach(function (link) {
+      if (link.href) link.href = withUtm(link.href, link);
+      link.addEventListener('click', function () { trackStoreClick(link); });
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    initStoreLinks();
+    initStaticStoreBadges();
+  });
 })();

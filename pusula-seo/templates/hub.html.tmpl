@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{meta_description}}">
+    <meta name="author" content="Centaur Studios">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{og_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{canonical_url}}">
+    <meta property="og:image" content="{{og_image_url}}">
+    <meta property="og:locale" content="tr_TR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{og_title}}">
+    <meta name="twitter:description" content="{{meta_description}}">
+    <meta name="twitter:image" content="{{og_image_url}}">
+
+    <title>{{seo_title}}</title>
+
+    <link rel="icon" type="image/png" href="{{{root_prefix}}}assets/images/apps/pusula.png">
+    <link rel="apple-touch-icon" href="{{{root_prefix}}}assets/images/apps/pusula.png">
+    <link rel="canonical" href="{{canonical_url}}">
+
+    <link rel="stylesheet" href="{{{root_prefix}}}css/style.css">
+    <link rel="stylesheet" href="{{{root_prefix}}}css/pusula.css">
+    <link rel="stylesheet" href="{{{root_prefix}}}css/pusula-blog.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">{{{itemlist_schema_json}}}</script>
+    <script type="application/ld+json">{{{breadcrumb_schema_json}}}</script>
+</head>
+<body>
+    <canvas class="stars-canvas" id="starsCanvas"></canvas>
+
+    <nav class="nav" id="mainNav">
+        <div class="container nav-inner">
+            <a href="{{{pusula_prefix}}}index.html" class="nav-logo">
+                <img src="{{{root_prefix}}}assets/images/apps/pusula.png" alt="Pusula">
+                <span>Pusula</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="{{{pusula_prefix}}}blog/">Blog</a>
+                <a href="{{{pusula_prefix}}}index.html#features">Uygulama</a>
+                <a href="#" class="js-store-link pusula-btn pusula-btn-primary" style="padding: 8px 20px; font-size: 0.85rem;" data-slug="{{hub_slug}}" data-cluster="{{hub_slug}}">İndir</a>
+            </div>
+            <button class="nav-menu-btn" id="menuBtn" aria-label="Menüyü aç/kapat">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="pusula-article-page">
+        <nav class="container pusula-breadcrumbs" aria-label="breadcrumb">
+            <a href="{{{pusula_prefix}}}index.html">Pusula</a>
+            <span class="sep">/</span>
+            <a href="{{{pusula_prefix}}}blog/">Blog</a>
+{{{breadcrumb_extra_html}}}
+        </nav>
+
+        <div class="container">
+            <div class="pusula-hub-intro">
+                <div class="pusula-content-type-badge">{{hub_badge}}</div>
+                <h1 class="section-title">{{title}}</h1>
+                <p>{{intro}}</p>
+            </div>
+
+            <div class="pusula-hub-grid">
+{{{cards_html}}}
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <img src="{{{root_prefix}}}assets/images/apps/pusula.png" alt="Pusula">
+                        <span>Pusula</span>
+                    </div>
+                    <p>Pusula, Centaur Studios tarafından geliştirilen bir manevi yol arkadaşı uygulamasıdır.</p>
+                </div>
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h4>Yasal</h4>
+                        <ul>
+                            <li><a href="{{{pusula_prefix}}}privacy-policy.html">Gizlilik Politikası</a></li>
+                            <li><a href="{{{pusula_prefix}}}terms-of-use.html">Kullanım Şartları</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Stüdyo</h4>
+                        <ul>
+                            <li><a href="{{{pusula_prefix}}}index.html">Pusula Ana Sayfa</a></li>
+                            <li><a href="mailto:support@centaurstudios.online">support@centaurstudios.online</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">© 2026 Centaur Studios. Tüm hakları saklıdır.</div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="pusula-toast" id="pusulaToast"></div>
+
+    <script src="{{{root_prefix}}}js/main.js"></script>
+    <script src="{{{root_prefix}}}js/pusula.js"></script>
+    <script src="{{{root_prefix}}}js/pusula-analytics.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+{
+  "clusters": [
+    {
+      "slug": "sabir",
+      "name": "Sabır",
+      "description": "Zorluk anlarında sabır, Kur'an'ın sabırla ilgili öğütleri ve sabreden peygamberlerin örnekliği.",
+      "hub_title": "Sabır: Dua, Ayet ve Kıssalarla",
+      "seo_keyword": "sabır"
+    },
+    {
+      "slug": "kaygi-ve-stres",
+      "name": "Kaygı ve Stres",
+      "description": "Kaygı, stres ve huzursuzluk anlarında okunacak dualar, ilgili ayetler ve manevi sakinleşme yolları.",
+      "hub_title": "Kaygı ve Stres için Manevi Destek",
+      "seo_keyword": "kaygı"
+    },
+    {
+      "slug": "bereket",
+      "name": "Bereket",
+      "description": "Rızıkta, evde ve emekte bereket için dualar ve bereketle ilgili ayetler.",
+      "hub_title": "Bereket Duaları ve Ayetleri",
+      "seo_keyword": "bereket"
+    },
+    {
+      "slug": "nazar",
+      "name": "Nazar",
+      "description": "Nazardan korunma duaları, Kur'an'da nazarla ilgili ayetler ve doğru bilgiler.",
+      "hub_title": "Nazar Duaları ve Korunma Yolları",
+      "seo_keyword": "nazar"
+    },
+    {
+      "slug": "rizik",
+      "name": "Rızık",
+      "description": "Rızık genişliği için dualar, rızıkla ilgili ayetler ve İslam'da rızık anlayışı.",
+      "hub_title": "Rızık Duaları ve Ayetleri",
+      "seo_keyword": "rızık"
+    },
+    {
+      "slug": "sinav",
+      "name": "Sınav",
+      "description": "Sınav ve zorluk anlarında okunacak dualar, başarı ve sabırla ilgili ayetler.",
+      "hub_title": "Sınav Duaları ve Manevi Hazırlık",
+      "seo_keyword": "sınav"
+    },
+    {
+      "slug": "sifa",
+      "name": "Şifa",
+      "description": "Hastalık ve şifa için dualar, şifayla ilgili ayetler ve manevi iyileşme.",
+      "hub_title": "Şifa Duaları ve Ayetleri",
+      "seo_keyword": "şifa"
+    },
+    {
+      "slug": "tevekkul",
+      "name": "Tevekkül",
+      "description": "Allah'a güven ve teslimiyet kavramı, tevekkülle ilgili ayetler ve günlük hayatta uygulanışı.",
+      "hub_title": "Tevekkül: Anlamı, Ayetleri ve Uygulaması",
+      "seo_keyword": "tevekkül"
+    },
+    {
+      "slug": "gunluk-dualar",
+      "name": "Günlük Dualar",
+      "description": "Sabah ve akşam okunacak dualar, günü manevi olarak açma ve kapama.",
+      "hub_title": "Sabah ve Akşam Duaları",
+      "seo_keyword": "günlük dua"
+    },
+    {
+      "slug": "esmaul-husna",
+      "name": "Esmaül Hüsna",
+      "description": "Allah'ın 99 güzel ismi, anlamları ve her ismin hayata yansıması.",
+      "hub_title": "Esmaül Hüsna: Allah'ın 99 İsmi",
+      "seo_keyword": "esmaül hüsna"
+    },
+    {
+      "slug": "kissalar",
+      "name": "Peygamber Kıssaları",
+      "description": "Peygamberlerin hayatından ders çıkarılacak kıssalar ve Kur'an'daki anlatımları.",
+      "hub_title": "Peygamber Kıssaları",
+      "seo_keyword": "peygamber kıssaları"
+    }
+  ]
+}

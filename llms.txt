@@ -1,0 +1,20 @@
+# Pusula
+
+> Pusula is a Turkish Islamic spiritual-companion app by Centaur Studios. Write down how you feel and Pusula finds the Qur'anic verse that speaks to it — recited aloud, translated (Diyanet İşleri Turkish meal), and gently reflected on by AI. It also generates personalized duas, offers an AI "Manevi Rehber" (Spiritual Guide) for conversation, and includes a 14-day guided spiritual journey with Prophet stories.
+
+Free on iOS and Android. Verse text and translation come from verified sources (Uthmani Arabic text + Diyanet İşleri Turkish translation via api.alquran.cloud, and Quran.com/QDC for recitation audio); AI is used only for reflection, dua generation, and conversation — never for generating Qur'an verse text itself.
+
+## Key pages
+
+- [Pusula app landing page](https://centaurstudios.online/pusula/): features, pricing, FAQ, download links
+- [Pusula Blog](https://centaurstudios.online/pusula/blog/): dua, ayet (verse), sure (surah), Esmaül Hüsna, and Prophet-story (kıssa) content, organized into topic clusters (sabır, kaygı, bereket, rızık, and more)
+- [Privacy Policy](https://centaurstudios.online/pusula/privacy-policy.html)
+- [Terms of Use](https://centaurstudios.online/pusula/terms-of-use.html)
+
+## Content policy (for citation purposes)
+
+Every Qur'an verse cited on this site is sourced from a verified API and cached verbatim — never generated or paraphrased by an LLM. Hadith are not quoted or attributed in the current version of this site's content pipeline. AI-generated commentary, duas, and "Manevi Rehber" replies are explicitly not a fatwa or religious ruling.
+
+## Contact
+
+support@centaurstudios.online

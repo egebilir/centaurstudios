@@ -1,0 +1,749 @@
+{
+  "schema_version": 1,
+  "notes": "Topic pool for the Pusula content engine. status: pool|queued|published|cooldown|blocked. task_type is always 'new' here — refresh tasks live in refresh-queue.json. Esmaül Hüsna topics are NOT duplicated here: pick-topic.mjs treats data/esmaul-husna.json as a secondary, always-available topic source (one topic per name lacking a published page).",
+  "topics": [
+    {
+      "id": "sabir-duasi",
+      "content_type": "dua",
+      "cluster": "sabir",
+      "slug": "sabir-duasi",
+      "primary_keyword": "sabır duası",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "published",
+      "task_type": "new",
+      "last_published": "2026-08-07",
+      "cooldown_until": null,
+      "related_slugs": [
+        "sabir-ile-ilgili-ayetler",
+        "es-sabur",
+        "hz-eyyubun-sabri"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "sabir-ile-ilgili-ayetler",
+      "content_type": "ayet",
+      "cluster": "sabir",
+      "slug": "sabir-ile-ilgili-ayetler",
+      "primary_keyword": "sabır ile ilgili ayetler",
+      "search_intent": "informational",
+      "priority": 5,
+      "status": "published",
+      "task_type": "new",
+      "last_published": "2026-08-07",
+      "cooldown_until": null,
+      "related_slugs": [
+        "sabir-duasi",
+        "es-sabur",
+        "hz-eyyubun-sabri"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "hz-eyyubun-sabri",
+      "content_type": "kissa",
+      "cluster": "sabir",
+      "slug": "hz-eyyubun-sabri",
+      "primary_keyword": "Hz. Eyyub'un sabrı",
+      "search_intent": "informational",
+      "priority": 5,
+      "status": "published",
+      "task_type": "new",
+      "last_published": "2026-08-07",
+      "cooldown_until": null,
+      "related_slugs": [
+        "sabir-duasi",
+        "sabir-ile-ilgili-ayetler",
+        "es-sabur"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "tevekkul-ve-sabir-arasindaki-fark",
+      "content_type": "blog",
+      "cluster": "sabir",
+      "slug": "tevekkul-ve-sabir-arasindaki-fark",
+      "primary_keyword": "tevekkül ve sabır arasındaki fark",
+      "search_intent": "informational",
+      "priority": 4,
+      "status": "published",
+      "task_type": "new",
+      "last_published": "2026-08-07",
+      "cooldown_until": null,
+      "related_slugs": [
+        "sabir-duasi",
+        "tevekkul-nedir"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "zor-zamanlarda-okunacak-dualar",
+      "content_type": "dua",
+      "cluster": "sabir",
+      "slug": "zor-zamanlarda-okunacak-dualar",
+      "primary_keyword": "zor zamanlarda okunacak dualar",
+      "search_intent": "prayer-lookup",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sabir-duasi",
+        "hz-eyyubun-sabri"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "sabir-nedir",
+      "content_type": "blog",
+      "cluster": "sabir",
+      "slug": "sabir-nedir",
+      "primary_keyword": "sabır nedir",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sabir-ile-ilgili-ayetler"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "sabir-hakkinda-hadisler",
+      "content_type": "blog",
+      "cluster": "sabir",
+      "slug": "sabir-hakkinda-hadisler",
+      "primary_keyword": "sabır hakkında hadisler",
+      "search_intent": "informational",
+      "priority": 2,
+      "status": "blocked",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [],
+      "requires_hadith": true
+    },
+    {
+      "id": "kaygi-icin-dua",
+      "content_type": "dua",
+      "cluster": "kaygi-ve-stres",
+      "slug": "kaygi-icin-dua",
+      "primary_keyword": "kaygı için dua",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "stres-icin-dua",
+        "kaygiyla-ilgili-ayetler"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "stres-icin-dua",
+      "content_type": "dua",
+      "cluster": "kaygi-ve-stres",
+      "slug": "stres-icin-dua",
+      "primary_keyword": "stres için dua",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "kaygi-icin-dua",
+        "huzur-icin-dua"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "kaygiyla-ilgili-ayetler",
+      "content_type": "ayet",
+      "cluster": "kaygi-ve-stres",
+      "slug": "kaygiyla-ilgili-ayetler",
+      "primary_keyword": "kaygı ile ilgili ayetler",
+      "search_intent": "informational",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "kaygi-icin-dua"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "islamda-kaygiyla-basa-cikma",
+      "content_type": "blog",
+      "cluster": "kaygi-ve-stres",
+      "slug": "islamda-kaygiyla-basa-cikma",
+      "primary_keyword": "İslam'da kaygıyla başa çıkma",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "kaygi-icin-dua",
+        "kaygiyla-ilgili-ayetler"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "huzur-icin-dua",
+      "content_type": "dua",
+      "cluster": "kaygi-ve-stres",
+      "slug": "huzur-icin-dua",
+      "primary_keyword": "huzur için dua",
+      "search_intent": "prayer-lookup",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "stres-icin-dua"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "insirah-suresi-anlami",
+      "content_type": "sure",
+      "cluster": "kaygi-ve-stres",
+      "slug": "insirah-suresi-anlami",
+      "primary_keyword": "İnşirah suresi anlamı",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "kaygiyla-ilgili-ayetler"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "bereket-duasi",
+      "content_type": "dua",
+      "cluster": "bereket",
+      "slug": "bereket-duasi",
+      "primary_keyword": "bereket duası",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "bereketle-ilgili-ayetler"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "bereketle-ilgili-ayetler",
+      "content_type": "ayet",
+      "cluster": "bereket",
+      "slug": "bereketle-ilgili-ayetler",
+      "primary_keyword": "bereketle ilgili ayetler",
+      "search_intent": "informational",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "bereket-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "ev-icin-bereket-duasi",
+      "content_type": "dua",
+      "cluster": "bereket",
+      "slug": "ev-icin-bereket-duasi",
+      "primary_keyword": "ev için bereket duası",
+      "search_intent": "prayer-lookup",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "bereket-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "kazancta-bereket-duasi",
+      "content_type": "dua",
+      "cluster": "bereket",
+      "slug": "kazancta-bereket-duasi",
+      "primary_keyword": "kazançta bereket duası",
+      "search_intent": "prayer-lookup",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "bereket-duasi",
+        "rizik-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "bereket-nedir-islamda",
+      "content_type": "blog",
+      "cluster": "bereket",
+      "slug": "bereket-nedir-islamda",
+      "primary_keyword": "İslam'da bereket nedir",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "bereketle-ilgili-ayetler"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "nazar-duasi",
+      "content_type": "dua",
+      "cluster": "nazar",
+      "slug": "nazar-duasi",
+      "primary_keyword": "nazar duası",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "nazarla-ilgili-ayet",
+        "felak-ve-nas-suresi-nazar-icin"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "nazarla-ilgili-ayet",
+      "content_type": "ayet",
+      "cluster": "nazar",
+      "slug": "nazarla-ilgili-ayet",
+      "primary_keyword": "nazarla ilgili ayet",
+      "search_intent": "informational",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "nazar-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "islamda-nazar-var-mi",
+      "content_type": "blog",
+      "cluster": "nazar",
+      "slug": "islamda-nazar-var-mi",
+      "primary_keyword": "İslam'da nazar var mı",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "nazarla-ilgili-ayet"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "felak-ve-nas-suresi-nazar-icin",
+      "content_type": "sure",
+      "cluster": "nazar",
+      "slug": "felak-ve-nas-suresi-nazar-icin",
+      "primary_keyword": "Felak ve Nas suresi nazar için",
+      "search_intent": "prayer-lookup",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "nazar-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "rizik-duasi",
+      "content_type": "dua",
+      "cluster": "rizik",
+      "slug": "rizik-duasi",
+      "primary_keyword": "rızık duası",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "rizikla-ilgili-ayetler"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "rizikla-ilgili-ayetler",
+      "content_type": "ayet",
+      "cluster": "rizik",
+      "slug": "rizikla-ilgili-ayetler",
+      "primary_keyword": "rızıkla ilgili ayetler",
+      "search_intent": "informational",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "rizik-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "rizik-kapilari-nasil-acilir",
+      "content_type": "blog",
+      "cluster": "rizik",
+      "slug": "rizik-kapilari-nasil-acilir",
+      "primary_keyword": "rızık kapıları nasıl açılır",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "rizik-duasi",
+        "rizikla-ilgili-ayetler"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "is-ve-rizik-icin-dua",
+      "content_type": "dua",
+      "cluster": "rizik",
+      "slug": "is-ve-rizik-icin-dua",
+      "primary_keyword": "iş ve rızık için dua",
+      "search_intent": "prayer-lookup",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "rizik-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "sinav-duasi",
+      "content_type": "dua",
+      "cluster": "sinav",
+      "slug": "sinav-duasi",
+      "primary_keyword": "sınav duası",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "basari-ile-ilgili-ayetler"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "sinav-oncesi-okunacak-dualar",
+      "content_type": "dua",
+      "cluster": "sinav",
+      "slug": "sinav-oncesi-okunacak-dualar",
+      "primary_keyword": "sınav öncesi okunacak dualar",
+      "search_intent": "prayer-lookup",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sinav-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "basari-ile-ilgili-ayetler",
+      "content_type": "ayet",
+      "cluster": "sinav",
+      "slug": "basari-ile-ilgili-ayetler",
+      "primary_keyword": "başarı ile ilgili ayetler",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sinav-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "sifa-duasi",
+      "content_type": "dua",
+      "cluster": "sifa",
+      "slug": "sifa-duasi",
+      "primary_keyword": "şifa duası",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sifayla-ilgili-ayetler",
+        "hastaya-okunacak-dua"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "sifayla-ilgili-ayetler",
+      "content_type": "ayet",
+      "cluster": "sifa",
+      "slug": "sifayla-ilgili-ayetler",
+      "primary_keyword": "şifayla ilgili ayetler",
+      "search_intent": "informational",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sifa-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "fatiha-suresi-sifa",
+      "content_type": "sure",
+      "cluster": "sifa",
+      "slug": "fatiha-suresi-sifa",
+      "primary_keyword": "Fatiha suresi şifa",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sifa-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "hastaya-okunacak-dua",
+      "content_type": "dua",
+      "cluster": "sifa",
+      "slug": "hastaya-okunacak-dua",
+      "primary_keyword": "hastaya okunacak dua",
+      "search_intent": "prayer-lookup",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sifa-duasi"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "tevekkul-nedir",
+      "content_type": "blog",
+      "cluster": "tevekkul",
+      "slug": "tevekkul-nedir",
+      "primary_keyword": "tevekkül nedir",
+      "search_intent": "informational",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "tevekkulle-ilgili-ayetler",
+        "tevekkul-ve-sabir-arasindaki-fark"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "tevekkulle-ilgili-ayetler",
+      "content_type": "ayet",
+      "cluster": "tevekkul",
+      "slug": "tevekkulle-ilgili-ayetler",
+      "primary_keyword": "tevekkülle ilgili ayetler",
+      "search_intent": "informational",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "tevekkul-nedir"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "tevekkul-duasi",
+      "content_type": "dua",
+      "cluster": "tevekkul",
+      "slug": "tevekkul-duasi",
+      "primary_keyword": "tevekkül duası",
+      "search_intent": "prayer-lookup",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "tevekkul-nedir"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "gece-okunacak-dualar",
+      "content_type": "dua",
+      "cluster": "gunluk-dualar",
+      "slug": "gece-okunacak-dualar",
+      "primary_keyword": "gece okunacak dualar",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sabah-okunacak-dualar",
+        "yatmadan-once-okunacak-dua"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "sabah-okunacak-dualar",
+      "content_type": "dua",
+      "cluster": "gunluk-dualar",
+      "slug": "sabah-okunacak-dualar",
+      "primary_keyword": "sabah okunacak dualar",
+      "search_intent": "prayer-lookup",
+      "priority": 5,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "gece-okunacak-dualar",
+        "uyaninca-okunacak-dua"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "yatmadan-once-okunacak-dua",
+      "content_type": "dua",
+      "cluster": "gunluk-dualar",
+      "slug": "yatmadan-once-okunacak-dua",
+      "primary_keyword": "yatmadan önce okunacak dua",
+      "search_intent": "prayer-lookup",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "gece-okunacak-dualar"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "uyaninca-okunacak-dua",
+      "content_type": "dua",
+      "cluster": "gunluk-dualar",
+      "slug": "uyaninca-okunacak-dua",
+      "primary_keyword": "uyanınca okunacak dua",
+      "search_intent": "prayer-lookup",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "sabah-okunacak-dualar"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "hz-yusufun-kissasi",
+      "content_type": "kissa",
+      "cluster": "kissalar",
+      "slug": "hz-yusufun-kissasi",
+      "primary_keyword": "Hz. Yusuf'un kıssası",
+      "search_intent": "informational",
+      "priority": 4,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [
+        "hz-eyyubun-sabri"
+      ],
+      "requires_hadith": false
+    },
+    {
+      "id": "hz-nuhun-gemisi-kissasi",
+      "content_type": "kissa",
+      "cluster": "kissalar",
+      "slug": "hz-nuhun-gemisi-kissasi",
+      "primary_keyword": "Hz. Nuh'un gemisi kıssası",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [],
+      "requires_hadith": false
+    },
+    {
+      "id": "ashab-i-kehf-kissasi",
+      "content_type": "kissa",
+      "cluster": "kissalar",
+      "slug": "ashab-i-kehf-kissasi",
+      "primary_keyword": "Ashab-ı Kehf kıssası",
+      "search_intent": "informational",
+      "priority": 3,
+      "status": "pool",
+      "task_type": "new",
+      "last_published": null,
+      "cooldown_until": null,
+      "related_slugs": [],
+      "requires_hadith": false
+    }
+  ]
+}

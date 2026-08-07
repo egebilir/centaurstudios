@@ -1,0 +1,364 @@
+/* ============================================
+   Pusula — Content Pages (blog/dua/ayet/sure/
+   esmaul-husna/kissalar/kategori hubs)
+   Extends the teal & gold tokens from pusula.css.
+   ============================================ */
+
+.pusula-article-page {
+  position: relative;
+  z-index: 1;
+  padding: 150px 24px 40px;
+}
+
+/* ---------- Breadcrumbs ---------- */
+.pusula-breadcrumbs {
+  max-width: 760px;
+  margin: 0 auto 28px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.pusula-breadcrumbs a {
+  color: var(--text-secondary);
+}
+
+.pusula-breadcrumbs a:hover {
+  color: var(--accent-gold-soft);
+}
+
+.pusula-breadcrumbs .sep {
+  opacity: 0.5;
+}
+
+.pusula-breadcrumbs [aria-current="page"] {
+  color: var(--text-primary);
+}
+
+/* ---------- Article shell ---------- */
+.pusula-article {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.pusula-content-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 100px;
+  background: var(--bg-glass);
+  border: 1px solid var(--bg-glass-border);
+  color: var(--accent-gold-soft);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 18px;
+}
+
+.pusula-article-header h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.9rem, 4vw, 2.75rem);
+  line-height: 1.2;
+  margin-bottom: 14px;
+  background: var(--gradient-hero);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pusula-article-dek {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.pusula-article-meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--bg-glass-border);
+}
+
+/* ---------- Prose ---------- */
+.pusula-prose h2 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin: 44px 0 16px;
+}
+
+.pusula-prose h3 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin: 32px 0 12px;
+}
+
+.pusula-prose p {
+  color: var(--text-secondary);
+  font-size: 1.02rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.pusula-prose strong {
+  color: var(--text-primary);
+}
+
+.pusula-prose ul,
+.pusula-prose ol {
+  margin: 0 0 18px;
+  padding-left: 22px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.pusula-prose ul { list-style: disc; }
+.pusula-prose ol { list-style: decimal; }
+
+.pusula-prose li {
+  margin-bottom: 8px;
+}
+
+.pusula-prose a {
+  color: var(--accent-gold-soft);
+  text-decoration: underline;
+  text-decoration-color: rgba(212, 175, 138, 0.35);
+  text-underline-offset: 3px;
+}
+
+/* ---------- Verse block ---------- */
+.pusula-verse-block {
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: var(--card-radius);
+  padding: 28px;
+  margin: 24px 0;
+}
+
+.pusula-verse-arabic {
+  font-family: 'Amiri', serif;
+  font-size: 1.6rem;
+  line-height: 2.1;
+  color: var(--text-primary);
+  direction: rtl;
+  text-align: right;
+  margin-bottom: 16px;
+}
+
+.pusula-verse-turkish {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.08rem;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.pusula-verse-ref {
+  font-size: 0.82rem;
+  color: var(--accent-gold-soft);
+  font-weight: 600;
+}
+
+.pusula-verse-note {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+/* ---------- Dua block ---------- */
+.pusula-dua-block {
+  background: linear-gradient(135deg, rgba(212, 175, 138, 0.08), rgba(95, 184, 166, 0.06));
+  border: 1px solid var(--bg-glass-border);
+  border-radius: var(--card-radius);
+  padding: 28px;
+  margin: 24px 0;
+}
+
+.pusula-dua-text {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--text-primary);
+  line-height: 1.7;
+}
+
+/* ---------- Takeaways / quote callout ---------- */
+.pusula-takeaways {
+  background: var(--bg-glass);
+  border-left: 3px solid var(--accent-gold);
+  border-radius: 0 var(--card-radius) var(--card-radius) 0;
+  padding: 22px 26px;
+  margin: 28px 0;
+}
+
+.pusula-takeaways h3 {
+  margin-top: 0 !important;
+  font-size: 1rem !important;
+  color: var(--accent-gold-soft) !important;
+}
+
+.pusula-quote-callout {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-style: italic;
+  color: var(--accent-gold-soft);
+  border-left: 3px solid var(--accent-gold);
+  padding-left: 20px;
+  margin: 28px 0;
+}
+
+/* ---------- FAQ (reuses .pusula-faq-item <details> pattern) ---------- */
+.pusula-article .pusula-faq {
+  margin-top: 48px;
+}
+
+.pusula-article .pusula-faq h2 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* ---------- CTA band ---------- */
+.pusula-cta-band {
+  margin-top: 56px;
+  padding: 36px;
+  border-radius: var(--card-radius);
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  text-align: center;
+}
+
+.pusula-cta-band p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  margin-bottom: 20px;
+}
+
+/* ---------- Related content ---------- */
+.pusula-related {
+  margin-top: 56px;
+}
+
+.pusula-related h2 {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  margin-bottom: 18px;
+}
+
+.pusula-related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.pusula-related-card {
+  display: block;
+  padding: 18px;
+  border-radius: 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  transition: var(--transition-base);
+}
+
+.pusula-related-card:hover {
+  background: var(--bg-card-hover);
+  transform: translateY(-2px);
+}
+
+.pusula-related-card .type {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-gold-soft);
+  margin-bottom: 6px;
+  display: block;
+}
+
+.pusula-related-card .title {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+/* ---------- Hub / cluster & blog index pages ---------- */
+.pusula-hub-intro {
+  max-width: 700px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.pusula-hub-intro p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  margin-top: 14px;
+}
+
+.pusula-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pusula-hub-card {
+  display: block;
+  padding: 24px;
+  border-radius: var(--card-radius);
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  transition: var(--transition-base);
+}
+
+.pusula-hub-card:hover {
+  background: var(--bg-card-hover);
+  transform: translateY(-3px);
+}
+
+.pusula-hub-card .type {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-gold-soft);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.pusula-hub-card .title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.pusula-hub-card .dek {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.pusula-cluster-grid-group {
+  margin-bottom: 44px;
+}
+
+.pusula-cluster-grid-group h3 {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: var(--accent-gold-soft);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .pusula-article-page {
+    padding-top: 120px;
+  }
+}

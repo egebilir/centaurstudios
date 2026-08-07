@@ -1,0 +1,25 @@
+{
+  "name": "pusula-seo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Autonomous SEO operating system for the Pusula app: verified-content pipeline, sitemap/interlink builder, analytics ingestion, refresh/advisor engine, and Telegram Head-of-SEO assistant.",
+  "scripts": {
+    "pick-topic": "node scripts/pick-topic.mjs",
+    "fetch-verse": "node scripts/fetch-verse.mjs",
+    "validate": "node scripts/validate-article.mjs",
+    "render": "node scripts/render-article.mjs",
+    "build-sitemap": "node scripts/build-sitemap.mjs",
+    "build-interlinks": "node scripts/build-interlinks.mjs",
+    "generate-og": "node scripts/generate-og-image.mjs",
+    "orchestrator": "node scripts/orchestrator.mjs",
+    "telegram-test": "node scripts/telegram/send-test.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.3",
+    "googleapis": "^174.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

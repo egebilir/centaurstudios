@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "notes": "Populated by scripts/refresh/analyze-content.mjs. Entries reference an existing published slug (unlike topics.json, which is for new topics).",
+  "candidates": [
+    {
+      "id": "tevekkul-ve-sabir-arasindaki-fark",
+      "content_type": "blog",
+      "slug": "tevekkul-ve-sabir-arasindaki-fark",
+      "cluster": "sabir",
+      "reasons": [
+        "1 related_slugs girdisi artık geçerli değil: tevekkul-nedir."
+      ],
+      "severity": 1,
+      "detected_at": "2026-08-07T15:43:06.860Z"
+    }
+  ],
+  "last_scan": "2026-08-07T15:43:06.860Z"
+}

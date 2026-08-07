@@ -1,0 +1,807 @@
+{
+  "schema_version": 1,
+  "source": "Standart Esmaül Hüsna listesi (Tirmizî rivayeti üzerinden yaygın kabul gören 99 isim sıralaması, Diyanet yayınlarıyla uyumlu).",
+  "notes": "Bu veri seti sabittir ve isim başına yeniden üretilmez; her isim 'anlam' alanıyla birlikte kısa, standart bir açıklama taşır. Liste, Allah'ın has ismiyle birlikte 100 madde içerir — gelenekte 'Esmaül Hüsna' terimi dar anlamda 99 sıfat ismini, geniş/popüler anlamda ise Allah ismiyle birlikte tümünü kapsar; site içeriğinde 'Allah'ın 99 güzel ismi' başlığı bu yaygın kullanıma göredir. pick-topic.mjs, published_slug boş olan isimleri otomatik konu adayı olarak görür.",
+  "names": [
+    {
+      "order": 1,
+      "arabic": "الله",
+      "transliteration": "Allah",
+      "meaning": "Zâtına mahsus, eşi ve benzeri olmayan tek ilahın özel ismi.",
+      "slug": "allah",
+      "published_slug": null
+    },
+    {
+      "order": 2,
+      "arabic": "الرَّحْمَن",
+      "transliteration": "Er-Rahman",
+      "meaning": "Dünyada mümin-kâfir ayırmadan tüm yaratılmışlara sınırsız merhamet eden.",
+      "slug": "er-rahman",
+      "published_slug": null
+    },
+    {
+      "order": 3,
+      "arabic": "الرَّحِيم",
+      "transliteration": "Er-Rahim",
+      "meaning": "Ahirette özellikle müminlere sonsuz merhamet eden.",
+      "slug": "er-rahim",
+      "published_slug": null
+    },
+    {
+      "order": 4,
+      "arabic": "الْمَلِك",
+      "transliteration": "El-Melik",
+      "meaning": "Mutlak hükümranlığın ve mülkün tek sahibi.",
+      "slug": "el-melik",
+      "published_slug": null
+    },
+    {
+      "order": 5,
+      "arabic": "الْقُدُّوس",
+      "transliteration": "El-Kuddüs",
+      "meaning": "Her türlü eksiklik ve kusurdan uzak, tertemiz olan.",
+      "slug": "el-kuddus",
+      "published_slug": null
+    },
+    {
+      "order": 6,
+      "arabic": "السَّلاَم",
+      "transliteration": "Es-Selam",
+      "meaning": "Her türlü tehlike ve kusurdan salim olan, esenlik veren.",
+      "slug": "es-selam",
+      "published_slug": null
+    },
+    {
+      "order": 7,
+      "arabic": "الْمُؤْمِن",
+      "transliteration": "El-Mü'min",
+      "meaning": "Güven veren, kullarına verdiği sözde duran.",
+      "slug": "el-mumin",
+      "published_slug": null
+    },
+    {
+      "order": 8,
+      "arabic": "الْمُهَيْمِن",
+      "transliteration": "El-Müheymin",
+      "meaning": "Her şeyi gözetip koruyan, denetleyen.",
+      "slug": "el-muheymin",
+      "published_slug": null
+    },
+    {
+      "order": 9,
+      "arabic": "الْعَزِيز",
+      "transliteration": "El-Aziz",
+      "meaning": "Karşı konulamaz izzet ve galibiyet sahibi.",
+      "slug": "el-aziz",
+      "published_slug": null
+    },
+    {
+      "order": 10,
+      "arabic": "الْجَبَّار",
+      "transliteration": "El-Cebbar",
+      "meaning": "Dilediğini yapmaya gücü yeten, eksikleri gideren, kudreti karşı konulmaz olan.",
+      "slug": "el-cebbar",
+      "published_slug": null
+    },
+    {
+      "order": 11,
+      "arabic": "الْمُتَكَبِّر",
+      "transliteration": "El-Mütekebbir",
+      "meaning": "Büyüklükte eşsiz olan, büyüklüğü yalnızca kendisine yakışan.",
+      "slug": "el-mutekebbir",
+      "published_slug": null
+    },
+    {
+      "order": 12,
+      "arabic": "الْخَالِق",
+      "transliteration": "El-Halık",
+      "meaning": "Her şeyi yoktan var eden yaratıcı.",
+      "slug": "el-halik",
+      "published_slug": null
+    },
+    {
+      "order": 13,
+      "arabic": "الْبَارِئ",
+      "transliteration": "El-Bari",
+      "meaning": "Yarattıklarını kusursuz bir düzen içinde, birbirinden farklı var eden.",
+      "slug": "el-bari",
+      "published_slug": null
+    },
+    {
+      "order": 14,
+      "arabic": "الْمُصَوِّر",
+      "transliteration": "El-Musavvir",
+      "meaning": "Her varlığa kendine özgü bir şekil ve suret veren.",
+      "slug": "el-musavvir",
+      "published_slug": null
+    },
+    {
+      "order": 15,
+      "arabic": "الْغَفَّار",
+      "transliteration": "El-Gaffar",
+      "meaning": "Günahları tekrar tekrar bağışlayan.",
+      "slug": "el-gaffar",
+      "published_slug": null
+    },
+    {
+      "order": 16,
+      "arabic": "الْقَهَّار",
+      "transliteration": "El-Kahhar",
+      "meaning": "Her şeye galip gelen, karşı konulmaz kudret sahibi.",
+      "slug": "el-kahhar",
+      "published_slug": null
+    },
+    {
+      "order": 17,
+      "arabic": "الْوَهَّاب",
+      "transliteration": "El-Vehhab",
+      "meaning": "Karşılıksız, sürekli bağışta bulunan.",
+      "slug": "el-vehhab",
+      "published_slug": null
+    },
+    {
+      "order": 18,
+      "arabic": "الرَّزَّاق",
+      "transliteration": "Er-Rezzak",
+      "meaning": "Bütün canlıların rızkını yaratıp ulaştıran.",
+      "slug": "er-rezzak",
+      "published_slug": null
+    },
+    {
+      "order": 19,
+      "arabic": "الْفَتَّاح",
+      "transliteration": "El-Fettah",
+      "meaning": "Kapalı olan her şeyi açan, hükmeden, zorlukları kolaylaştıran.",
+      "slug": "el-fettah",
+      "published_slug": null
+    },
+    {
+      "order": 20,
+      "arabic": "اَلْعَلِيمُ",
+      "transliteration": "El-Alim",
+      "meaning": "Her şeyi, gizli açık, geçmiş gelecek tüm yönleriyle bilen.",
+      "slug": "el-alim",
+      "published_slug": null
+    },
+    {
+      "order": 21,
+      "arabic": "الْقَابِض",
+      "transliteration": "El-Kabıd",
+      "meaning": "Dilediğinde rızkı ve nimeti daraltan.",
+      "slug": "el-kabid",
+      "published_slug": null
+    },
+    {
+      "order": 22,
+      "arabic": "الْبَاسِط",
+      "transliteration": "El-Basıt",
+      "meaning": "Dilediğinde rızkı ve nimeti genişleten.",
+      "slug": "el-basit",
+      "published_slug": null
+    },
+    {
+      "order": 23,
+      "arabic": "الْخَافِض",
+      "transliteration": "El-Hafıd",
+      "meaning": "Dilediğini alçaltan.",
+      "slug": "el-hafid",
+      "published_slug": null
+    },
+    {
+      "order": 24,
+      "arabic": "الرَّافِع",
+      "transliteration": "Er-Rafi",
+      "meaning": "Dilediğini yükselten, şeref ve mertebe veren.",
+      "slug": "er-rafi",
+      "published_slug": null
+    },
+    {
+      "order": 25,
+      "arabic": "الْمُعِزّ",
+      "transliteration": "El-Muizz",
+      "meaning": "Dilediğine izzet ve şeref veren.",
+      "slug": "el-muizz",
+      "published_slug": null
+    },
+    {
+      "order": 26,
+      "arabic": "المُذِلّ",
+      "transliteration": "El-Müzil",
+      "meaning": "Dilediğini zillete düşüren.",
+      "slug": "el-muzil",
+      "published_slug": null
+    },
+    {
+      "order": 27,
+      "arabic": "السَّمِيع",
+      "transliteration": "Es-Semi",
+      "meaning": "Her sesi, sözü ve fısıltıyı işiten.",
+      "slug": "es-semi",
+      "published_slug": null
+    },
+    {
+      "order": 28,
+      "arabic": "الْبَصِير",
+      "transliteration": "El-Basir",
+      "meaning": "Her şeyi, gizli açık, en ince ayrıntısıyla gören.",
+      "slug": "el-basir",
+      "published_slug": null
+    },
+    {
+      "order": 29,
+      "arabic": "الْحَكَم",
+      "transliteration": "El-Hakem",
+      "meaning": "Son ve kesin hükmü veren, adaletle hükmeden.",
+      "slug": "el-hakem",
+      "published_slug": null
+    },
+    {
+      "order": 30,
+      "arabic": "الْعَدْل",
+      "transliteration": "El-Adl",
+      "meaning": "Mutlak adalet sahibi, asla haksızlık etmeyen.",
+      "slug": "el-adl",
+      "published_slug": null
+    },
+    {
+      "order": 31,
+      "arabic": "اللَّطِيف",
+      "transliteration": "El-Latif",
+      "meaning": "Yarattıklarına ince ince, fark ettirmeden lütufta bulunan.",
+      "slug": "el-latif",
+      "published_slug": null
+    },
+    {
+      "order": 32,
+      "arabic": "الْخَبِير",
+      "transliteration": "El-Habir",
+      "meaning": "Her şeyin iç yüzünden, gerçeğinden haberdar olan.",
+      "slug": "el-habir",
+      "published_slug": null
+    },
+    {
+      "order": 33,
+      "arabic": "الْحَلِيم",
+      "transliteration": "El-Halim",
+      "meaning": "Kullarının hatalarına karşı acele etmeyen, yumuşak davranan.",
+      "slug": "el-halim",
+      "published_slug": null
+    },
+    {
+      "order": 34,
+      "arabic": "الْعَظِيم",
+      "transliteration": "El-Azim",
+      "meaning": "Büyüklüğü akılla kavranamayacak kadar yüce olan.",
+      "slug": "el-azim",
+      "published_slug": null
+    },
+    {
+      "order": 35,
+      "arabic": "الْغَفُور",
+      "transliteration": "El-Gafur",
+      "meaning": "Günahları çokça ve kolayca örtüp bağışlayan.",
+      "slug": "el-gafur",
+      "published_slug": null
+    },
+    {
+      "order": 36,
+      "arabic": "الشَّكُور",
+      "transliteration": "Eş-Şekur",
+      "meaning": "Az ibadete büyük mükâfat veren, şükredilmeye layık olan.",
+      "slug": "es-sekur",
+      "published_slug": null
+    },
+    {
+      "order": 37,
+      "arabic": "الْعَلِيّ",
+      "transliteration": "El-Aliy",
+      "meaning": "Zâtı, sıfatları ve kudreti ile en yüce olan.",
+      "slug": "el-aliy",
+      "published_slug": null
+    },
+    {
+      "order": 38,
+      "arabic": "الْكَبِير",
+      "transliteration": "El-Kebir",
+      "meaning": "Büyüklükte eşi ve benzeri olmayan.",
+      "slug": "el-kebir",
+      "published_slug": null
+    },
+    {
+      "order": 39,
+      "arabic": "الْحَفِيظ",
+      "transliteration": "El-Hafiz",
+      "meaning": "Her şeyi koruyan, gözeten ve muhafaza eden.",
+      "slug": "el-hafiz",
+      "published_slug": null
+    },
+    {
+      "order": 40,
+      "arabic": "الْمُقِيت",
+      "transliteration": "El-Mukit",
+      "meaning": "Yarattıklarının rızkını ve ihtiyacını takdir edip veren.",
+      "slug": "el-mukit",
+      "published_slug": null
+    },
+    {
+      "order": 41,
+      "arabic": "الْحسِيب",
+      "transliteration": "El-Hasib",
+      "meaning": "Herkesin hesabını gören, kullarına yeten.",
+      "slug": "el-hasib",
+      "published_slug": null
+    },
+    {
+      "order": 42,
+      "arabic": "الْجَلِيل",
+      "transliteration": "El-Celil",
+      "meaning": "Azamet ve celal sahibi, ululuğu sonsuz olan.",
+      "slug": "el-celil",
+      "published_slug": null
+    },
+    {
+      "order": 43,
+      "arabic": "الْكَرِيم",
+      "transliteration": "El-Kerim",
+      "meaning": "Sonsuz cömertlik ve ikram sahibi.",
+      "slug": "el-kerim",
+      "published_slug": null
+    },
+    {
+      "order": 44,
+      "arabic": "الرَّقِيب",
+      "transliteration": "Er-Rakib",
+      "meaning": "Her şeyi sürekli gözetip denetleyen.",
+      "slug": "er-rakib",
+      "published_slug": null
+    },
+    {
+      "order": 45,
+      "arabic": "الْمُجِيب",
+      "transliteration": "El-Mucib",
+      "meaning": "Duaları işitip karşılık veren.",
+      "slug": "el-mucib",
+      "published_slug": null
+    },
+    {
+      "order": 46,
+      "arabic": "الْوَاسِع",
+      "transliteration": "El-Vasi",
+      "meaning": "İlmi, rahmeti ve kudreti sınırsız genişlikte olan.",
+      "slug": "el-vasi",
+      "published_slug": null
+    },
+    {
+      "order": 47,
+      "arabic": "الْحَكِيم",
+      "transliteration": "El-Hakim",
+      "meaning": "Her işi yerli yerinde, hikmetle yapan.",
+      "slug": "el-hakim",
+      "published_slug": null
+    },
+    {
+      "order": 48,
+      "arabic": "الْوَدُود",
+      "transliteration": "El-Vedud",
+      "meaning": "Kullarını seven ve onlar tarafından sevilmeye layık olan.",
+      "slug": "el-vedud",
+      "published_slug": null
+    },
+    {
+      "order": 49,
+      "arabic": "الْمَجِيد",
+      "transliteration": "El-Mecid",
+      "meaning": "Şanı, şerefi ve kadri en yüce olan.",
+      "slug": "el-mecid",
+      "published_slug": null
+    },
+    {
+      "order": 50,
+      "arabic": "الْبَاعِث",
+      "transliteration": "El-Bais",
+      "meaning": "Ölüleri diriltip yeniden hayat verecek olan.",
+      "slug": "el-bais",
+      "published_slug": null
+    },
+    {
+      "order": 51,
+      "arabic": "الشَّهِيد",
+      "transliteration": "Eş-Şehid",
+      "meaning": "Her şeye şahit olan, hiçbir şey kendisinden gizli kalmayan.",
+      "slug": "es-sehid",
+      "published_slug": null
+    },
+    {
+      "order": 52,
+      "arabic": "الْحَقّ",
+      "transliteration": "El-Hak",
+      "meaning": "Varlığı ve sözü mutlak gerçek olan.",
+      "slug": "el-hak",
+      "published_slug": null
+    },
+    {
+      "order": 53,
+      "arabic": "الْوَكِيل",
+      "transliteration": "El-Vekil",
+      "meaning": "Kendisine güvenip dayananların işlerini en iyi şekilde yürüten.",
+      "slug": "el-vekil",
+      "published_slug": null
+    },
+    {
+      "order": 54,
+      "arabic": "الْقَوِيّ",
+      "transliteration": "El-Kaviy",
+      "meaning": "Sonsuz güç ve kuvvet sahibi.",
+      "slug": "el-kaviy",
+      "published_slug": null
+    },
+    {
+      "order": 55,
+      "arabic": "الْمَتِين",
+      "transliteration": "El-Metin",
+      "meaning": "Kudreti hiç sarsılmayan, çok sağlam.",
+      "slug": "el-metin",
+      "published_slug": null
+    },
+    {
+      "order": 56,
+      "arabic": "الْوَلِيّ",
+      "transliteration": "El-Veliy",
+      "meaning": "Müminlerin dostu, onlara yardım eden ve işlerini yöneten.",
+      "slug": "el-veliy",
+      "published_slug": null
+    },
+    {
+      "order": 57,
+      "arabic": "الْحَمِيد",
+      "transliteration": "El-Hamid",
+      "meaning": "Her türlü övgüye layık olan.",
+      "slug": "el-hamid",
+      "published_slug": null
+    },
+    {
+      "order": 58,
+      "arabic": "الْمُحْصِي",
+      "transliteration": "El-Muhsi",
+      "meaning": "Her şeyi tek tek sayıp bilen.",
+      "slug": "el-muhsi",
+      "published_slug": null
+    },
+    {
+      "order": 59,
+      "arabic": "الْمُبْدِئ",
+      "transliteration": "El-Mübdi",
+      "meaning": "Varlıkları örneksiz olarak ilk kez yaratan.",
+      "slug": "el-mubdi",
+      "published_slug": null
+    },
+    {
+      "order": 60,
+      "arabic": "الْمُعِيد",
+      "transliteration": "El-Muid",
+      "meaning": "Yarattıklarını yok ettikten sonra yeniden var eden.",
+      "slug": "el-muid",
+      "published_slug": null
+    },
+    {
+      "order": 61,
+      "arabic": "الْمُحْيِي",
+      "transliteration": "El-Muhyi",
+      "meaning": "Can veren, dirilten.",
+      "slug": "el-muhyi",
+      "published_slug": null
+    },
+    {
+      "order": 62,
+      "arabic": "اَلْمُمِيتُ",
+      "transliteration": "El-Mümit",
+      "meaning": "Ölümü yaratan, canlıları öldüren.",
+      "slug": "el-mumit",
+      "published_slug": null
+    },
+    {
+      "order": 63,
+      "arabic": "الْحَيّ",
+      "transliteration": "El-Hayy",
+      "meaning": "Sonsuz ve gerçek diri, hayatı kendinden olan.",
+      "slug": "el-hayy",
+      "published_slug": null
+    },
+    {
+      "order": 64,
+      "arabic": "الْقَيُّوم",
+      "transliteration": "El-Kayyum",
+      "meaning": "Kendi zâtıyla kaim olan, tüm varlığı ayakta tutan.",
+      "slug": "el-kayyum",
+      "published_slug": null
+    },
+    {
+      "order": 65,
+      "arabic": "الْوَاجِد",
+      "transliteration": "El-Vacid",
+      "meaning": "Dilediğini dilediği an bulan, hiçbir şeye muhtaç olmayan.",
+      "slug": "el-vacid",
+      "published_slug": null
+    },
+    {
+      "order": 66,
+      "arabic": "الْمَاجِد",
+      "transliteration": "El-Macid",
+      "meaning": "Kadri ve şanı yüce, cömertliği bol olan.",
+      "slug": "el-macid",
+      "published_slug": null
+    },
+    {
+      "order": 67,
+      "arabic": "الْواحِدُ",
+      "transliteration": "El-Vahid",
+      "meaning": "Zâtında, sıfatlarında eşi ve benzeri olmayan tek.",
+      "slug": "el-vahid",
+      "published_slug": null
+    },
+    {
+      "order": 68,
+      "arabic": "اَلاَحَدُ",
+      "transliteration": "El-Ehad",
+      "meaning": "Bölünme ve çoğalma kabul etmeyen, mutlak tek.",
+      "slug": "el-ehad",
+      "published_slug": null
+    },
+    {
+      "order": 69,
+      "arabic": "الصَّمَد",
+      "transliteration": "Es-Samed",
+      "meaning": "Hiçbir şeye muhtaç olmayan, herkesin kendisine muhtaç olduğu.",
+      "slug": "es-samed",
+      "published_slug": null
+    },
+    {
+      "order": 70,
+      "arabic": "الْقَادِر",
+      "transliteration": "El-Kadir",
+      "meaning": "Dilediğini dilediği gibi yapmaya gücü yeten.",
+      "slug": "el-kadir",
+      "published_slug": null
+    },
+    {
+      "order": 71,
+      "arabic": "الْمُقْتَدِر",
+      "transliteration": "El-Muktedir",
+      "meaning": "Kudretiyle her şeyde dilediği gibi tasarruf eden.",
+      "slug": "el-muktedir",
+      "published_slug": null
+    },
+    {
+      "order": 72,
+      "arabic": "الْمُقَدِّم",
+      "transliteration": "El-Mukaddim",
+      "meaning": "Dilediğini öne alan, ilerleten.",
+      "slug": "el-mukaddim",
+      "published_slug": null
+    },
+    {
+      "order": 73,
+      "arabic": "الْمُؤَخِّر",
+      "transliteration": "El-Muahhir",
+      "meaning": "Dilediğini geri bırakan.",
+      "slug": "el-muahhir",
+      "published_slug": null
+    },
+    {
+      "order": 74,
+      "arabic": "الأوَّل",
+      "transliteration": "El-Evvel",
+      "meaning": "Varlığının başlangıcı olmayan, her şeyden önce var olan.",
+      "slug": "el-evvel",
+      "published_slug": null
+    },
+    {
+      "order": 75,
+      "arabic": "الآخِر",
+      "transliteration": "El-Ahir",
+      "meaning": "Varlığının sonu olmayan, her şeyden sonra baki kalan.",
+      "slug": "el-ahir",
+      "published_slug": null
+    },
+    {
+      "order": 76,
+      "arabic": "الظَّاهِر",
+      "transliteration": "Ez-Zahir",
+      "meaning": "Varlığı delilleriyle apaçık ortada olan.",
+      "slug": "ez-zahir",
+      "published_slug": null
+    },
+    {
+      "order": 77,
+      "arabic": "الْبَاطِن",
+      "transliteration": "El-Batın",
+      "meaning": "Zâtı akılla, gözle idrak edilemeyen, gizli olan.",
+      "slug": "el-batin",
+      "published_slug": null
+    },
+    {
+      "order": 78,
+      "arabic": "الْوَالِي",
+      "transliteration": "El-Vali",
+      "meaning": "Bütün kâinatı tek başına yöneten.",
+      "slug": "el-vali",
+      "published_slug": null
+    },
+    {
+      "order": 79,
+      "arabic": "الْمُتَعَالِي",
+      "transliteration": "El-Müteal",
+      "meaning": "Yarattıklarının vasıflarından ve eksikliklerinden yüce olan.",
+      "slug": "el-muteal",
+      "published_slug": null
+    },
+    {
+      "order": 80,
+      "arabic": "الْبَرّ",
+      "transliteration": "El-Berr",
+      "meaning": "İyiliği ve ihsanı bol olan.",
+      "slug": "el-berr",
+      "published_slug": null
+    },
+    {
+      "order": 81,
+      "arabic": "التَّوَّاب",
+      "transliteration": "Et-Tevvab",
+      "meaning": "Tövbeleri çokça kabul eden.",
+      "slug": "et-tevvab",
+      "published_slug": null
+    },
+    {
+      "order": 82,
+      "arabic": "الْمُنْتَقِم",
+      "transliteration": "El-Müntekim",
+      "meaning": "Zalimleri ve suçluları adaletiyle cezalandıran.",
+      "slug": "el-muntekim",
+      "published_slug": null
+    },
+    {
+      "order": 83,
+      "arabic": "العَفُوّ",
+      "transliteration": "El-Afüv",
+      "meaning": "Günahları affeden, kusurları silen.",
+      "slug": "el-afuv",
+      "published_slug": null
+    },
+    {
+      "order": 84,
+      "arabic": "الرَّؤُوف",
+      "transliteration": "Er-Raûf",
+      "meaning": "Çok şefkatli, esirgeyici.",
+      "slug": "er-rauf",
+      "published_slug": null
+    },
+    {
+      "order": 85,
+      "arabic": "مَالِكُ الْمُلْكِ",
+      "transliteration": "Malikü'l-Mülk",
+      "meaning": "Mülkün ve hükümranlığın gerçek ve tek sahibi.",
+      "slug": "malikul-mulk",
+      "published_slug": null
+    },
+    {
+      "order": 86,
+      "arabic": "ذُوالْجَلاَلِ وَالإِكْرَامِ",
+      "transliteration": "Zülcelali ve'l-İkram",
+      "meaning": "Sonsuz azamet, ululuk ve ikram sahibi.",
+      "slug": "zulcelali-vel-ikram",
+      "published_slug": null
+    },
+    {
+      "order": 87,
+      "arabic": "الْمُقْسِط",
+      "transliteration": "El-Muksit",
+      "meaning": "Her işi denk, adaletle yapan.",
+      "slug": "el-muksit",
+      "published_slug": null
+    },
+    {
+      "order": 88,
+      "arabic": "الْجَامِع",
+      "transliteration": "El-Cami",
+      "meaning": "Dilediğini dilediği yerde ve zamanda bir araya toplayan.",
+      "slug": "el-cami",
+      "published_slug": null
+    },
+    {
+      "order": 89,
+      "arabic": "الْغَنِيّ",
+      "transliteration": "El-Ganiy",
+      "meaning": "Hiçbir şeye muhtaç olmayan, sonsuz zenginlik sahibi.",
+      "slug": "el-ganiy",
+      "published_slug": null
+    },
+    {
+      "order": 90,
+      "arabic": "الْمُغْنِي",
+      "transliteration": "El-Muğni",
+      "meaning": "Dilediğini zengin kılan, kullarını ihtiyaçtan kurtaran.",
+      "slug": "el-mugni",
+      "published_slug": null
+    },
+    {
+      "order": 91,
+      "arabic": "اَلْمَانِعُ",
+      "transliteration": "El-Mani",
+      "meaning": "Dilemediği şeyin gerçekleşmesine engel olan.",
+      "slug": "el-mani",
+      "published_slug": null
+    },
+    {
+      "order": 92,
+      "arabic": "الضَّار",
+      "transliteration": "Ed-Darr",
+      "meaning": "Hikmeti gereği zarar verecek şeyleri de yaratan.",
+      "slug": "ed-darr",
+      "published_slug": null
+    },
+    {
+      "order": 93,
+      "arabic": "النَّافِع",
+      "transliteration": "En-Nafi",
+      "meaning": "Hayır ve fayda veren her şeyi yaratan.",
+      "slug": "en-nafi",
+      "published_slug": null
+    },
+    {
+      "order": 94,
+      "arabic": "النُّور",
+      "transliteration": "En-Nur",
+      "meaning": "Alemleri aydınlatan, hidayetiyle gönülleri nurlandıran.",
+      "slug": "en-nur",
+      "published_slug": null
+    },
+    {
+      "order": 95,
+      "arabic": "الْهَادِي",
+      "transliteration": "El-Hadi",
+      "meaning": "Kullarını doğru yola ileten, hidayet veren.",
+      "slug": "el-hadi",
+      "published_slug": null
+    },
+    {
+      "order": 96,
+      "arabic": "الْبَدِيع",
+      "transliteration": "El-Bedi",
+      "meaning": "Örneksiz, eşsiz güzellikte yaratan.",
+      "slug": "el-bedi",
+      "published_slug": null
+    },
+    {
+      "order": 97,
+      "arabic": "اَلْبَاقِي",
+      "transliteration": "El-Baki",
+      "meaning": "Varlığının sonu olmayan, ebedi olarak var olan.",
+      "slug": "el-baki",
+      "published_slug": null
+    },
+    {
+      "order": 98,
+      "arabic": "الْوَارِث",
+      "transliteration": "El-Varis",
+      "meaning": "Her şeyin gerçek ve sonsuz sahibi, mülkün son varisi.",
+      "slug": "el-varis",
+      "published_slug": null
+    },
+    {
+      "order": 99,
+      "arabic": "الرَّشِيد",
+      "transliteration": "Er-Reşid",
+      "meaning": "Bütün işleri hikmetle sonuca ulaştıran, doğru yolu gösteren.",
+      "slug": "er-resid",
+      "published_slug": null
+    },
+    {
+      "order": 100,
+      "arabic": "الصَّبُور",
+      "transliteration": "Es-Sabur",
+      "meaning": "Kullarının isyanına rağmen cezalandırmakta acele etmeyen, sonsuz sabır sahibi.",
+      "slug": "es-sabur",
+      "published_slug": "es-sabur"
+    }
+  ]
+}

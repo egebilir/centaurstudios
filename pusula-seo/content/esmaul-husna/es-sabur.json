@@ -1,0 +1,57 @@
+{
+  "id": "es-sabur",
+  "content_type": "esmaul-husna",
+  "cluster": "sabir",
+  "slug": "es-sabur",
+  "title": "Es-Sabur: Allah'ın Sabır İsmi ve Anlamı",
+  "seo_title": "Es-Sabur (Allah'ın Sabır İsmi) Anlamı | Pusula",
+  "meta_description": "Es-Sabur ne anlama gelir? Allah'ın Esmaül Hüsna'dan bu ismini, ilgili ayetleri ve bu isimden hayata dair çıkarılabilecek dersleri anlatıyoruz.",
+  "dek": "Esmaül Hüsna'nın sabır ile doğrudan bağlantılı ismi: Es-Sabur'un anlamı ve hayata yansıması.",
+  "primary_keyword": "Es-Sabur anlamı",
+  "published_date": "2026-08-07",
+  "updated_date": "2026-08-07",
+  "related_slugs": ["sabir-duasi", "sabir-ile-ilgili-ayetler", "hz-eyyubun-sabri", "tevekkul-ve-sabir-arasindaki-fark"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Es-Sabur, Esmaül Hüsna'nın (Allah'ın güzel isimleri) popüler sıralamalarda sonuncusu olarak sayılır ve \"kullarının isyanına, hatalarına rağmen cezalandırmakta acele etmeyen, sonsuz sabır sahibi\" anlamına gelir. İnsan sabrının kaynağı olan aynı kökten (s-b-r) gelen bu isim, sabrı yalnızca kulun gösterdiği bir çaba değil, önce ve öncelikle Allah'ın bizzat kendisine ait bir sıfatı olarak tanımlar."
+    },
+    { "type": "heading", "level": 2, "text": "Es-Sabur'un Anlamı" },
+    {
+      "type": "paragraph",
+      "text": "Diğer bazı isimlerden farklı olarak Es-Sabur, insana yönelik bir sabrı ifade eder: Allah, kullarının hatalarını, isyanlarını hemen cezalandırmak yerine onlara süre tanır, tövbe ve düzelme fırsatı verir. Bu, kayıtsızlık ya da ilgisizlik değildir — bilakis, sonsuz kudretin, cezalandırmayı hemen uygulamak yerine erteleyecek kadar hâkim olmasının bir göstergesidir."
+    },
+    { "type": "verse", "ref": "16:61", "note": "Bu ayet, Es-Sabur isminin özünü doğrudan anlatır: Allah, insanları haksızlıkları yüzünden hemen yakalasaydı, yeryüzünde hiçbir canlı kalmazdı; bunun yerine belirli bir süreye kadar erteler." },
+    {
+      "type": "paragraph",
+      "text": "Bu erteleme, keyfi değil, belirlenmiş bir süreye (ecel) bağlıdır — yani sınırsız değildir, ama insanın tahmin edebileceğinden çok daha geniştir. Es-Sabur ismi, bu genişliğin bir lütuf olduğunu, ceza değil fırsat anlamına geldiğini hatırlatır."
+    },
+    { "type": "heading", "level": 2, "text": "İnsan Sabrı ile Es-Sabur Arasındaki Bağ" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, sabreden kulların Allah'la birlikte olduğunu söyler:"
+    },
+    { "type": "verse", "ref": "2:153", "note": "\"Allah sabredenlerle beraberdir\" ifadesi, insanın gösterdiği sabrın, Allah'ın kendi sıfatı olan sabra bir yönelme, ona benzemeye çalışma olarak okunabileceğini gösterir." },
+    {
+      "type": "paragraph",
+      "text": "Yani insanın sabrı ile Allah'ın Es-Sabur sıfatı arasında bir taklit değil, bir yönelim ilişkisi vardır: kul, kendi ölçeğinde sabrederek, Allah'ın sonsuz sabrına bir nebze yaklaşmaya çalışır. Bu, sabrı yalnızca katlanılan bir yük olmaktan çıkarıp, ilahi bir sıfata benzemeye çalışmanın bir yolu haline getirir."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Es-Sabur İsminden Hayatına Taşıyabileceklerin",
+      "items": [
+        "Başkalarının hatalarına karşı hemen tepki vermek yerine, Es-Sabur'u hatırlayarak bir süre tanımayı dene.",
+        "Kendi hatalarına karşı da acele bir öz-yargıya varmak yerine, Allah'ın sana tanıdığı süreyi düzelmek için bir fırsat olarak gör.",
+        "Zorluk anında yalnızca \"katlanmayı\" değil, 2:153'teki gibi Allah'ın sabredenlerle beraber olduğunu hatırlayarak bir yakınlık kurmayı dene."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Es-Sabur ne anlama gelir?", "a": "Es-Sabur, Allah'ın kullarının isyan ve hatalarına rağmen onları cezalandırmakta acele etmeyen, sonsuz sabır sahibi olduğunu ifade eden ismidir." },
+    { "q": "Es-Sabur Kur'an'da hangi ayetle ilişkilendirilir?", "a": "16:61. ayet, Allah'ın insanları haksızlıkları yüzünden hemen cezalandırmayıp belirli bir süreye kadar ertelediğini anlatarak bu ismin anlamını doğrudan yansıtır." },
+    { "q": "Es-Sabur ile insanın sabrı arasında ne ilişki vardır?", "a": "İnsanın sabrı, Allah'ın Es-Sabur sıfatına bir benzeme çabası olarak okunabilir; 2:153'te Allah'ın sabredenlerle beraber olduğu bildirilir." },
+    { "q": "Es-Sabur, Allah'ın günahı görmezden geldiği anlamına mı gelir?", "a": "Hayır. Erteleme, belirli bir süreye (ecel) bağlıdır ve bir düzelme fırsatı sunar; sınırsız ya da sonuçsuz bir görmezden gelme değildir." }
+  ],
+  "cta_text": "Duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}

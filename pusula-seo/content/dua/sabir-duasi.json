@@ -1,0 +1,87 @@
+{
+  "id": "sabir-duasi",
+  "content_type": "dua",
+  "cluster": "sabir",
+  "slug": "sabir-duasi",
+  "title": "Sabır Duası: Zorluk Anlarında Okunacak Dua ve Anlamı",
+  "seo_title": "Sabır Duası: Zorlukta Okunacak Dua ve Anlamı | Pusula",
+  "meta_description": "Sabır duası nedir, ne zaman okunur? Kur'an'ın sabırla ilgili ayetleri ışığında zorluk anında okunacak dua, anlamı ve sabrı güçlendirecek adımlar.",
+  "dek": "Zorluk anında kalbi Allah'a bağlayan bir dua, konuyla ilgili ayetler ve sabrı güçlendirecek somut adımlar.",
+  "primary_keyword": "sabır duası",
+  "published_date": "2026-08-07",
+  "updated_date": "2026-08-07",
+  "related_slugs": ["sabir-ile-ilgili-ayetler", "es-sabur", "hz-eyyubun-sabri", "tevekkul-ve-sabir-arasindaki-fark"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Sabır duası, zorluk, kayıp ya da yorgunluk anında kalbi Allah'a bağlamak için edilen ve Kur'an'ın sabırla ilgili öğütlerinden ilham alan bir duadır. Kur'an'da \"sabır duası\" adıyla tek, sabit bir ayet geçmez; bunun yerine sabır hem Allah'tan istenen bir lütuf hem de bizzat uygulanması gereken bir tutum olarak anlatılır. Aşağıda hem Kur'an'dan doğrudan bir dua örneğini hem de bu anlayıştan ilhamla kendi cümlelerinle edebileceğin bir duayı bulacaksın."
+    },
+    { "type": "heading", "level": 2, "text": "Kur'an'dan Bir Sabır Duası: Hz. Eyyub'un Duası" },
+    {
+      "type": "paragraph",
+      "text": "Sabrın Kur'an'daki en güçlü örneklerinden biri, ağır bir hastalıkla sınanan Hz. Eyyub'un Rabbine yönelişidir. Kendi acısını uzun uzun anlatmak yerine, kısa ve özlü bir cümleyle Allah'a sığınır:"
+    },
+    { "type": "verse", "ref": "21:83", "note": "Hz. Eyyub, çektiği sıkıntıyı Allah'a arz ederken şikayet değil, sığınma ve teslimiyet dilini kullanır." },
+    { "type": "verse", "ref": "21:84", "note": "Ayetin devamı, bu duanın karşılıksız kalmadığını, sabrın ardından bir ferahlığın geldiğini gösterir." },
+    {
+      "type": "paragraph",
+      "text": "Bu duanın gücü, kısalığında ve içtenliğindedir: dert doğrudan Allah'a anlatılır, ardından O'nun sonsuz merhametine güvenilir. Zorlukla karşılaştığında bu iki cümleyi kendi diline çevirerek tekrar edebilirsin: \"Başıma bir sıkıntı geldi, ama Sen merhametlilerin en merhametlisisin.\""
+    },
+    { "type": "heading", "level": 2, "text": "Kendi Cümlelerinle Edebileceğin Bir Sabır Duası" },
+    {
+      "type": "dua",
+      "turkish_dua": "Allah'ım, bu zorluğu taşımakta bana sabır ve güç ver. Kalbim daraldığında beni ferahlat, yorulduğumda beni dinlendir. Beni sabredenlerden eyle ve bu sıkıntıyı hakkımda hayra çevir.",
+      "note": "Dua, kendi dilinde ve kendi kelimelerinle de edilebilir; önemli olan içtenlik ve Allah'a yönelmektir. Bu metin, ezberlenmesi gereken sabit bir formül değil, örnek bir başlangıç noktasıdır."
+    },
+    { "type": "heading", "level": 2, "text": "Sabırla İlgili Temel Ayet" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, sabrı yalnızca pasif bir katlanma değil, namazla birlikte Allah'tan yardım istemenin bir yolu olarak tanımlar:"
+    },
+    { "type": "verse", "ref": "2:153", "note": "Bu ayet, sabrı \"yardım isteme\" araçlarından biri olarak namazla yan yana zikreder — yani sabır, çaresizlik değil, aktif bir yönelmedir." },
+    {
+      "type": "paragraph",
+      "text": "Sabrın karşılıksız kalmayacağı da açıkça vurgulanır. Allah, sabredenlerin ecrini sınırsız olarak vereceğini bildirir:"
+    },
+    { "type": "verse", "ref": "39:10", "note": "\"Hesapsız\" ifadesi, sabrın Allah katındaki değerinin diğer amellerden farklı, ölçüsüz bir şekilde karşılık bulacağına işaret eder." },
+    { "type": "heading", "level": 2, "text": "Sabır Duası Ne Zaman Okunur?" },
+    {
+      "type": "paragraph",
+      "text": "Sabır duası için belirli bir vakit şartı yoktur. Bir kayıp haberini aldığında, hastalıkla uğraşırken, sınav sonucunu beklerken, iş veya ilişki zorluklarında ya da sadece günün ağır geldiği anlarda edilebilir. Namaz sonrası, gece sessizliğinde ya da zorluğun tam ortasında, aklına geldiği her an okunabilir — önemli olan belirli bir kalıba bağlı kalmak değil, o anki hâlini samimiyetle Allah'a açmaktır."
+    },
+    { "type": "heading", "level": 2, "text": "Sabrın Üç Boyutu" },
+    {
+      "type": "paragraph",
+      "text": "İslam geleneğinde sabır tek bir durumla sınırlı değildir, üç boyutuyla ele alınır: ibadeti sürdürmekte sabır, günahtan uzak durmakta sabır ve başa gelen musibete sabır. Sabır duası, özellikle bu üçüncü boyutla, yani kayıp, hastalık ya da korkuyla sınanma anlarıyla ilişkilendirilir."
+    },
+    { "type": "verse", "ref": "2:155", "note": "Bu ayet, korku, açlık, mal ve can kaybı gibi farklı sınama biçimlerini tek tek sayar — sabrın tek bir zorluk türüne değil, hayatın her alanına dair olduğunu gösterir." },
+    { "type": "verse", "ref": "2:156", "note": "Musibet anında söylenen \"biz Allah'ınız ve O'na döneceğiz\" cümlesi, sabrın özünde bir teslimiyet ve anlam arayışı olduğunu ortaya koyar." },
+    {
+      "type": "paragraph",
+      "text": "Bu üç boyutu hatırlamak, sabrı yalnızca \"kötü bir şeye katlanmak\" olarak görmekten kurtarır. Sabır aynı zamanda güzel bir alışkanlığı sürdürmekte, ya da bir kötülükten kendini alıkoymakta gösterilen iradedir — musibet anındaki sabır, bu daha geniş çabanın yalnızca bir parçasıdır."
+    },
+    { "type": "heading", "level": 3, "text": "Sabırla Feryat Etmek Arasındaki Fark" },
+    {
+      "type": "paragraph",
+      "text": "Sabır, duyguları bastırmak ya da acıyı yok saymak değildir. Hz. Eyyub'un duası da bunu gösterir: önce \"başıma bir bela geldi\" diyerek durumu olduğu gibi kabul eder, sonra Allah'ın merhametine sığınır. Sabır duası da böyle işler — zorluğu inkâr etmeden, onu Allah'a taşıyarak. Ağlamak, üzülmek ya da yorulduğunu itiraf etmek sabrı bozmaz; tam tersine, bu duyguları saklamadan Allah'a açmak, sabrın kendisinin bir parçasıdır. Sabırsızlık, duyguyu hissetmekte değil, o duygunun seni umutsuzluğa ya da isyana sürüklemesine izin vermektedir."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Zorluk Anında Yapabileceklerin",
+      "items": [
+        "Durumu olduğu gibi, abartmadan ve inkâr etmeden Allah'a anlat; Hz. Eyyub'un duası buna bir örnektir.",
+        "Sabır duasını günlük bir alışkanlığa dönüştürmek için, zorlandığın anları fark ettiğinde birkaç saniyeliğine durup kısa bir dua et.",
+        "Sabrı tek başına bir bekleyiş olarak değil, 2:153. ayetteki gibi namaz ve dua ile birlikte aktif bir yöneliş olarak yaşamayı dene."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Sabır duası Kur'an'da geçen bir ayet mi?", "a": "Kur'an'da \"sabır duası\" adında tek bir ayet yoktur. Ancak Hz. Eyyub'un 21:83. ayette yer alan duası, sabrın Kur'an'daki en somut dua örneğidir; bunun dışında sabırla ilgili birçok ayet vardır." },
+    { "q": "Sabır duası hangi dilde edilmeli?", "a": "Dua, Arapça bilmiyorsan kendi dilinde de edilebilir. Önemli olan kalıp bir metni ezberden okumak değil, içtenlikle Allah'a yönelmektir." },
+    { "q": "Sabır duasını ne zaman okumalıyım?", "a": "Belirli bir vakit şartı yoktur. Zorluk, kayıp, hastalık ya da yorgunluk hissettiğin her an edilebilir." },
+    { "q": "Sabretmek pasif bir tutum mudur?", "a": "Hayır. Kur'an, sabrı namaz ve duayla birlikte anar (2:153); yani sabır, olan bitene razı olup hiçbir şey yapmamak değil, zorlukla aktif ve umutlu bir şekilde baş etmektir." },
+    { "q": "Sabretmenin karşılığı var mıdır?", "a": "Evet. 39:10. ayette, sabredenlerin ecrinin hesapsız/sınırsız olarak ödeneceği açıkça bildirilir." }
+  ],
+  "cta_text": "Duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}

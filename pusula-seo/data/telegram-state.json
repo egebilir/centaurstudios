@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "last_update_id": 799536443,
+  "paused": false,
+  "pending_commands": [],
+  "last_run": {
+    "morning_report": null,
+    "evening_summary": null,
+    "gsc_pull": "2026-08-07T15:45:34.599Z",
+    "refresh_scan": null,
+    "advisor_recommendations": null,
+    "new_article": null
+  }
+}
