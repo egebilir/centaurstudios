@@ -1,6 +1,11 @@
 {
   "schema_version": 1,
   "notes": "Populated exclusively by scripts/gsc/detect-milestones.mjs. Tracks which Search Console milestones have already been notified about, per page and per (page, primary_keyword) pair, so nothing fires twice.",
-  "indexed_pages": {},
+  "indexed_pages": {
+    "https://centaurstudios.online/pusula/ayet/sabir-ile-ilgili-ayetler/": {
+      "notified_at": "2026-08-07T17:10:33.496Z",
+      "title": "Sabır ile İlgili Ayetler: Kur'an'da Sabrın Anlatıldığı 8 Ayet"
+    }
+  },
   "page_queries": {}
 }
