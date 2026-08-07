@@ -155,6 +155,45 @@ async function buildBlogIndex(publishedItems, clustersMeta) {
   return { count: recent.length };
 }
 
+/**
+ * Refreshes the "From the Blog" teaser on the hand-authored landing page
+ * (pusula/index.html) with the 3 most recent published articles. Only
+ * touches the content strictly between the BLOG_TEASER_CARDS marker
+ * comments — everything else on that page is left exactly as written.
+ * If the markers aren't found (someone edited them out), this logs a
+ * warning and does nothing rather than guessing where to inject.
+ */
+function updateLandingPageTeaser(publishedItems) {
+  const landingPath = path.join(PUSULA_DIR, 'index.html');
+  if (!fs.existsSync(landingPath)) return { updated: false, count: 0 };
+
+  const recent = [...publishedItems]
+    .sort((a, b) => (b.published_date || '').localeCompare(a.published_date || ''))
+    .slice(0, 3);
+
+  // '' prefix: pusula/index.html *is* the /pusula/ root, so links need no
+  // leading ../ the way hub/blog-index pages (one level deeper) do.
+  const cardsHtml = recent.map((i) => articleCardHtml(i, '')).join('\n');
+
+  const html = fs.readFileSync(landingPath, 'utf8');
+  const startMarker = '<!-- BLOG_TEASER_CARDS_START -->';
+  const endMarker = '<!-- BLOG_TEASER_CARDS_END -->';
+  const startIdx = html.indexOf(startMarker);
+  const endIdx = html.indexOf(endMarker);
+
+  if (startIdx === -1 || endIdx === -1 || endIdx < startIdx) {
+    console.warn('⚠ Blog teaser markers not found in pusula/index.html — skipping landing page update');
+    return { updated: false, count: 0 };
+  }
+
+  const updated = html.slice(0, startIdx + startMarker.length)
+    + '\n' + cardsHtml + '\n'
+    + html.slice(endIdx);
+
+  fs.writeFileSync(landingPath, updated, 'utf8');
+  return { updated: true, count: recent.length };
+}
+
 export async function buildInterlinks() {
   const allContent = loadAllContent();
   const publishedContent = allContent.filter(isPublished);
@@ -176,7 +215,12 @@ export async function buildInterlinks() {
   // 3. Rebuild the blog index.
   const blogIndexResult = await buildBlogIndex(publishedContent, clustersMeta);
 
-  return { articlesRelinked: publishedContent.length, hubs: hubResults, blogIndex: blogIndexResult };
+  // 4. Refresh the landing page's "From the Blog" teaser.
+  const landingTeaser = updateLandingPageTeaser(publishedContent);
+
+  return {
+    articlesRelinked: publishedContent.length, hubs: hubResults, blogIndex: blogIndexResult, landingTeaser
+  };
 }
 
 if (isMain(import.meta.url)) {
@@ -184,4 +228,7 @@ if (isMain(import.meta.url)) {
   console.log(`✓ Re-linked ${result.articlesRelinked} articles`);
   result.hubs.forEach((h) => console.log(`✓ Hub /pusula/kategori/${h.cluster}/ — ${h.count} items`));
   console.log(`✓ Blog index — ${result.blogIndex.count} items shown`);
+  console.log(result.landingTeaser.updated
+    ? `✓ Landing page blog teaser — ${result.landingTeaser.count} items shown`
+    : `⚠ Landing page blog teaser NOT updated`);
 }
