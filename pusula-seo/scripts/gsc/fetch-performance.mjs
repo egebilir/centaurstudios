@@ -8,6 +8,11 @@
  * the service account as a verified user on the Search Console property
  * first). Until then, returns {connected:false} — callers must show that
  * honestly rather than inventing numbers.
+ *
+ * IMPORTANT: the Search Console *property* is typically domain-wide
+ * (centaurstudios.online covers every app on the site, not just Pusula).
+ * Every query here filters to PAGE_PATH_FILTER so "Pusula" reports don't
+ * silently blend in clicks/impressions from other apps sharing the domain.
  */
 import { google } from 'googleapis';
 import { loadEnv } from '../lib/env.mjs';
@@ -18,6 +23,11 @@ loadEnv();
 
 const SERVICE_NAME = 'Google Search Console';
 
+// This whole toolkit is Pusula-specific (it lives in pusula-seo/), so every
+// GSC query is scoped to pages whose path contains this. If the domain ever
+// hosts Pusula content under a different path, update this one constant.
+const PAGE_PATH_FILTER = '/pusula/';
+
 function fmt(d) {
   return d.toISOString().slice(0, 10);
 }
@@ -25,7 +35,15 @@ function fmt(d) {
 async function queryWindow(searchconsole, siteUrl, startDate, endDate, dimensions = [], rowLimit = 200) {
   const res = await searchconsole.searchanalytics.query({
     siteUrl,
-    requestBody: { startDate: fmt(startDate), endDate: fmt(endDate), dimensions, rowLimit }
+    requestBody: {
+      startDate: fmt(startDate),
+      endDate: fmt(endDate),
+      dimensions,
+      rowLimit,
+      dimensionFilterGroups: [{
+        filters: [{ dimension: 'page', operator: 'contains', expression: PAGE_PATH_FILTER }]
+      }]
+    }
   });
   return res.data.rows || [];
 }
