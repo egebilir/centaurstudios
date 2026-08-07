@@ -205,6 +205,151 @@
   color: var(--accent-gold-soft) !important;
 }
 
+/* ---------- Inline contextual CTA (early/mid article) ---------- */
+.pusula-inline-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+  background: linear-gradient(135deg, rgba(212, 175, 138, 0.1), rgba(95, 184, 166, 0.07));
+  border: 1px solid var(--bg-glass-border);
+  border-radius: var(--card-radius);
+  padding: 22px 26px;
+  margin: 32px 0;
+}
+
+.pusula-inline-cta-text {
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: var(--font-heading);
+  font-style: italic;
+  margin: 0;
+  flex: 1 1 260px;
+}
+
+.pusula-inline-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: var(--gradient-hero);
+  color: #16231f;
+  font-weight: 600;
+  font-size: 0.88rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: var(--transition-base);
+}
+
+.pusula-inline-cta-btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+}
+
+.pusula-inline-cta-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ---------- Mini "you may also like" block (mid-article) ---------- */
+.pusula-mini-related {
+  margin: 32px 0;
+  padding: 18px 22px;
+  border-left: 3px solid var(--accent-cyan);
+  background: var(--bg-glass);
+  border-radius: 0 var(--card-radius) var(--card-radius) 0;
+}
+
+.pusula-mini-related-title {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-cyan-soft);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.pusula-mini-related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.pusula-mini-related-links a {
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  text-decoration: underline;
+  text-decoration-color: rgba(95, 184, 166, 0.4);
+  text-underline-offset: 3px;
+}
+
+.pusula-mini-related-links a:hover {
+  color: var(--accent-cyan-soft);
+}
+
+/* ---------- Sticky mobile CTA ---------- */
+.pusula-sticky-cta {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  display: none;
+}
+
+.pusula-sticky-cta.visible {
+  transform: translateY(0);
+}
+
+.pusula-sticky-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 10px 14px;
+  padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  background: rgba(11, 30, 27, 0.92);
+  backdrop-filter: blur(16px);
+  border-top: 1px solid var(--bg-glass-border);
+}
+
+.pusula-sticky-cta-text {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pusula-sticky-cta-btn {
+  flex-shrink: 0;
+  padding: 8px 18px;
+  border-radius: 100px;
+  background: var(--gradient-hero);
+  color: #16231f;
+  font-weight: 600;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .pusula-sticky-cta {
+    display: block;
+  }
+
+  /* Leave room so the sticky bar never covers the FAQ/CTA/related sections. */
+  .pusula-article-page {
+    padding-bottom: 76px;
+  }
+}
+
 .pusula-quote-callout {
   font-family: var(--font-heading);
   font-size: 1.3rem;

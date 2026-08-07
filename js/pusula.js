@@ -91,8 +91,34 @@
     });
   }
 
+  // Small sticky CTA bar for mobile article pages. Appears after the reader
+  // has scrolled a bit (not immediately, to stay unobtrusive) and hides
+  // again once the full bottom CTA band is on screen, so it never competes
+  // with the real CTA.
+  function initStickyCta() {
+    var stickyCta = document.getElementById('pusulaStickyCta');
+    if (!stickyCta) return;
+
+    var SHOW_AFTER_PX = 600;
+    var ctaBand = document.querySelector('.pusula-cta-band');
+
+    function update() {
+      var scrolled = window.scrollY || window.pageYOffset;
+      var pastThreshold = scrolled > SHOW_AFTER_PX;
+      var reachedCtaBand = false;
+      if (ctaBand) {
+        reachedCtaBand = ctaBand.getBoundingClientRect().top < window.innerHeight;
+      }
+      stickyCta.classList.toggle('visible', pastThreshold && !reachedCtaBand);
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     initStoreLinks();
     initStaticStoreBadges();
+    initStickyCta();
   });
 })();

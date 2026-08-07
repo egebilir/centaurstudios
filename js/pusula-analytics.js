@@ -1,17 +1,21 @@
 /* ============================================
    Pusula — Analytics (GA4 + PostHog)
    Loaded on every /pusula/* page (landing page
-   and every generated content page).
+   and every generated content page) via a single
+   shared <script> include — this file is the only
+   place either ID is ever set.
 
-   Fill in the two IDs below once the GA4 property
-   and PostHog project exist (see pusula-seo README,
-   "Phase 3"). Until then this file no-ops safely —
-   no broken requests, no console errors.
+   GA4 is live (property created, see pusula-seo
+   RUNBOOK.md Phase 3 notes). PostHog is still a
+   placeholder — fill in POSTHOG_KEY once that
+   project exists. Until then PostHog no-ops safely
+   (no broken requests, no console errors); GA4
+   already fires for real.
    ============================================ */
 (function () {
   'use strict';
 
-  var GA4_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // TODO(Phase 3): replace with the real GA4 measurement ID
+  var GA4_MEASUREMENT_ID = 'G-4M3FKQ4227';
   var POSTHOG_KEY = 'phc_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // TODO(Phase 3): replace with the real PostHog project API key
   var POSTHOG_HOST = 'https://eu.posthog.com';
 

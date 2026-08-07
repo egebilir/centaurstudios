@@ -5,77 +5,99 @@
       "name": "Sabır",
       "description": "Zorluk anlarında sabır, Kur'an'ın sabırla ilgili öğütleri ve sabreden peygamberlerin örnekliği.",
       "hub_title": "Sabır: Dua, Ayet ve Kıssalarla",
-      "seo_keyword": "sabır"
+      "seo_keyword": "sabır",
+      "cta_early": "Sabırla ilgili her gün yeni ayetler ve dualar görmek ister misiniz?",
+      "cta_mid": "Zor bir gün geçiriyorsan, Pusula o an için sana bir ayet ve dua önerebilir."
     },
     {
       "slug": "kaygi-ve-stres",
       "name": "Kaygı ve Stres",
       "description": "Kaygı, stres ve huzursuzluk anlarında okunacak dualar, ilgili ayetler ve manevi sakinleşme yolları.",
       "hub_title": "Kaygı ve Stres için Manevi Destek",
-      "seo_keyword": "kaygı"
+      "seo_keyword": "kaygı",
+      "cta_early": "Kaygılı hissettiğiniz anlarda size özel ayet önerileri alın.",
+      "cta_mid": "Stresli anlarında yanında bir manevi rehber olsun ister misin?"
     },
     {
       "slug": "bereket",
       "name": "Bereket",
       "description": "Rızıkta, evde ve emekte bereket için dualar ve bereketle ilgili ayetler.",
       "hub_title": "Bereket Duaları ve Ayetleri",
-      "seo_keyword": "bereket"
+      "seo_keyword": "bereket",
+      "cta_early": "Rızkında ve evinde bereket için günlük dua önerileri almak ister misin?",
+      "cta_mid": "Bereketle ilgili daha fazla ayet ve dua Pusula'da seni bekliyor."
     },
     {
       "slug": "nazar",
       "name": "Nazar",
       "description": "Nazardan korunma duaları, Kur'an'da nazarla ilgili ayetler ve doğru bilgiler.",
       "hub_title": "Nazar Duaları ve Korunma Yolları",
-      "seo_keyword": "nazar"
+      "seo_keyword": "nazar",
+      "cta_early": "Nazardan korunma duasını her gün hatırlaman için bir hatırlatıcı ister misin?",
+      "cta_mid": "Nazar için doğru ayet ve duaları Pusula'da bulabilirsin."
     },
     {
       "slug": "rizik",
       "name": "Rızık",
       "description": "Rızık genişliği için dualar, rızıkla ilgili ayetler ve İslam'da rızık anlayışı.",
       "hub_title": "Rızık Duaları ve Ayetleri",
-      "seo_keyword": "rızık"
+      "seo_keyword": "rızık",
+      "cta_early": "Rızık kapılarının açılması için günlük dua önerileri almak ister misin?",
+      "cta_mid": "Rızıkla ilgili daha fazla ayet ve dua Pusula'da seni bekliyor."
     },
     {
       "slug": "sinav",
       "name": "Sınav",
       "description": "Sınav ve zorluk anlarında okunacak dualar, başarı ve sabırla ilgili ayetler.",
       "hub_title": "Sınav Duaları ve Manevi Hazırlık",
-      "seo_keyword": "sınav"
+      "seo_keyword": "sınav",
+      "cta_early": "Sınav öncesi içini rahatlatacak bir dua ister misin?",
+      "cta_mid": "Sınav sürecinde yanında olacak dualar için Pusula'ya göz atabilirsin."
     },
     {
       "slug": "sifa",
       "name": "Şifa",
       "description": "Hastalık ve şifa için dualar, şifayla ilgili ayetler ve manevi iyileşme.",
       "hub_title": "Şifa Duaları ve Ayetleri",
-      "seo_keyword": "şifa"
+      "seo_keyword": "şifa",
+      "cta_early": "Şifa duasını her gün hatırlaman için bir hatırlatıcı ister misin?",
+      "cta_mid": "Şifayla ilgili daha fazla ayet ve dua Pusula'da seni bekliyor."
     },
     {
       "slug": "tevekkul",
       "name": "Tevekkül",
       "description": "Allah'a güven ve teslimiyet kavramı, tevekkülle ilgili ayetler ve günlük hayatta uygulanışı.",
       "hub_title": "Tevekkül: Anlamı, Ayetleri ve Uygulaması",
-      "seo_keyword": "tevekkül"
+      "seo_keyword": "tevekkül",
+      "cta_early": "Tevekkülü güçlendirecek ayetleri her gün görmek ister misin?",
+      "cta_mid": "Tevekkülle ilgili daha fazla içerik için Pusula'ya göz atabilirsin."
     },
     {
       "slug": "gunluk-dualar",
       "name": "Günlük Dualar",
       "description": "Sabah ve akşam okunacak dualar, günü manevi olarak açma ve kapama.",
       "hub_title": "Sabah ve Akşam Duaları",
-      "seo_keyword": "günlük dua"
+      "seo_keyword": "günlük dua",
+      "cta_early": "Sabah ve akşam dualarını hiç unutmadan hatırlaman için bir hatırlatıcı ister misin?",
+      "cta_mid": "Günlük dua rutinini Pusula'yla kolayca sürdürebilirsin."
     },
     {
       "slug": "esmaul-husna",
       "name": "Esmaül Hüsna",
       "description": "Allah'ın 99 güzel ismi, anlamları ve her ismin hayata yansıması.",
       "hub_title": "Esmaül Hüsna: Allah'ın 99 İsmi",
-      "seo_keyword": "esmaül hüsna"
+      "seo_keyword": "esmaül hüsna",
+      "cta_early": "Allah'ın güzel isimlerini her gün öğrenmek ister misin?",
+      "cta_mid": "Esmaül Hüsna ile ilgili daha fazla içerik için Pusula'ya göz atabilirsin."
     },
     {
       "slug": "kissalar",
       "name": "Peygamber Kıssaları",
       "description": "Peygamberlerin hayatından ders çıkarılacak kıssalar ve Kur'an'daki anlatımları.",
       "hub_title": "Peygamber Kıssaları",
-      "seo_keyword": "peygamber kıssaları"
+      "seo_keyword": "peygamber kıssaları",
+      "cta_early": "Peygamber kıssalarından daha fazlasını okumak ister misin?",
+      "cta_mid": "Kıssalardan ilham alan içerikler için Pusula'ya göz atabilirsin."
     }
   ]
 }
