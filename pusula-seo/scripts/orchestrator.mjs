@@ -100,30 +100,45 @@ async function runDailyMetricsPull(state) {
  * has real reporting lag, no point checking hourly), always — regardless
  * of the `paused` flag, since detecting and celebrating what's already
  * happened isn't "automation" in the sense pause is meant to stop.
- * detectGscMilestones() itself guarantees no duplicate notifications.
+ *
+ * detectGscMilestones() only marks an event as done once it's actually been
+ * sent, and never throws on a send failure (it logs and keeps checking the
+ * rest) — so `last_run.gsc_milestones` below is safe to advance even if some
+ * sends failed today: those specific events stay unmarked and get retried
+ * tomorrow, nothing is silently lost.
  */
 async function runGscMilestoneCheck(state) {
   if (alreadyRanToday(state.last_run.gsc_milestones)) return;
 
-  const events = await detectGscMilestones();
-  for (const event of events) {
-    await sendMessage(formatGscMilestoneEvent(event));
+  const { sent, failed } = await detectGscMilestones();
+  if (failed.length > 0) {
+    console.error(`⚠ ${failed.length} GSC milestone(s) failed to send and will retry tomorrow.`);
+  }
+  if (sent.length > 0) {
+    console.log(`✓ Sent ${sent.length} GSC milestone notification(s).`);
   }
 
   state.last_run.gsc_milestones = new Date().toISOString();
 }
 
+/** Never lets a Telegram delivery failure take down the rest of the run —
+ * the milestone is still detected and can be re-evaluated next tick; only
+ * the "seen" flag is skipped if the send itself fails. */
 async function runMilestoneCheck() {
   const published = loadAllContent().filter(isPublished);
   const milestonesFile = readJSON(MILESTONES_PATH);
   const crossed = checkMilestone('total_published', published.length, milestonesFile.seen);
-  if (crossed) {
+  if (!crossed) return;
+
+  try {
     await sendMessage(formatMilestone({
       metric: 'Toplam yayınlanan içerik',
       value: crossed,
       context: `Pusula içerik kütüphanesi ${crossed} yayına ulaştı.`
     }));
     writeJSON(MILESTONES_PATH, milestonesFile);
+  } catch (err) {
+    console.error(`⚠ Failed to send publish-count milestone (will retry next run): ${err.message}`);
   }
 }
 
@@ -147,10 +162,23 @@ export async function runOrchestratorTick() {
   // rather than continuing to mutate the `state` object captured above —
   // otherwise this function's own writeJSON at the end would clobber that
   // update with the stale pre-poll copy.
-  const { agentActions, processedCount } = await processPendingTelegramInput();
-  due.agentActions.push(...agentActions);
-  if (processedCount > 0) console.log(`Processed ${processedCount} Telegram update(s).`);
-  Object.assign(state, readJSON(STATE_PATH));
+  //
+  // Wrapped: if Telegram itself is unreachable (network policy blocking
+  // api.telegram.org, an outage, whatever), that must not prevent the daily
+  // metrics pull, GSC checks, or publishing from running — those don't need
+  // Telegram, only the "notify about it" step does. A blocked notification
+  // channel degrading to "no notification this hour" is fine; it silently
+  // cancelling the entire run (including the one thing most worth automating)
+  // is not. This exact failure mode is why this try/catch exists — it was
+  // caught for real via a network-egress-policy block, not hypothesized.
+  try {
+    const { agentActions, processedCount } = await processPendingTelegramInput();
+    due.agentActions.push(...agentActions);
+    if (processedCount > 0) console.log(`Processed ${processedCount} Telegram update(s).`);
+    Object.assign(state, readJSON(STATE_PATH));
+  } catch (err) {
+    console.error(`⚠ Telegram polling failed — continuing without it this run: ${err.message}`);
+  }
 
   // 2. Daily metrics pull — always, regardless of pause (observing isn't automating).
   await runDailyMetricsPull(state);
