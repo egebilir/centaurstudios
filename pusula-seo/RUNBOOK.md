@@ -57,12 +57,22 @@ This is the one step that genuinely requires your own reasoning — everything e
    markPublished(topicId, source); // source is '_source' from the pick-topic.mjs output: 'topics.json' or 'esmaul-husna.json'
    ```
 8. Update `data/telegram-state.json`: set `last_run.new_article` to the current ISO timestamp (read-modify-write the file directly — same pattern as `orchestrator.mjs`'s `runDailyMetricsPull`).
-9. Send the success notification:
-   ```js
-   import { buildPublishSuccessMessage } from './scripts/reports/publish-notification.mjs';
-   await sendMessage(buildPublishSuccessMessage(content, { whyNow: '<your one-line reasoning for this topic, this cluster, right now>' }));
-   ```
-10. `git add -A && git commit -m "feat: publish {title}" && git push` — this is what actually makes it live (GitHub Pages deploys on push to `main`).
+9. `git add -A && git commit -m "feat: publish {title}"` — commit locally, but **do not send any Telegram notification yet.** A local commit is not "published." This session's checkout is ephemeral — if the next step fails, this commit will not exist anywhere once the session ends, so there is nothing to "leave pending."
+10. `git push` — this is the step that actually makes it live (GitHub Pages deploys on push to `main`). **Only after this succeeds:**
+    ```js
+    import { buildPublishSuccessMessage } from './scripts/reports/publish-notification.mjs';
+    await sendMessage(buildPublishSuccessMessage(content, { whyNow: '<your one-line reasoning for this topic, this cluster, right now>' }));
+    ```
+    **If the push fails** (auth error, permission error, anything else): do not send the success message — send this instead, and stop the section:
+    ```js
+    import { sendMessage } from './scripts/telegram/client.mjs';
+    import { formatFailure } from './scripts/telegram/format.mjs';
+    await sendMessage(formatFailure({
+      what: 'git push (' + topic.slug + ')',
+      reason: '<the exact git/permission error>. The article passed validation and was committed locally, but this session cannot push to main, so nothing is live. This session is ephemeral — if not pushed before it ends, this work is gone and will need to be regenerated once push access is fixed. This needs a human to fix repo write access, not a retry.'
+    }));
+    ```
+    This replaces an earlier version of this runbook that sent the success message *before* attempting the push — which produced a real false-positive "published" notification that then needed a follow-up correction. Push first, confirm it worked, then and only then say so.
 
 ## 4. `due.morningReport === true`
 
