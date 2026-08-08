@@ -14,6 +14,12 @@ npm ci
 
 Confirm required env vars are set (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` at minimum — `GSC_*`/`GA4_*`/`POSTHOG_*` are optional until Phase 3). If `TELEGRAM_BOT_TOKEN` is missing, stop and do nothing further — there's no way to notify about anything without it, so silently failing everything downstream would be worse than a clear early stop. If you have shell access to a CI/task log, that's your fallback signal.
 
+**Git push authentication**: this environment's ambient GitHub connection is OAuth-based and may not carry write access (this was hit for real — pushes and GitHub API writes both failed with "Resource not accessible by integration"). If `GITHUB_CONTENTS_TOKEN` is set, configure the remote to use it explicitly, once, before doing anything else this run:
+```
+git remote set-url origin "https://x-access-token:${GITHUB_CONTENTS_TOKEN}@github.com/egebilir/centaurstudios.git"
+```
+This makes every `git push` later in this runbook use that token rather than whatever ambient credential may or may not have write access. If `GITHUB_CONTENTS_TOKEN` is not set, proceed with the default remote — Section 3's push-failure handling covers what to do if it turns out not to have write access either.
+
 ## 1. Run the orchestrator
 
 ```
