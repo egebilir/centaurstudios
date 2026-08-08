@@ -14,11 +14,21 @@ npm ci
 
 Confirm required env vars are set (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` at minimum — `GSC_*`/`GA4_*`/`POSTHOG_*` are optional until Phase 3). If `TELEGRAM_BOT_TOKEN` is missing, stop and do nothing further — there's no way to notify about anything without it, so silently failing everything downstream would be worse than a clear early stop. If you have shell access to a CI/task log, that's your fallback signal.
 
-**Git push authentication**: this environment's ambient GitHub connection is OAuth-based and may not carry write access (this was hit for real — pushes and GitHub API writes both failed with "Resource not accessible by integration"). If `GITHUB_CONTENTS_TOKEN` is set, configure the remote to use it explicitly, once, before doing anything else this run:
-```
-git remote set-url origin "https://x-access-token:${GITHUB_CONTENTS_TOKEN}@github.com/egebilir/centaurstudios.git"
-```
-This makes every `git push` later in this runbook use that token rather than whatever ambient credential may or may not have write access. If `GITHUB_CONTENTS_TOKEN` is not set, proceed with the default remote — Section 3's push-failure handling covers what to do if it turns out not to have write access either.
+**Git push authentication**: this environment's ambient GitHub connection is OAuth-based and may not carry write access (this was hit for real — pushes and GitHub API writes both failed with "Resource not accessible by integration"). A `GITHUB_CONTENTS_TOKEN` fine-grained PAT has been independently verified (via both the GitHub API and a real `git push`) to have genuine write access to this repo — if push still fails after this section, the token itself is not the problem, something about this session's access to it is.
+
+1. Check it's actually non-empty *before* trying to use it — an unset variable silently interpolates to an empty string, which produces a remote URL that looks fine but fails at push time with a confusing generic error:
+   ```
+   test -n "$GITHUB_CONTENTS_TOKEN" && echo "token is set (${#GITHUB_CONTENTS_TOKEN} chars)" || echo "GITHUB_CONTENTS_TOKEN is EMPTY or UNSET"
+   ```
+2. If it's set, configure the remote and **verify immediately with a read-only check** — don't wait until the push at the very end of the run to discover auth is broken, after already spending the whole run writing an article:
+   ```
+   git remote set-url origin "https://x-access-token:${GITHUB_CONTENTS_TOKEN}@github.com/egebilir/centaurstudios.git"
+   git ls-remote origin HEAD
+   ```
+3. **If `git ls-remote` fails** (non-zero exit, any auth error): do not proceed to Section 3 at all — writing and validating a whole article is wasted work if it can't be pushed, and we already know that from this one cheap check. Send a diagnostic Telegram message immediately with the exact combination that failed (token empty vs. token present-but-rejected — that distinction matters a lot for what a human needs to go check next), then stop this entire run. Still continue to Section 4+ (reports) if those are due — a broken push shouldn't also silence the daily reports.
+4. If `git ls-remote` succeeds, proceed normally — every `git push` later in this runbook will use this same authenticated remote.
+
+If `GITHUB_CONTENTS_TOKEN` is not set at all, proceed with the default remote — Section 3's push-failure handling covers what to do if it turns out not to have write access either.
 
 ## 1. Run the orchestrator
 
