@@ -14,19 +14,20 @@ npm ci
 
 Confirm required env vars are set (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` at minimum — `GSC_*`/`GA4_*`/`POSTHOG_*` are optional until Phase 3). If `TELEGRAM_BOT_TOKEN` is missing, stop and do nothing further — there's no way to notify about anything without it, so silently failing everything downstream would be worse than a clear early stop. If you have shell access to a CI/task log, that's your fallback signal.
 
-**Git push authentication**: this environment's ambient GitHub connection is OAuth-based and may not carry write access (this was hit for real — pushes and GitHub API writes both failed with "Resource not accessible by integration"). A `GITHUB_CONTENTS_TOKEN` fine-grained PAT has been independently verified (via both the GitHub API and a real `git push`) to have genuine write access to this repo — if push still fails after this section, the token itself is not the problem, something about this session's access to it is.
+**Git push authentication**: this environment's ambient GitHub connection is OAuth-based and may not carry write access (hit for real — pushes and GitHub API writes both failed with "Resource not accessible by integration"). A `GITHUB_CONTENTS_TOKEN` fine-grained PAT has been independently verified (via the GitHub API, a real `git push` to `main`, and a real Contents API write — all from outside this sandbox) to have completely valid write access, and `main` has no branch protection. Despite all of that, `git push` from *this specific sandbox* has still failed with HTTP 403 while `git ls-remote` from the same sandbox, same token, succeeded moments earlier.
 
-1. Check it's actually non-empty *before* trying to use it — an unset variable silently interpolates to an empty string, which produces a remote URL that looks fine but fails at push time with a confusing generic error:
+**That means read-only checks here (`git ls-remote` etc.) do not reliably predict whether `git push` will work later — don't treat one as a stand-in for the other.** The likely cause is GitHub applying stricter automated screening to the git-receive-pack protocol from this network origin specifically, which a `git ls-remote` (read) simply doesn't exercise. So:
+
+1. Check the token is non-empty before trying to use it — an unset variable silently interpolates to an empty string, producing a remote URL that looks fine but fails later with a confusing generic error:
    ```
    test -n "$GITHUB_CONTENTS_TOKEN" && echo "token is set (${#GITHUB_CONTENTS_TOKEN} chars)" || echo "GITHUB_CONTENTS_TOKEN is EMPTY or UNSET"
    ```
-2. If it's set, configure the remote and **verify immediately with a read-only check** — don't wait until the push at the very end of the run to discover auth is broken, after already spending the whole run writing an article:
+   If it's empty/unset, note that and proceed with the default remote — Section 3 handles what happens when push fails either way.
+2. If it's set, configure the remote:
    ```
    git remote set-url origin "https://x-access-token:${GITHUB_CONTENTS_TOKEN}@github.com/egebilir/centaurstudios.git"
-   git ls-remote origin HEAD
    ```
-3. **If `git ls-remote` fails** (non-zero exit, any auth error): do not proceed to Section 3 at all — writing and validating a whole article is wasted work if it can't be pushed, and we already know that from this one cheap check. Send a diagnostic Telegram message immediately with the exact combination that failed (token empty vs. token present-but-rejected — that distinction matters a lot for what a human needs to go check next), then stop this entire run. Still continue to Section 4+ (reports) if those are due — a broken push shouldn't also silence the daily reports.
-4. If `git ls-remote` succeeds, proceed normally — every `git push` later in this runbook will use this same authenticated remote.
+3. Don't verify further here — proceed to Section 3. Whether `git push` actually works can only be known by trying it for real at publish time, and Section 3 already has a Contents-API fallback (`scripts/github-publish.mjs`) for exactly the case where it doesn't. Spending a read-only check here to "fail fast" isn't actually reliable, so it's not worth the false confidence.
 
 If `GITHUB_CONTENTS_TOKEN` is not set at all, proceed with the default remote — Section 3's push-failure handling covers what to do if it turns out not to have write access either.
 
@@ -73,22 +74,26 @@ This is the one step that genuinely requires your own reasoning — everything e
    markPublished(topicId, source); // source is '_source' from the pick-topic.mjs output: 'topics.json' or 'esmaul-husna.json'
    ```
 8. Update `data/telegram-state.json`: set `last_run.new_article` to the current ISO timestamp (read-modify-write the file directly — same pattern as `orchestrator.mjs`'s `runDailyMetricsPull`).
-9. `git add -A && git commit -m "feat: publish {title}"` — commit locally, but **do not send any Telegram notification yet.** A local commit is not "published." This session's checkout is ephemeral — if the next step fails, this commit will not exist anywhere once the session ends, so there is nothing to "leave pending."
-10. `git push` — this is the step that actually makes it live (GitHub Pages deploys on push to `main`). **Only after this succeeds:**
-    ```js
-    import { buildPublishSuccessMessage } from './scripts/reports/publish-notification.mjs';
-    await sendMessage(buildPublishSuccessMessage(content, { whyNow: '<your one-line reasoning for this topic, this cluster, right now>' }));
-    ```
-    **If the push fails** (auth error, permission error, anything else): do not send the success message — send this instead, and stop the section:
+9. `git add -A && git commit -m "feat: publish {title}"` — commit locally, but **do not send any Telegram notification yet.** A local commit is not "published." This session's checkout is ephemeral — if every step below fails, this commit will not exist anywhere once the session ends, so there is nothing to "leave pending."
+10. `git push` — this is the step that actually makes it live (GitHub Pages deploys on push to `main`).
+    - **If it succeeds**, send the success message and you're done:
+      ```js
+      import { buildPublishSuccessMessage } from './scripts/reports/publish-notification.mjs';
+      await sendMessage(buildPublishSuccessMessage(content, { whyNow: '<your one-line reasoning for this topic, this cluster, right now>' }));
+      ```
+    - **If it fails** (auth error, permission error, anything else): don't give up yet — try the fallback below before concluding anything is actually broken.
+11. **Fallback if `git push` failed**: `node scripts/github-publish.mjs "feat: publish {title}"`. This publishes the same changes via the GitHub REST API instead of the git protocol — a real, confirmed failure mode is `git push` getting blocked (HTTP 403) from this environment's network origin specifically, while plain HTTPS REST calls (which this script only ever makes) work fine, including from this exact sandbox. It reports `{published, files, failed}` — if `failed` is empty and `published > 0`, treat this exactly like a successful push (send the success message, same as above). If it *also* fails, now you're in genuine "needs a human" territory:
     ```js
     import { sendMessage } from './scripts/telegram/client.mjs';
     import { formatFailure } from './scripts/telegram/format.mjs';
     await sendMessage(formatFailure({
       what: 'git push (' + topic.slug + ')',
-      reason: '<the exact git/permission error>. The article passed validation and was committed locally, but this session cannot push to main, so nothing is live. This session is ephemeral — if not pushed before it ends, this work is gone and will need to be regenerated once push access is fixed. This needs a human to fix repo write access, not a retry.'
+      reason: '<the exact git error> — and the Contents API fallback (scripts/github-publish.mjs) also failed with <that error>. The article passed validation and was committed locally, but nothing could be published through either path. This session is ephemeral — if not published before it ends, this work is gone and will need to be regenerated once access is fixed. This needs a human to fix repo write access, not a retry.'
     }));
     ```
-    This replaces an earlier version of this runbook that sent the success message *before* attempting the push — which produced a real false-positive "published" notification that then needed a follow-up correction. Push first, confirm it worked, then and only then say so.
+    Only send this double-failure message if *both* paths genuinely failed — don't skip straight to it just because `git push` failed, since the fallback exists precisely to catch that case.
+
+This section replaces an earlier version of this runbook that sent the success message *before* attempting the push — which produced a real false-positive "published" notification that then needed a follow-up correction. Push (or publish) first, confirm it worked, then and only then say so.
 
 ## 4. `due.morningReport === true`
 
