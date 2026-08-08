@@ -1,0 +1,91 @@
+{
+  "id": "kaygi-icin-dua",
+  "content_type": "dua",
+  "cluster": "kaygi-ve-stres",
+  "slug": "kaygi-icin-dua",
+  "title": "Kaygı İçin Dua: Huzur Bulmak İçin Okunacak Dua ve Ayetler",
+  "seo_title": "Kaygı İçin Dua: Okunacak Dua ve Ayetler | Pusula",
+  "meta_description": "Kaygı için dua nedir, nasıl edilir? Kalbi huzura kavuşturan Kur'an ayetleri eşliğinde kaygı anında okunacak dua, pratik adımlar ve sık sorulanlar.",
+  "dek": "Kaygı ve endişe anında kalbi Allah'a bağlayan bir dua, huzur veren ayetler ve bugün uygulayabileceğin somut adımlar.",
+  "primary_keyword": "kaygı için dua",
+  "published_date": "2026-08-08",
+  "updated_date": "2026-08-08",
+  "related_slugs": ["stres-icin-dua", "kaygiyla-ilgili-ayetler", "tevekkul-ve-sabir-arasindaki-fark"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Kaygı için dua, kalpteki huzursuzluğu Allah'a açan, O'na sığınmayı ve güvenmeyi dile getiren bir yakarıştır. Kur'an'da sabit, tek bir \"kaygı duası\" ayeti geçmez; bunun yerine kalbin huzur bulması zikirle, tevekkülle ve doğrudan Allah'a yönelmekle ilişkilendirilir. Aşağıda hem Kur'an'dan ilham alan bir dua örneğini hem de kendi cümlelerinle edebileceğin bir duayı bulacaksın."
+    },
+    { "type": "heading", "level": 2, "text": "Kur'an'dan İlham Alan Bir Dua: Rabbi'şrah Duası" },
+    {
+      "type": "paragraph",
+      "text": "Hz. Musa, üstlendiği ağır görevin verdiği kaygıyla Firavun'un huzuruna çıkmadan önce Rabbine şöyle seslenir:"
+    },
+    { "type": "verse", "ref": "20:25", "note": "Musa'nın bu duası, büyük bir sorumluluğun verdiği kaygıyla karşılaştığında göğsün açılması ve işin kolaylaşması için doğrudan Allah'a yönelmenin örneğidir." },
+    {
+      "type": "paragraph",
+      "text": "Bu dua kısaca \"Rabbi'şrah lî sadrî\" (Rabbim, göğsümü genişlet) diye bilinir ve kaygılı hissettiğin herhangi bir anda kendi meselen için de tekrar edilebilir. Konuşulan şey görevin büyüklüğü değil, kalbin daralmasıdır — ve çözüm, o daralmayı Allah'a taşımaktır."
+    },
+    { "type": "heading", "level": 2, "text": "Kalbin Huzur Bulduğu Ayet" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, kalbin gerçek huzuru nerede bulacağını da açıkça söyler:"
+    },
+    { "type": "verse", "ref": "13:28", "note": "Bu ayet huzursuzluğun çaresini dışarıda değil, Allah'ı anmakta gösterir — kaygı anında sık tekrarlanan kısa bir zikir, kalbi yavaşlatan somut bir araçtır." },
+    {
+      "type": "paragraph",
+      "text": "Kaygı anında birkaç dakika durup \"Sübhanallah,\" \"Elhamdülillah\" ya da sadece \"Allah\" ismini sakince tekrarlamak, ayetin işaret ettiği huzuru pratiğe dökmenin en basit yoludur."
+    },
+    { "type": "heading", "level": 2, "text": "Kendi Cümlelerinle Edebileceğin Bir Kaygı Duası" },
+    {
+      "type": "dua",
+      "turkish_dua": "Allah'ım, içimdeki bu kaygıyı Sana açıyorum. Göğsümü genişlet, kalbimi rahatlat, aklımdaki karmaşayı dindir. Bilmediğim şeyleri Sana havale ediyorum; Sen benim için en hayırlısını bilirsin. Beni huzura kavuştur ve bana güven ver.",
+      "note": "Bu metin ezberlenmesi gereken sabit bir kalıp değildir; kendi kelimelerinle, kendi kaygını anlatarak da dua edebilirsin. Önemli olan içtenliktir."
+    },
+    { "type": "heading", "level": 2, "text": "Kaygı Anında Hatırlanacak Diğer Ayetler" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, zorluk anında hüzünlenmemeyi ve güvende olduğunu hatırlamayı öğütleyen başka ayetler de içerir. Hz. Ebu Bekir, mağarada Peygamberle birlikteyken duyduğu endişeye şu sözlerle karşılık bulur:"
+    },
+    { "type": "verse", "ref": "9:40", "note": "\"Üzülme, Allah bizimledir\" cümlesi, en sıkışık anda bile yalnız olunmadığının hatırlatılmasıdır — kaygı çoğu zaman yalnızlık hissiyle büyür." },
+    {
+      "type": "paragraph",
+      "text": "Zorluğun kalıcı olmadığını hatırlatan bir başka söz de art arda iki kez tekrarlanır:"
+    },
+    { "type": "verse", "ref": "94:5", "note": "Bu vurgu, zorluk sürerken bile bir kolaylığın çoktan yanında var olduğunu hatırlatır." },
+    { "type": "verse", "ref": "94:6", "note": "Aynı cümlenin iki kez tekrar edilmesi, zorlukla kolaylığın bir arada, neredeyse eş zamanlı var olduğunu vurgular." },
+    {
+      "type": "paragraph",
+      "text": "Kaygının büyük bir kısmı, elimizde olmayanı kontrol etme çabasından doğar. Kur'an, işi yapıp sonucu Allah'a bırakmayı öğütler:"
+    },
+    { "type": "verse", "ref": "3:159", "note": "\"Karar verdin mi Allah'a güven\" ifadesi, elinden geleni yaptıktan sonra sonucu taşımaya devam etmek yerine bırakmayı öğretir — kaygıyı büyüten şey çoğu zaman elimizde olanı değil, olmayanı taşımaya çalışmaktır." },
+    { "type": "heading", "level": 2, "text": "Kaygı Duası Ne Zaman ve Nasıl Okunur?" },
+    {
+      "type": "paragraph",
+      "text": "Kaygı duası için belirli bir vakit ya da kalıp şart değildir. Kalbin daraldığını hissettiğin an — sınav öncesi, zor bir konuşma öncesi, gece uyuyamadığın saatlerde ya da nedenini tam olarak adlandıramadığın bir huzursuzlukta — okunabilir. Namaz sonrası birkaç dakika ayırmak ya da günün ortasında sadece durup birkaç nefes alarak duayı içinden geçirmek de yeterlidir. Önemli olan belirli bir formülü ezbere okumak değil, o anki halini gerçekten Allah'a açmaktır. Bazen tek bir cümle bile yeterlidir: kalbinden geçeni, olduğu gibi, süslemeden Allah'a söylemek."
+    },
+    { "type": "heading", "level": 2, "text": "Kaygıyla Baş Etmenin Manevi Adımları" },
+    {
+      "type": "paragraph",
+      "text": "Dua, kaygıyla baş etmenin tek başına yeterli olduğu bir sihirli formül değildir; günlük hayattaki birkaç somut alışkanlıkla birlikte anlam kazanır. Zikri güne yaymak, elinden geleni yaptıktan sonra sonucu bırakmayı pratikte denemek ve kaygı veren düşünceyi bastırmak yerine olduğu gibi kabul edip Allah'a taşımak, üç temel adımdır. Bu adımların hiçbiri bir kerede, tam olarak uygulanmak zorunda değildir; küçük ve düzenli bir alışkanlık, seyrek ama büyük bir çabadan daha kalıcıdır. Kaygı sürekli ya da ağır bir hal aldığında ise dua, uzman desteğinin yerine değil, yanında bir manevi dayanak olarak düşünülmelidir."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Kaygı Anında Yapabileceklerin",
+      "items": [
+        "Kalbin daraldığını fark ettiğin anda birkaç saniyeliğine dur ve \"Rabbi'şrah lî sadrî\" duasını ya da kendi cümlelerinle kısa bir dua tekrarla.",
+        "Zikri günün belirli anlarına (sabah, akşam, bir işe başlarken) yayarak 13:28. ayetteki huzuru pratiğe dök.",
+        "Elinden geleni yaptıktan sonra sonucu bırakmayı, 3:159. ayetteki gibi bilinçli bir karar olarak dene — kontrol edemeyeceğin şeyi taşımayı bırak."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Kaygı için hangi dua okunur?", "a": "Sabit, tek bir \"kaygı duası\" yoktur. Hz. Musa'nın Taha suresi 25. ayetteki \"Rabbim, göğsümü genişlet, işimi kolaylaştır\" duası ve kendi cümlelerinle edilen içten bir dua, kaygı anında en çok başvurulan yollardır." },
+    { "q": "Kaygı duası ne zaman okunmalı?", "a": "Belirli bir vakit şartı yoktur. Kalbin daraldığını hissettiğin her an — sınav öncesi, zor bir gün ya da nedenini tam bilemediğin bir huzursuzlukta — okunabilir." },
+    { "q": "Kaygı anında hangi ayetler okunabilir?", "a": "13:28, 94:5-6, 9:40 ve 3:159. ayetler; sırasıyla kalbin zikirle huzur bulması, zorlukla birlikte kolaylık, yalnız olmama ve tevekkül temalarını işler." },
+    { "q": "Dua kaygıyı tamamen ortadan kaldırır mı?", "a": "Dua, kaygıyı anında yok eden bir formül değildir; kalbi Allah'a bağlayarak taşınabilir hale getirir. Sürekli ya da ağır kaygı durumlarında dua, uzman desteğinin yerine değil, yanında bir manevi dayanak olarak düşünülmelidir." },
+    { "q": "Kaygı duasını Arapça mı Türkçe mi okumalıyım?", "a": "İkisi de mümkündür. Arapça bilmiyorsan kendi dilinde de dua edebilirsin; önemli olan kalıba değil, içtenliğe dayanan bir yöneliştir." }
+  ],
+  "cta_text": "Kaygılı hissettiğin anlarda, duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
