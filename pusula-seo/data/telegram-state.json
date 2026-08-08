@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_update_id": 799536443,
+  "last_update_id": 799536444,
   "paused": false,
   "pending_commands": [],
   "last_run": {
@@ -10,6 +10,6 @@
     "gsc_milestones": "2026-08-08T07:48:05.919Z",
     "refresh_scan": null,
     "advisor_recommendations": null,
-    "new_article": null
+    "new_article": "2026-08-08T09:57:37.739Z"
   }
 }
