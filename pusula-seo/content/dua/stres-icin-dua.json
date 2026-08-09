@@ -1,0 +1,86 @@
+{
+  "id": "stres-icin-dua",
+  "content_type": "dua",
+  "cluster": "kaygi-ve-stres",
+  "slug": "stres-icin-dua",
+  "title": "Stres İçin Dua: Yoğunluk Anında Okunacak Dua ve Ayetler",
+  "seo_title": "Stres İçin Dua: Okunacak Dua ve Ayetler | Pusula",
+  "meta_description": "Stres için dua nedir, nasıl edilir? Yükün ağırlaştığı anlarda okunacak Kur'an'dan ilhamlı dua, ilgili ayetler ve bugün uygulayabileceğin adımlar.",
+  "dek": "İş, sorumluluk ya da yorgunluğun yükünü hafifleten bir dua, konuyla ilgili ayetler ve stresle baş etmek için somut adımlar.",
+  "primary_keyword": "stres için dua",
+  "published_date": "2026-08-09",
+  "updated_date": "2026-08-09",
+  "related_slugs": ["kaygi-icin-dua", "huzur-icin-dua", "sabir-duasi"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Stres için dua, iş yükü, sorumluluk ya da art arda gelen taleplerin altında ezildiğini hissettiğin anda, o ağırlığı Allah'a taşıyan bir yakarıştır. Kaygıdan farklı olarak stres çoğu zaman belirsiz bir korkudan değil, gerçek ve somut bir yükten doğar — bitmeyen iş listesi, üst üste gelen sorumluluklar, uykusuz geceler. Kur'an bu yükü hafifletmenin yolunu hem doğrudan bir duayla hem de bir peygamberin kendi yorgunluğunu Allah'a açtığı bir örnekle gösterir."
+    },
+    { "type": "heading", "level": 2, "text": "Kur'an'ın İçindeki Bir Dua: Gücümüzün Yetmeyeceği Yükü Taşıtma" },
+    {
+      "type": "paragraph",
+      "text": "Bakara suresinin son ayeti, bir tanım cümlesiyle başlayıp doğrudan bir duayla biter. Önce Allah'ın hiçbir kulu gücünün üzerinde bir şeyle yükümlü tutmayacağı hatırlatılır, ardından bu hatırlatmanın hemen ardından bir dua gelir:"
+    },
+    { "type": "verse", "ref": "2:286", "note": "Ayetin ilk cümlesi bir güvence, devamı ise bizzat bir duadır: \"Rabbimiz, bize gücümüzün yetmeyeceği şeyi taşıtma.\" Stresin en ağır hissettiği an, tam olarak bu cümlenin okunması gereken andır." },
+    {
+      "type": "paragraph",
+      "text": "Bu duanın gücü, stresi inkâr etmemesindedir. Yükün gerçek olduğunu, bazen taşınamayacak kadar ağırlaştığını kabul eder — ve bunu itiraf etmenin kendisini Allah'a bir sığınışa çevirir. Yoğun bir günün ortasında, iş listesine bakıp göğsün daraldığında, bu cümleyi kendi diline çevirerek tekrar edebilirsin: \"Rabbim, bu yükü tek başıma taşıyamıyorum, bana güç ver ya da yükü hafiflet.\""
+    },
+    { "type": "heading", "level": 2, "text": "Kendi Cümlelerinle Edebileceğin Bir Stres Duası" },
+    {
+      "type": "dua",
+      "turkish_dua": "Allah'ım, üzerimdeki bu yükü Sana açıyorum. Zihnim dağıldığında beni topla, gücüm tükendiğinde bana güç ver. Yapabileceğimi yapmamı, yapamayacağımı taşımak zorunda olmadığımı bilmemi sağla. Bana sükunet ver ve bu yoğunluğu hakkımda hayra çevir.",
+      "note": "Bu metin ezberlenmesi gereken sabit bir kalıp değildir; kendi kelimelerinle, o an yaşadığın yükü anlatarak da dua edebilirsin. Önemli olan içtenliktir."
+    },
+    { "type": "heading", "level": 2, "text": "Hz. Eyyub'un Yorgunluğu ve Verilen Ferahlık" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da stres kelimesi geçmez, ama karşılığı olan bir hal anlatılır: yorgunluk ve tükenmişlik. Hz. Eyyub, uzun süren sınavı içinde Rabbine seslenirken hastalığından değil, doğrudan bu yorgunluktan söz eder:"
+    },
+    { "type": "verse", "ref": "38:41", "note": "\"Yorgunluk ve azap\" ifadesi, stresin dini bir metinde bile isimlendirildiği nadir anlardan biridir — Hz. Eyyub bile bu hali inkâr etmeden, olduğu gibi Allah'a taşımıştır." },
+    {
+      "type": "paragraph",
+      "text": "Bu itirafın ardından gelen karşılık, somut ve hemen bir ferahlıktır:"
+    },
+    { "type": "verse", "ref": "38:42", "note": "Yorgunluğa verilen cevap soyut bir teselli değil, somut bir dinlenme ve tazelenmedir — stresin çözümü bazen büyük bir mucize değil, durup nefes almaya izin vermektir." },
+    { "type": "heading", "level": 2, "text": "Yoğunluk Anında Hatırlanacak İki Ayet" },
+    {
+      "type": "paragraph",
+      "text": "Stresin en çok büyüdüğü an, yükün altında yalnız ve tükenmiş hissettiğin andır. Kur'an bu ana iki farklı açıdan seslenir. Biri, sabrın kendi başına yetmediğini, Allah'ın yardımıyla taşınabildiğini hatırlatır:"
+    },
+    { "type": "verse", "ref": "16:127", "note": "\"Senin sabrın ancak Allah'ın yardımıyladır\" cümlesi, stresle baş etmenin salt bir irade meselesi olmadığını, Allah'tan güç istemeyi de içerdiğini gösterir." },
+    {
+      "type": "paragraph",
+      "text": "Diğeri ise, yoğunluğun ortasında bile gevşememeyi ama bunu bir yük değil bir hatırlatma olarak sunar:"
+    },
+    { "type": "verse", "ref": "3:139", "note": "\"Gevşemeyin, üzülmeyin\" ifadesi bir emirden çok bir teselli gibi okunabilir: yoğun bir dönemden geçerken bile moralin ve amacın tamamen kaybolmadığının bir hatırlatmasıdır." },
+    { "type": "heading", "level": 2, "text": "Stres Duası Ne Zaman Okunur?" },
+    {
+      "type": "paragraph",
+      "text": "Belirli bir vakit şartı yoktur. İş yoğunluğunun zirveye çıktığı bir günde, sınav ya da teslim tarihi öncesinde, art arda gelen sorumluluklar arasında bunalmış hissettiğinde ya da sadece gün sonunda zihnin hâlâ toparlanamadığı bir anda edilebilir. Namaz sonrası birkaç dakika ayırmak, işe başlamadan önce kısa bir dua etmek ya da yoğunluğun tam ortasında durup birkaç nefes almak da yeterlidir — önemli olan belirli bir kalıba bağlı kalmak değil, o anki yükü olduğu gibi Allah'a açmaktır."
+    },
+    { "type": "heading", "level": 2, "text": "Stresle Kaygı Arasındaki Fark" },
+    {
+      "type": "paragraph",
+      "text": "Stres ve kaygı çoğu zaman birbirine karıştırılır, ama farklı yerlerden beslenirler. Kaygı genelde belirsiz ve gelecek odaklıdır — henüz olmamış bir şeyden korkmaktır. Stres ise daha çok somut ve şimdiki zamana aittir: elindeki iş yükü, bitmeyen liste, üst üste gelen talepler. Bu ayrım önemlidir, çünkü çözümü de farklılaşır: kaygıda Allah'a güvenip bilinmeyeni bırakmak öne çıkarken, streste Hz. Eyyub'un yaptığı gibi yükü olduğu gibi kabul edip hem Allah'tan güç istemek hem de gerçekçi bir şekilde önceliklendirmek gerekir."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Yoğunluk Anında Yapabileceklerin",
+      "items": [
+        "Yükün ağırlaştığını hissettiğinde 2:286. ayetteki duayı kendi diline çevirerek tekrar et: \"Rabbim, gücümün yetmeyeceği şeyi bana taşıtma.\"",
+        "Hz. Eyyub'un yaptığı gibi yorgunluğunu inkâr etmeden, olduğu gibi kabul et ve birkaç dakikalık gerçek bir mola ile bedenine de alan tanı.",
+        "Elindeki işleri gerçekçi bir şekilde önceliklendir; her şeyi aynı anda taşımak zorunda olmadığını 2:286. ayetin güvencesiyle hatırla."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Stres için hangi dua okunur?", "a": "Kur'an'da doğrudan Bakara suresi 286. ayetin içinde geçen \"Rabbimiz, bize gücümüzün yetmeyeceği şeyi taşıtma\" duası, stres anında en çok başvurulan yollardan biridir. Bunun yanında kendi cümlelerinle edilen içten bir dua da aynı şekilde geçerlidir." },
+    { "q": "Stres duası ne zaman okunmalı?", "a": "Belirli bir vakit şartı yoktur. İş yoğunluğu arttığında, sorumluluklar üst üste geldiğinde ya da zihnin toparlanamadığı her an okunabilir." },
+    { "q": "Stresle kaygı aynı şey midir?", "a": "Hayır. Kaygı genelde belirsiz ve gelecek odaklıdır; stres ise elindeki somut yükten, iş ya da sorumluluktan doğar. İkisi de dua ile Allah'a taşınabilir, ama stres ayrıca gerçekçi bir önceliklendirme de gerektirir." },
+    { "q": "Kur'an'da stresle ilgili bir örnek var mı?", "a": "Evet. Hz. Eyyub, sınav döneminde yaşadığı hali \"yorgunluk ve azap\" olarak tanımlayıp Rabbine açar (38:41); bu, dini bir metinde bile tükenmişliğin isimlendirildiği ve inkâr edilmeden Allah'a taşındığı bir örnektir." },
+    { "q": "Dua stresi tamamen ortadan kaldırır mı?", "a": "Dua, yükü anında yok eden bir formül değildir; kalbi Allah'a bağlayarak o yükü taşınabilir hale getirir. Stres sürekli ya da ağır bir hal aldığında dua, uzman desteğinin yerine değil, yanında bir manevi dayanak olarak düşünülmelidir." }
+  ],
+  "cta_text": "Yoğunluğun ağırlaştığı anlarda, duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
