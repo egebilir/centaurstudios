@@ -3,18 +3,6 @@
   "notes": "Populated by scripts/refresh/analyze-content.mjs. Entries reference an existing published slug (unlike topics.json, which is for new topics).",
   "candidates": [
     {
-      "id": "kaygi-icin-dua",
-      "content_type": "dua",
-      "slug": "kaygi-icin-dua",
-      "cluster": "kaygi-ve-stres",
-      "reasons": [
-        "Hiçbir başka sayfadan bağlantı almıyor (orphan sayfa).",
-        "2 related_slugs girdisi artık geçerli değil: stres-icin-dua, kaygiyla-ilgili-ayetler."
-      ],
-      "severity": 3,
-      "detected_at": "2026-08-09T05:15:52.521Z"
-    },
-    {
       "id": "tevekkul-ve-sabir-arasindaki-fark",
       "content_type": "blog",
       "slug": "tevekkul-ve-sabir-arasindaki-fark",
@@ -23,8 +11,30 @@
         "1 related_slugs girdisi artık geçerli değil: tevekkul-nedir."
       ],
       "severity": 1,
-      "detected_at": "2026-08-09T05:15:52.521Z"
+      "detected_at": "2026-08-09T18:17:24.488Z"
+    },
+    {
+      "id": "kaygi-icin-dua",
+      "content_type": "dua",
+      "slug": "kaygi-icin-dua",
+      "cluster": "kaygi-ve-stres",
+      "reasons": [
+        "1 related_slugs girdisi artık geçerli değil: kaygiyla-ilgili-ayetler."
+      ],
+      "severity": 1,
+      "detected_at": "2026-08-09T18:17:24.488Z"
+    },
+    {
+      "id": "stres-icin-dua",
+      "content_type": "dua",
+      "slug": "stres-icin-dua",
+      "cluster": "kaygi-ve-stres",
+      "reasons": [
+        "1 related_slugs girdisi artık geçerli değil: huzur-icin-dua."
+      ],
+      "severity": 1,
+      "detected_at": "2026-08-09T18:17:24.488Z"
     }
   ],
-  "last_scan": "2026-08-09T05:15:52.521Z"
+  "last_scan": "2026-08-09T18:17:24.488Z"
 }
