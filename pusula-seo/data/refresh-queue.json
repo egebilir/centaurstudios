@@ -12,7 +12,7 @@
         "2 related_slugs girdisi artık geçerli değil: stres-icin-dua, kaygiyla-ilgili-ayetler."
       ],
       "severity": 3,
-      "detected_at": "2026-08-08T18:14:16.704Z"
+      "detected_at": "2026-08-09T05:15:52.521Z"
     },
     {
       "id": "tevekkul-ve-sabir-arasindaki-fark",
@@ -23,8 +23,8 @@
         "1 related_slugs girdisi artık geçerli değil: tevekkul-nedir."
       ],
       "severity": 1,
-      "detected_at": "2026-08-08T18:14:16.703Z"
+      "detected_at": "2026-08-09T05:15:52.521Z"
     }
   ],
-  "last_scan": "2026-08-08T18:14:16.704Z"
+  "last_scan": "2026-08-09T05:15:52.521Z"
 }
