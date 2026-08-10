@@ -240,9 +240,9 @@
       "primary_keyword": "bereket duası",
       "search_intent": "prayer-lookup",
       "priority": 5,
-      "status": "pool",
+      "status": "published",
       "task_type": "new",
-      "last_published": null,
+      "last_published": "2026-08-10",
       "cooldown_until": null,
       "related_slugs": [
         "bereketle-ilgili-ayetler"
