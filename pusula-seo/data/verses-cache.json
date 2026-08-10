@@ -280,6 +280,61 @@
       "tr_diyanet": "Allah kişiye ancak gücünün yeteceği kadar yükler; kazandığı iyilik lehine, ettiği kötülük de aleyhinedir. Rabbimiz! Eğer unutacak veya yanılacak olursak bizi sorumlu tutma. Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme. Rabbimiz! Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı. Sen Mevlamızsın, kafirlere karşı bize yardım et.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-08T09:54:15.741Z"
+    },
+    "65:2": {
+      "ref": "65:2",
+      "surah_number": 65,
+      "surah_name_arabic": "سُورَةُ الطَّلَاقِ",
+      "surah_name_english": "At-Talaaq",
+      "ayah_number": 2,
+      "arabic": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍۢ وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍۢ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَٰدَةَ لِلَّهِ ۚ ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًۭا",
+      "tr_diyanet": "Kadınların iddet süreleri biteceğinde, onları ya uygun bir şekilde alıkoyun, ya da onlardan ayrılın; içinizden de iki adil şahit getirin; şahidliği Allah için yapın; işte bu, Allah'a ve ahiret gününe inanan kimseye verilen öğüttür. Allah, kendisine karşı gelmekten sakınan kimseye kurtuluş yolu sağlar, ona beklemediği yerden rızık verir. Allah'a güvenen kimseye O yeter. Allah, buyruğunu yerine getirendir. Allah her şey için bir ölçü var etmiştir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-10T09:20:17.420Z"
+    },
+    "14:7": {
+      "ref": "14:7",
+      "surah_number": 14,
+      "surah_name_arabic": "سُورَةُ إِبۡرَاهِيمَ",
+      "surah_name_english": "Ibrahim",
+      "ayah_number": 7,
+      "arabic": "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ",
+      "tr_diyanet": "Rabbiniz: \"Şükrederseniz and olsun ki, size karşılığını artıracağım; nankörlük ederseniz bilin ki azabım pek çetindir\" diye bildirmişti.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-10T09:20:18.313Z"
+    },
+    "2:261": {
+      "ref": "2:261",
+      "surah_number": 2,
+      "surah_name_arabic": "سُورَةُ البَقَرَةِ",
+      "surah_name_english": "Al-Baqara",
+      "ayah_number": 261,
+      "arabic": "مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "tr_diyanet": "Mallarını Allah yolunda sarfedenlerin durumu, her başağında yüz tane olmak üzere yedi başak veren tanenin durumu gibidir. Allah dilediğine kat kat verir. Allah'ın lütfü geniştir, O her şeyi bilendir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-10T09:20:18.701Z"
+    },
+    "7:96": {
+      "ref": "7:96",
+      "surah_number": 7,
+      "surah_name_arabic": "سُورَةُ الأَعۡرَافِ",
+      "surah_name_english": "Al-A'raaf",
+      "ayah_number": 96,
+      "arabic": "وَلَوْ أَنَّ أَهْلَ ٱلْقُرَىٰٓ ءَامَنُوا۟ وَٱتَّقَوْا۟ لَفَتَحْنَا عَلَيْهِم بَرَكَٰتٍۢ مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ وَلَٰكِن كَذَّبُوا۟ فَأَخَذْنَٰهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "tr_diyanet": "Eğer kentlerin halkı inanmış ve Bize karşı gelmekten sakınmış olsalardı, onlara göğün ve yerin bolluklarını verirdik. Ama yalanladılar; bu yüzden onları, yaptıklarına karşılık yakalayıverdik.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-10T09:20:19.014Z"
+    },
+    "34:39": {
+      "ref": "34:39",
+      "surah_number": 34,
+      "surah_name_arabic": "سُورَةُ سَبَإٍ",
+      "surah_name_english": "Saba",
+      "ayah_number": 39,
+      "arabic": "قُلْ إِنَّ رَبِّى يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ لَهُۥ ۚ وَمَآ أَنفَقْتُم مِّن شَىْءٍۢ فَهُوَ يُخْلِفُهُۥ ۖ وَهُوَ خَيْرُ ٱلرَّٰزِقِينَ",
+      "tr_diyanet": "De ki: \"Doğrusu Rabbim, kullarından dilediğinin rızkını hem genişletir ve hem de ona daraltıp bir ölçüye göre verir; sarfettiğiniz herhangi bir şeyin yerine O daha iyisini koyar, çünkü O rızık verenlerin en hayırlısıdır.\"",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-10T09:20:19.350Z"
     }
   }
 }
