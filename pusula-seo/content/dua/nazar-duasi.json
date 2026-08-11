@@ -1,0 +1,94 @@
+{
+  "id": "nazar-duasi",
+  "content_type": "dua",
+  "cluster": "nazar",
+  "slug": "nazar-duasi",
+  "title": "Nazar Duası: Nazardan Korunmak İçin Okunacak Dua ve Ayetler",
+  "seo_title": "Nazar Duası: Nazardan Korunmak İçin Okunacak Dua | Pusula",
+  "meta_description": "Nazar duası nedir, nasıl okunur? Felak ve Nas surelerinin ışığında nazardan korunma duası, ilgili ayetler ve günlük hayatta alınabilecek somut adımlar.",
+  "dek": "Nazardan korunmak için Kur'an'ın gösterdiği yol: Felak ve Nas surelerinden ilham alan bir dua, ilgili ayetler ve günlük hayatta uygulanabilecek adımlar.",
+  "primary_keyword": "nazar duası",
+  "published_date": "2026-08-11",
+  "updated_date": "2026-08-11",
+  "related_slugs": ["nazarla-ilgili-ayet", "felak-ve-nas-suresi-nazar-icin"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Nazar duası, bir başkasının bakışındaki kıskançlık ya da hayranlığın kişiye zarar vereceği inancına karşı Allah'a sığınmak için edilen duadır. Kur'an'da bu sığınma en somut haliyle Felak ve Nas surelerinde geçer; ikisi de \"De ki: sığınırım\" diyerek başlar ve görünen görünmeyen her türlü şerden Allah'a sığınmayı öğretir. Aşağıda bu iki sureden ilham alan bir dua, konuyla ilgili ayetler ve günlük hayatta uygulayabileceğin adımlar var."
+    },
+    { "type": "heading", "level": 2, "text": "Felak Suresi ve Nazar" },
+    {
+      "type": "paragraph",
+      "text": "Felak suresi, karanlığın, büyünün ve kıskançlığın şerrinden Allah'a sığınmayı öğreten kısa ama kapsamlı bir suredir. Nazarla en doğrudan bağlantılı olan, suredeki son ayettir:"
+    },
+    { "type": "verse", "ref": "113:5", "note": "\"Hased ettiği zaman hasedcinin şerrinden\" ifadesi, nazarın İslam geleneğinde çoğunlukla kıskançlık ve hayranlığın kontrolsüz bir yansıması olarak anlaşıldığını gösterir — sure, bu şerden doğrudan Allah'a sığınmayı öğretir." },
+    {
+      "type": "paragraph",
+      "text": "Felak suresinin tamamı beş ayettir; hasetçinin şerrinin yanında karanlığın, büyücülerin fısıldadığı şerrin de zikredildiği sure, nazardan korunmak isteyenlerin geleneksel olarak sıkça okuduğu iki sureden biridir."
+    },
+    { "type": "heading", "level": 2, "text": "Nas Suresi: Vesveseden Sığınma" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'ın son suresi olan Nas, insanı içten içe kuşkuya, huzursuzluğa sürükleyen her türlü fısıltıdan Allah'a sığınmayı öğretir:"
+    },
+    { "type": "verse", "ref": "114:1", "note": "Sure, \"insanların Rabbi, Meliki ve İlahı\" olan Allah'a sığınarak başlar — nazar endişesinde de aranan güven, başka bir insanın bakışında değil, doğrudan Allah'ta aranır." },
+    {
+      "type": "paragraph",
+      "text": "Nas suresi de altı ayettir ve Felak ile birlikte, geleneksel olarak sabah-akşam ve nazar endişesi duyulan anlarda okunan iki sure olarak bilinir. İki sure arasındaki fark da öğreticidir: Felak dışarıdan gelebilecek şerlere (karanlık, büyü, kıskançlık) işaret ederken, Nas kişinin kendi içinden doğabilecek vesveseye, kuşkuya ve huzursuzluğa odaklanır. Nazar endişesi de çoğu zaman tam bu ikisinin kesiştiği yerde yaşanır: hem dışarıdan gelen bir bakışın etkisinden, hem de o bakışın kişinin kendi zihninde büyüttüğü kaygıdan söz ederiz. İki sureyi birlikte okumak, bu iki boyutu da aynı anda Allah'a teslim etmenin bir yoludur."
+    },
+    { "type": "heading", "level": 2, "text": "Kendi Cümlelerinle Edebileceğin Bir Nazar Duası" },
+    {
+      "type": "dua",
+      "turkish_dua": "Allah'ım, görünen görünmeyen her türlü kötü bakıştan, kıskançlıktan ve zarar niyetinden Sana sığınıyorum. Bana, sevdiklerime ve emeğime gelebilecek her şerri Senin korumana havale ediyorum; en güzel koruyucu Sensin.",
+      "note": "Bu metin sabit bir formül değil, örnek bir başlangıç noktasıdır. Dua kendi dilinde, kendi kelimelerinle de edilebilir; önemli olan içtenlik ve Allah'a yönelmektir."
+    },
+    { "type": "heading", "level": 2, "text": "Kur'an'da Nazara Dair İşaretler" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da nazarın doğrudan geçtiği bir başka yer, inkârcıların Kur'an'ı işittiklerinde Hz. Peygamber'e duydukları rahatsızlığın anlatıldığı ayettir:"
+    },
+    { "type": "verse", "ref": "68:51", "note": "\"Neredeyse seni gözleriyle devireceklerdi\" ifadesi, bakışın kötü niyetle birleştiğinde gerçek bir etki iddiası taşıyabileceğine dair Kur'an'daki en açık örnektir." },
+    {
+      "type": "paragraph",
+      "text": "Hz. Yakub'un oğullarına verdiği bir öğüt de, geleneksel olarak nazardan sakınmayla ilişkilendirilir:"
+    },
+    { "type": "verse", "ref": "12:67", "note": "Yakub, oğullarının Mısır'a tek bir kapıdan birlikte girmelerinin dikkat çekeceğini düşünerek ayrı kapılardan girmelerini öğütler; ardından hemen ekler: asıl koruyucu bu tedbir değil, Allah'tır — \"Ama Allah katında size bir faydam olmaz, hüküm ancak Allah'ındır.\"" },
+    { "type": "heading", "level": 2, "text": "Günlük Hayatta Nazardan Korunmak İçin Yapılabilecekler" },
+    {
+      "type": "list",
+      "style": "unordered",
+      "items": [
+        "**Felak ve Nas surelerini düzenli oku:** Özellikle sabah-akşam ya da içinde bir tedirginlik hissettiğin anlarda okumak, bu duayı bir alışkanlığa dönüştürür.",
+        "**Beğendiğin şeyi Allah'a bağlayarak ifade et:** Bir şeye hayranlığını belirtirken bunu bereket dileğiyle birlikte söylemek, geleneksel olarak nazarı önleyici bir tutum olarak görülür.",
+        "**Tedbiri elden bırakma ama güveni Allah'a bağla:** Hz. Yakub'un öğüdünde olduğu gibi, makul önlemler almak yanlış değildir — ama asıl güvenin kaynağı önlem değil, Allah'a olan teslimiyettir.",
+        "**Kıskançlık uyandırabilecek paylaşımlarda ölçülü ol:** Nazar korkusuyla değil, sağlıklı bir tevazu anlayışıyla, her başarıyı her yerde vurgulama ihtiyacı duymamak da bu dengenin bir parçasıdır."
+      ]
+    },
+    {
+      "type": "quote_callout",
+      "text": "Nazardan korunmanın merkezinde korku değil, güven vardır: bakışların değil, Allah'ın koruyucu olduğuna dair bir teslimiyet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu maddelerin ortak noktası, nazarı bir saplantıya dönüştürmemektir. Sürekli \"acaba nazar mı değdi\" diye endişelenmek, Kur'an'ın öğrettiği tevekkül anlayışıyla çelişir; Felak ve Nas surelerini okumak da tam olarak bu endişeyi bir kez dile getirip Allah'a bırakmak, sonra günlük hayata güvenle devam etmek içindir. Dua, kaygıyı büyüten bir tekrar değil, kaygıyı bir kez teslim eden bir eylem olarak düşünülmelidir."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Nazar Duası İçin Yapabileceklerin",
+      "items": [
+        "Felak ve Nas surelerini, özellikle sabah-akşam okuma alışkanlığı edin.",
+        "Nazar endişesini korkuya değil, 12:67. ayetteki gibi makul tedbir ile Allah'a teslimiyeti birlikte yaşamaya dönüştür.",
+        "Bir şeye duyduğun hayranlığı ifade ederken, bunu bereket dileğiyle birlikte söylemeyi alışkanlık haline getir."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Nazar duası Kur'an'da geçen bir ayet mi?", "a": "Kur'an'da \"nazar duası\" adında tek bir ayet yoktur. Ancak Felak ve Nas sureleri, geleneksel olarak nazar dahil her türlü görünmeyen şerden Allah'a sığınmak için okunan en temel iki suredir." },
+    { "q": "Nazar duası ne zaman okunur?", "a": "Belirli bir vakit şartı yoktur. Sabah-akşam düzenli olarak, ya da bir tedirginlik hissettiğin, kıskanılabileceğini düşündüğün anlarda okunabilir." },
+    { "q": "Nazar duasını hangi dilde okumalıyım?", "a": "Felak ve Nas surelerini Arapça aslından okuyabilir, anlamını Türkçe olarak düşünebilir ya da kendi cümlelerinle Türkçe bir dua edebilirsin. Önemli olan kalıp bir metni ezbere tekrarlamak değil, içtenlikle Allah'a yönelmektir." },
+    { "q": "Nazardan korunmak için dua dışında ne yapılabilir?", "a": "Hz. Yakub'un oğullarına verdiği öğütte görüldüğü gibi (12:67), makul, ölçülü tedbirler almak yanlış değildir; ama Kur'an bunun hemen ardından asıl güvenin Allah'a olduğunu hatırlatır." },
+    { "q": "Nazar değmesi Kur'an'da geçen bir şey mi?", "a": "Kur'an'da bakışın kötü niyetle birleşmesine dair en açık örnek 68:51. ayettir; burada inkârcıların Kur'an'ı dinlerken duydukları rahatsızlığın bakışlarına yansıdığı anlatılır." }
+  ],
+  "cta_text": "Duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
