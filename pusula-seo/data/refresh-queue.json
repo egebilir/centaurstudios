@@ -12,7 +12,19 @@
         "4 related_slugs girdisi artık geçerli değil: bereketle-ilgili-ayetler, ev-icin-bereket-duasi, kazancta-bereket-duasi, bereket-nedir-islamda."
       ],
       "severity": 3,
-      "detected_at": "2026-08-11T05:21:47.626Z"
+      "detected_at": "2026-08-11T18:19:11.019Z"
+    },
+    {
+      "id": "nazar-duasi",
+      "content_type": "dua",
+      "slug": "nazar-duasi",
+      "cluster": "nazar",
+      "reasons": [
+        "Hiçbir başka sayfadan bağlantı almıyor (orphan sayfa).",
+        "2 related_slugs girdisi artık geçerli değil: nazarla-ilgili-ayet, felak-ve-nas-suresi-nazar-icin."
+      ],
+      "severity": 3,
+      "detected_at": "2026-08-11T18:19:11.019Z"
     },
     {
       "id": "tevekkul-ve-sabir-arasindaki-fark",
@@ -23,7 +35,7 @@
         "1 related_slugs girdisi artık geçerli değil: tevekkul-nedir."
       ],
       "severity": 1,
-      "detected_at": "2026-08-11T05:21:47.626Z"
+      "detected_at": "2026-08-11T18:19:11.019Z"
     },
     {
       "id": "kaygi-icin-dua",
@@ -34,7 +46,7 @@
         "1 related_slugs girdisi artık geçerli değil: kaygiyla-ilgili-ayetler."
       ],
       "severity": 1,
-      "detected_at": "2026-08-11T05:21:47.627Z"
+      "detected_at": "2026-08-11T18:19:11.019Z"
     },
     {
       "id": "stres-icin-dua",
@@ -45,8 +57,8 @@
         "1 related_slugs girdisi artık geçerli değil: huzur-icin-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-08-11T05:21:47.627Z"
+      "detected_at": "2026-08-11T18:19:11.019Z"
     }
   ],
-  "last_scan": "2026-08-11T05:21:47.627Z"
+  "last_scan": "2026-08-11T18:19:11.019Z"
 }
