@@ -489,6 +489,50 @@
       "tr_diyanet": "Babaları: \"Oğullarım! Tek bir kapıdan değil, ayrı ayrı kapılardan girin. Ama Allah katında size bir faydam olmaz, hüküm ancak Allah'ındır, O'na güvendim, güvenenler de O'na güvensinler\" dedi.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-11T06:33:39.998Z"
+    },
+    "11:6": {
+      "ref": "11:6",
+      "surah_number": 11,
+      "surah_name_arabic": "سُورَةُ هُودٍ",
+      "surah_name_english": "Hud",
+      "ayah_number": 6,
+      "arabic": "۞ وَمَا مِن دَآبَّةٍۢ فِى ٱلْأَرْضِ إِلَّا عَلَى ٱللَّهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا وَمُسْتَوْدَعَهَا ۚ كُلٌّۭ فِى كِتَٰبٍۢ مُّبِينٍۢ",
+      "tr_diyanet": "Yeryüzünde yaşayan bütün canlıların rızkı ancak Allah'a aittir. O, canlıları babaların sulbünde kararlaşmış ve anaların rahminde kararlaşmakta iken de bilir. Her şey apaçık bir Kitaptadır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-12T06:31:11.578Z"
+    },
+    "51:22": {
+      "ref": "51:22",
+      "surah_number": 51,
+      "surah_name_arabic": "سُورَةُ الذَّارِيَاتِ",
+      "surah_name_english": "Adh-Dhaariyat",
+      "ayah_number": 22,
+      "arabic": "وَفِى ٱلسَّمَآءِ رِزْقُكُمْ وَمَا تُوعَدُونَ",
+      "tr_diyanet": "Rızkınız da, size söz verilen azap da yukarıdan gelir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-12T06:31:11.920Z"
+    },
+    "29:60": {
+      "ref": "29:60",
+      "surah_number": 29,
+      "surah_name_arabic": "سُورَةُ العَنكَبُوتِ",
+      "surah_name_english": "Al-Ankaboot",
+      "ayah_number": 60,
+      "arabic": "وَكَأَيِّن مِّن دَآبَّةٍۢ لَّا تَحْمِلُ رِزْقَهَا ٱللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "tr_diyanet": "Nice canlılar vardır ki, rızıklarını kendileri elde edemezler. Sizin de onların da rızkını Allah verir. O, işitir ve bilir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-12T06:31:12.237Z"
+    },
+    "3:37": {
+      "ref": "3:37",
+      "surah_number": 3,
+      "surah_name_arabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surah_name_english": "Aal-i-Imraan",
+      "ayah_number": 37,
+      "arabic": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍۢ وَأَنۢبَتَهَا نَبَاتًا حَسَنًۭا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًۭا ۖ قَالَ يَٰمَرْيَمُ أَنَّىٰ لَكِ هَٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ ٱللَّهِ ۖ إِنَّ ٱللَّهَ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
+      "tr_diyanet": "Rabbi onu güzel bir kabulle karşıladı, güzel bir bitki gibi yetiştirdi; onu Zekeriya'nın himayesine bıraktı. Zekeriya mabedde onun yanına her girişinde, yanında bir yiyecek bulurdu. \"Ey Meryem! Bu sana nereden geldi?\" demiş, o da: Bu, Allah'ın katındandır\" cevabını vermişti. Doğrusu Allah dilediğini hesapsız rızıklandırır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-12T06:31:12.458Z"
     }
   }
 }
