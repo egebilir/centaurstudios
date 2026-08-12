@@ -1,5 +1,7 @@
 {
   "schema_version": 1,
   "notes": "High-water marks already announced on Telegram, so orchestrator.mjs never re-announces the same threshold twice.",
-  "seen": {}
+  "seen": {
+    "total_published": 10
+  }
 }
