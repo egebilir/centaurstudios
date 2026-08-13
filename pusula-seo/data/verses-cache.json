@@ -533,6 +533,28 @@
       "tr_diyanet": "Rabbi onu güzel bir kabulle karşıladı, güzel bir bitki gibi yetiştirdi; onu Zekeriya'nın himayesine bıraktı. Zekeriya mabedde onun yanına her girişinde, yanında bir yiyecek bulurdu. \"Ey Meryem! Bu sana nereden geldi?\" demiş, o da: Bu, Allah'ın katındandır\" cevabını vermişti. Doğrusu Allah dilediğini hesapsız rızıklandırır.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-12T06:31:12.458Z"
+    },
+    "2:45": {
+      "ref": "2:45",
+      "surah_number": 2,
+      "surah_name_arabic": "سُورَةُ البَقَرَةِ",
+      "surah_name_english": "Al-Baqara",
+      "ayah_number": 45,
+      "arabic": "وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ",
+      "tr_diyanet": "Sabır ve namazla Allah'a sığınıp yardım isteyin; Rablerine kavuşacaklarını ve Ona döneceklerini umanlar ve huşu duyanlardan başkasına namaz elbette ağır gelir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-13T06:33:27.445Z"
+    },
+    "3:8": {
+      "ref": "3:8",
+      "surah_number": 3,
+      "surah_name_arabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surah_name_english": "Aal-i-Imraan",
+      "ayah_number": 8,
+      "arabic": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+      "tr_diyanet": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-13T06:33:27.799Z"
     }
   }
 }
