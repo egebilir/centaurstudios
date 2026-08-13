@@ -1,0 +1,91 @@
+{
+  "id": "sinav-duasi",
+  "content_type": "dua",
+  "cluster": "sinav",
+  "slug": "sinav-duasi",
+  "title": "Sınav Duası: Sınav Öncesi ve Sırasında Okunacak Dua ve Anlamı",
+  "seo_title": "Sınav Duası: Sınavdan Önce Okunacak Dua ve Anlamı | Pusula",
+  "meta_description": "Sınav duası nedir, ne zaman okunur? Hz. Musa'nın 20:25-26. ayetteki duası ışığında sınav öncesi okunacak dua, anlamı ve zihni sakinleştirecek adımlar.",
+  "dek": "Sınava girmeden önce kalbi sakinleştiren bir dua, ilgili ayetler ve gerginliği azaltacak somut adımlar.",
+  "primary_keyword": "sınav duası",
+  "published_date": "2026-08-13",
+  "updated_date": "2026-08-13",
+  "related_slugs": ["basari-ile-ilgili-ayetler", "sabir-duasi", "stres-icin-dua", "kaygi-icin-dua"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Sınav duası, sınav öncesinde ya da sınav sırasında zihni sakinleştirmek, kalbi Allah'a bağlamak ve elindeki çabayı O'na emanet etmek için edilen bir duadır. Kur'an'da \"sınav duası\" adıyla tek, sabit bir ayet yoktur; ama Hz. Musa'nın zor bir görev öncesi ettiği dua, bugün de aynı ihtiyaçla — göğsün ferahlaması, işin kolaylaşması, anlatabilme gücü — örtüşür. Aşağıda hem bu Kur'an'daki duayı hem de kendi cümlelerinle sınavdan önce edebileceğin bir duayı bulacaksın."
+    },
+    { "type": "heading", "level": 2, "text": "Kur'an'dan Bir Sınav Duası: Hz. Musa'nın Duası" },
+    {
+      "type": "paragraph",
+      "text": "Hz. Musa, Firavun'un huzuruna çıkıp onunla konuşmak gibi ağır bir görevle karşı karşıya kaldığında, önce kendi gücüne değil, Allah'a sığınarak dua eder:"
+    },
+    { "type": "verse", "ref": "20:25", "note": "Musa, göğsünün genişlemesini — yani içindeki sıkıntının, korkunun ferahlamasını — ilk olarak ister." },
+    { "type": "verse", "ref": "20:26", "note": "Ardından işinin kolaylaşmasını diler; zor bir sınavın ya da görevin öncesinde okunacak en doğrudan dua cümlelerinden biridir." },
+    {
+      "type": "paragraph",
+      "text": "Bu dua, sınav stresiyle çok benzer bir ihtiyacı anlatır: zihnin daralması, anlatamama korkusu, bildiğini unutma endişesi. Sınav öncesi bu iki cümleyi kendi diline çevirerek tekrar edebilirsin: \"Rabbim, göğsümü genişlet, bu işi bana kolaylaştır.\""
+    },
+    { "type": "heading", "level": 2, "text": "Kendi Cümlelerinle Edebileceğin Bir Sınav Duası" },
+    {
+      "type": "dua",
+      "turkish_dua": "Allah'ım, çalıştığım her şeyi zihnimde tut, sınav anında unutturma. Kalbimi sakinleştir, elimi ve dilimi bildiğimi anlatmakta kolaylaştır. Gösterdiğim çabayı hayırla sonuçlandır ve bana ait olan hayrı nasip et.",
+      "note": "Dua, kendi dilinde ve kendi kelimelerinle de edilebilir; önemli olan içtenlik ve Allah'a yönelmektir. Bu metin, ezberlenmesi gereken sabit bir formül değil, örnek bir başlangıç noktasıdır."
+    },
+    { "type": "heading", "level": 2, "text": "Sınav Duasıyla İlgili Temel Ayetler" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, zorluğun ardından mutlaka bir kolaylık geleceğini iki kez art arda vurgular — sınav öncesi gerginliği yatıştıracak güçlü bir hatırlatmadır:"
+    },
+    { "type": "verse", "ref": "94:5", "note": "Aynı cümlenin tekrarı, bu vaadin geçici bir teselli değil, ısrarla vurgulanan bir gerçek olduğunu gösterir." },
+    { "type": "verse", "ref": "94:6", "note": "İkinci tekrar, güçlükle kolaylığın iç içe, aynı anda var olduğuna işaret eder — kolaylık, zorluk bittikten sonra değil, onunla birlikte gelir." },
+    {
+      "type": "paragraph",
+      "text": "Kur'an ayrıca sabrı ve namazı, zor bir işe girişmeden önce başvurulacak iki temel destek olarak birlikte anar:"
+    },
+    { "type": "verse", "ref": "2:45", "note": "Sınav gibi zorlayıcı bir sürecin öncesinde sabır ve namaza sığınmak, Kur'an'ın önerdiği somut bir tutumdur." },
+    {
+      "type": "paragraph",
+      "text": "Yeteneğinin üzerinde bir yükle karşı karşıya olmadığını hatırlamak da sınav kaygısını hafifletir:"
+    },
+    { "type": "verse", "ref": "2:286", "note": "Bu ayet, Allah'ın kimseye gücünün yetmeyeceği bir yük vermeyeceğini bildirir — çalıştığın kadarının, elinden gelenin yeterli olduğunu hatırlatır." },
+    { "type": "heading", "level": 2, "text": "Sınav Duası Ne Zaman Okunur?" },
+    {
+      "type": "paragraph",
+      "text": "Sınav duası için belirli bir vakit şartı yoktur. Sınava girmeden hemen önce, sınav salonuna girerken, soruları görüp zihnin daraldığı anda ya da sınav gecesi uyumadan önce edilebilir. Namaz sonrası ya da abdestli bir şekilde okumak güzel bir alışkanlık olsa da, şart değildir — önemli olan o andaki kaygını içtenlikle Allah'a açmaktır."
+    },
+    { "type": "heading", "level": 2, "text": "Sınav Kaygısıyla Baş Etmenin Manevi Boyutu" },
+    {
+      "type": "paragraph",
+      "text": "Sınav kaygısının büyük bir kısmı, sonucu tek başına kontrol edebileceğini düşünmekten kaynaklanır. Kur'an'ın önerdiği tutum ise farklıdır: elinden geleni yapmak ve sonucu Allah'a bırakmak, yani tevekkül. Bu, çalışmayı bırakmak anlamına gelmez; tersine, çabanı sonuna kadar sürdürüp kalanı taşımayı bırakmaktır. Hz. Musa'nın duası da tam bu noktada devreye girer — o da göreve gitmeden önce çabasını Allah'a emanet eder, ardından yola çıkar."
+    },
+    {
+      "type": "quote_callout",
+      "text": "Elinden geleni yap, kalanını Allah'a bırak — sınav kaygısını hafifleten temel tutum budur."
+    },
+    { "type": "heading", "level": 3, "text": "Çalışmak mı, Dua Etmek mi?" },
+    {
+      "type": "paragraph",
+      "text": "Bazen \"yeterince dua edersem çalışmasam da olur mu\" sorusu akla gelir. Kur'an'ın bütünlüğü bu ikisini birbirinin karşıtı değil, tamamlayıcısı olarak sunar: çaba göstermek bir sorumluluk, dua etmek ise o çabanın sonucunu Allah'a emanet etmenin yoludur. Hz. Musa da önce dua eder, sonra fiilen Firavun'un huzuruna çıkar — dua, harekete geçmenin yerini almaz, ona eşlik eder. Sınav öncesinde de aynı sıra geçerlidir: önce gerçek anlamda çalışmak, sonra da o çabanın sonucunu içtenlikle Allah'a bırakmak."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Sınav Öncesi Yapabileceklerin",
+      "items": [
+        "Sınava girmeden birkaç dakika önce, Hz. Musa'nın 20:25-26. ayetteki duasını kendi diline çevirerek tekrar et.",
+        "Zihnin dağıldığında ya da bir soruyu unuttuğunu hissettiğinde, birkaç saniye durup sakinleşmek için kısa bir dua et.",
+        "Çalışmayı elinden geldiğince sürdür, ama sınav anında sonucu Allah'a bırakmayı da kendine hatırlat — 2:286. ayetteki gibi, gücünün üzerinde bir yükle sınanmadığını unutma."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Sınav duası Kur'an'da geçen bir ayet mi?", "a": "Kur'an'da \"sınav duası\" adında tek bir ayet yoktur. Ancak Hz. Musa'nın 20:25-26. ayetlerdeki duası, zor bir görev öncesi edilecek duaya en yakın Kur'an örneğidir." },
+    { "q": "Sınav duası ne zaman okunmalı?", "a": "Belirli bir vakit şartı yoktur. Sınava girmeden hemen önce, sınav sırasında zihin daraldığında ya da sınav gecesi edilebilir." },
+    { "q": "Sınav duası hangi dilde edilmeli?", "a": "Arapça bilmiyorsan kendi dilinde de edilebilir. Önemli olan kalıp bir metni ezberden okumak değil, içtenlikle Allah'a yönelmektir." },
+    { "q": "Dua etmek çalışmanın yerini tutar mı?", "a": "Hayır. Kur'an'da dua ile çaba birbirini tamamlar; Hz. Musa da göreve çıkmadan önce dua eder, ardından fiilen harekete geçer. Dua, çabanın yerine değil, yanına eklenir." },
+    { "q": "Sınav kaygısı için başka hangi ayetler okunabilir?", "a": "94:5-6. ayetler zorlukla birlikte kolaylığın geleceğini, 2:286. ayet ise kimsenin gücünün üzerinde bir yükle sınanmayacağını hatırlatır." }
+  ],
+  "cta_text": "Sınav öncesi kaygını hafifletecek bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
