@@ -555,6 +555,39 @@
       "tr_diyanet": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-13T06:33:27.799Z"
+    },
+    "17:82": {
+      "ref": "17:82",
+      "surah_number": 17,
+      "surah_name_arabic": "سُورَةُ الإِسۡرَاءِ",
+      "surah_name_english": "Al-Israa",
+      "ayah_number": 82,
+      "arabic": "وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا",
+      "tr_diyanet": "Kuran'dan inananlara rahmet ve şifa olan şeyler indiriyoruz. O, zalimlerin ise sadece kaybını artırır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-14T09:40:20.030Z"
+    },
+    "10:57": {
+      "ref": "10:57",
+      "surah_number": 10,
+      "surah_name_arabic": "سُورَةُ يُونُسَ",
+      "surah_name_english": "Yunus",
+      "ayah_number": 57,
+      "arabic": "يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَتْكُم مَّوْعِظَةٌۭ مِّن رَّبِّكُمْ وَشِفَآءٌۭ لِّمَا فِى ٱلصُّدُورِ وَهُدًۭى وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ",
+      "tr_diyanet": "Ey insanlar! Rabbinizden size bir öğüt ve kalblerde olana şifa, inananlara doğruyu gösteren bir rehber ve rahmet gelmiştir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-14T09:40:20.404Z"
+    },
+    "26:80": {
+      "ref": "26:80",
+      "surah_number": 26,
+      "surah_name_arabic": "سُورَةُ الشُّعَرَاءِ",
+      "surah_name_english": "Ash-Shu'araa",
+      "ayah_number": 80,
+      "arabic": "وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ",
+      "tr_diyanet": "İbrahim: \"Eski atalarınızın ve sizin nelere taptıklarınızı görüyor musunuz? Doğrusu onlar benim düşmanımdır. Dostum ancak Alemlerin Rabbidir. Beni yaratan da, doğru yola eriştiren de O'dur. Beni yediren de, içiren de O'dur. Hasta olduğumda bana O şifa verir. Beni öldürecek, sonra da diriltecek O'dur. Ahiret gününde yanılmalarımı bana bağışlamasını umduğum O'dur. Rabbim! Bana hikmet ver ve beni iyiler arasına kat.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-14T09:40:20.665Z"
     }
   }
 }
