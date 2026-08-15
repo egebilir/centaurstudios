@@ -588,6 +588,39 @@
       "tr_diyanet": "İbrahim: \"Eski atalarınızın ve sizin nelere taptıklarınızı görüyor musunuz? Doğrusu onlar benim düşmanımdır. Dostum ancak Alemlerin Rabbidir. Beni yaratan da, doğru yola eriştiren de O'dur. Beni yediren de, içiren de O'dur. Hasta olduğumda bana O şifa verir. Beni öldürecek, sonra da diriltecek O'dur. Ahiret gününde yanılmalarımı bana bağışlamasını umduğum O'dur. Rabbim! Bana hikmet ver ve beni iyiler arasına kat.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-14T09:40:20.665Z"
+    },
+    "3:173": {
+      "ref": "3:173",
+      "surah_number": 3,
+      "surah_name_arabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surah_name_english": "Aal-i-Imraan",
+      "ayah_number": 173,
+      "arabic": "ٱلَّذِينَ قَالَ لَهُمُ ٱلنَّاسُ إِنَّ ٱلنَّاسَ قَدْ جَمَعُوا۟ لَكُمْ فَٱخْشَوْهُمْ فَزَادَهُمْ إِيمَٰنًۭا وَقَالُوا۟ حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
+      "tr_diyanet": "İnsanlar onlara: \"Düşmanınız olan insanlar size karşı bir ordu topladılar, onlardan korkun\" dediler. Bu, onların imanını artırdı da: \"Allah bize yeter. O ne güzel Vekil'dir\" dediler.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-15T06:20:20.498Z"
+    },
+    "8:2": {
+      "ref": "8:2",
+      "surah_number": 8,
+      "surah_name_arabic": "سُورَةُ الأَنفَالِ",
+      "surah_name_english": "Al-Anfaal",
+      "ayah_number": 2,
+      "arabic": "إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتْ قُلُوبُهُمْ وَإِذَا تُلِيَتْ عَلَيْهِمْ ءَايَٰتُهُۥ زَادَتْهُمْ إِيمَٰنًۭا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
+      "tr_diyanet": "İnananlar ancak, o kimselerdir ki Allah anıldığı zaman kalbleri titrer, ayetleri okunduğu zaman bu onların imanlarını artırır. Ve Rablerine güvenirler; namaz kılarlar; kendilerine verdiğimiz rızıktan yerli yerince sarf ederler.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-15T06:20:20.802Z"
+    },
+    "14:11": {
+      "ref": "14:11",
+      "surah_number": 14,
+      "surah_name_arabic": "سُورَةُ إِبۡرَاهِيمَ",
+      "surah_name_english": "Ibrahim",
+      "ayah_number": 11,
+      "arabic": "قَالَتْ لَهُمْ رُسُلُهُمْ إِن نَّحْنُ إِلَّا بَشَرٌۭ مِّثْلُكُمْ وَلَٰكِنَّ ٱللَّهَ يَمُنُّ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَمَا كَانَ لَنَآ أَن نَّأْتِيَكُم بِسُلْطَٰنٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "tr_diyanet": "Peygamberleri onlara şöyle dedi: \"Biz ancak sizin gibi birer insanız ama, Allah, kullarından dilediğine iyilikte bulunur. Allah'ın izni olmadıkça biz size delil getiremeyiz. İnananlar sadece Allah'a güvensin.\"",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-15T06:20:21.074Z"
     }
   }
 }
