@@ -621,6 +621,105 @@
       "tr_diyanet": "Peygamberleri onlara şöyle dedi: \"Biz ancak sizin gibi birer insanız ama, Allah, kullarından dilediğine iyilikte bulunur. Allah'ın izni olmadıkça biz size delil getiremeyiz. İnananlar sadece Allah'a güvensin.\"",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-15T06:20:21.074Z"
+    },
+    "2:255": {
+      "ref": "2:255",
+      "surah_number": 2,
+      "surah_name_arabic": "سُورَةُ البَقَرَةِ",
+      "surah_name_english": "Al-Baqara",
+      "ayah_number": 255,
+      "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "tr_diyanet": "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır. Göklerde olan ve yerde olan ancak O'nundur. O'nun izni olmadan katında şefaat edecek kimdir? Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar. Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez. O yücedir, büyüktür.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-16T06:21:08.343Z"
+    },
+    "2:285": {
+      "ref": "2:285",
+      "surah_number": 2,
+      "surah_name_arabic": "سُورَةُ البَقَرَةِ",
+      "surah_name_english": "Al-Baqara",
+      "ayah_number": 285,
+      "arabic": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+      "tr_diyanet": "Peygamber ve inananlar, ona Rabb'inden indirilene inandı. Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı. \"Peygamberleri arasından hiçbirini ayırdetmeyiz, işittik, itaat ettik, Rabbimiz! Affını dileriz, dönüş Sanadır\" dediler.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-16T06:21:08.465Z"
+    },
+    "112:1": {
+      "ref": "112:1",
+      "surah_number": 112,
+      "surah_name_arabic": "سُورَةُ الإِخۡلَاصِ",
+      "surah_name_english": "Al-Ikhlaas",
+      "ayah_number": 1,
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "tr_diyanet": "De ki: O Allah bir tektir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-16T06:21:08.527Z"
+    },
+    "112:2": {
+      "ref": "112:2",
+      "surah_number": 112,
+      "surah_name_arabic": "سُورَةُ الإِخۡلَاصِ",
+      "surah_name_english": "Al-Ikhlaas",
+      "ayah_number": 2,
+      "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+      "tr_diyanet": "Allah her şeyden müstağni ve her şey O'na muhtaçtır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-16T06:21:08.588Z"
+    },
+    "112:3": {
+      "ref": "112:3",
+      "surah_number": 112,
+      "surah_name_arabic": "سُورَةُ الإِخۡلَاصِ",
+      "surah_name_english": "Al-Ikhlaas",
+      "ayah_number": 3,
+      "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "tr_diyanet": "O doğurmamış ve doğmamıştır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-16T06:21:08.650Z"
+    },
+    "112:4": {
+      "ref": "112:4",
+      "surah_number": 112,
+      "surah_name_arabic": "سُورَةُ الإِخۡلَاصِ",
+      "surah_name_english": "Al-Ikhlaas",
+      "ayah_number": 4,
+      "arabic": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "tr_diyanet": "Hiçbir şey O'na denk değildir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-16T06:21:08.713Z"
+    },
+    "17:79": {
+      "ref": "17:79",
+      "surah_number": 17,
+      "surah_name_arabic": "سُورَةُ الإِسۡرَاءِ",
+      "surah_name_english": "Al-Israa",
+      "ayah_number": 79,
+      "arabic": "وَمِنَ ٱلَّيْلِ فَتَهَجَّدْ بِهِۦ نَافِلَةًۭ لَّكَ عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًۭا مَّحْمُودًۭا",
+      "tr_diyanet": "Geceleyin uyanıp, yalnız sana mahsus olarak fazladan namaz kıl. Belki de Rabbin seni övülecek makama yükseltir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-16T06:21:08.782Z"
+    },
+    "3:190": {
+      "ref": "3:190",
+      "surah_number": 3,
+      "surah_name_arabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surah_name_english": "Aal-i-Imraan",
+      "ayah_number": 190,
+      "arabic": "إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلْأَلْبَٰبِ",
+      "tr_diyanet": "Göklerin ve yerin yaratılışında, gece ile gündüzün birbiri ardınca gelmesinde akıl sahiblerine şüphesiz deliller vardır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-16T06:21:08.840Z"
+    },
+    "3:191": {
+      "ref": "3:191",
+      "surah_number": 3,
+      "surah_name_arabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surah_name_english": "Aal-i-Imraan",
+      "ayah_number": 191,
+      "arabic": "ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَٰمًۭا وَقُعُودًۭا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلًۭا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+      "tr_diyanet": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: \"Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru\"",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-16T06:21:08.901Z"
     }
   }
 }
