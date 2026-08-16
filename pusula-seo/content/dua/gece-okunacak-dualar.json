@@ -1,0 +1,85 @@
+{
+  "id": "gece-okunacak-dualar",
+  "content_type": "dua",
+  "cluster": "gunluk-dualar",
+  "slug": "gece-okunacak-dualar",
+  "title": "Gece Okunacak Dualar: Uykudan Önce Huzurla Kapanacak Bir Gün İçin",
+  "seo_title": "Gece Okunacak Dualar: Uyumadan Önce Okunacak Dua ve Ayetler | Pusula",
+  "meta_description": "Gece okunacak dualar nelerdir? Uyumadan önce huzur bulmak için okunacak ayetler, kısa bir dua ve gecenin manevi anlamı burada.",
+  "dek": "Günü kapatırken kalbi Allah'a bağlayan ayetler, kısa bir dua ve gecenin ibadet açısından anlamı.",
+  "primary_keyword": "gece okunacak dualar",
+  "published_date": "2026-08-16",
+  "updated_date": "2026-08-16",
+  "related_slugs": ["sabah-okunacak-dualar", "yatmadan-once-okunacak-dua", "uyaninca-okunacak-dua"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Gece okunacak dualar, günü kapatırken kalbi Allah'a bağlamak için okunan kısa dualar ve Kur'an'ın sığınma, koruma ve tevekkülle ilgili ayetleridir. Bunların başında İhlas, Felak ve Nas sureleri, Ayetel Kürsi ve Bakara suresinin son iki ayeti gelir. Aşağıda hem bu ayetleri hem de kendi cümlelerinle edebileceğin bir günü kapama duasını bulacaksın."
+    },
+    { "type": "heading", "level": 2, "text": "Sığınma ve Koruma Ayetleri: İhlas, Felak, Nas" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'ın son üç kısa suresi -İhlas, Felak ve Nas- tevhid, sığınma ve korunma temalarını taşır. Gece, günün telaşı yatıştığında bu üç sureyi okumak birçok Müslüman için yerleşik bir alışkanlıktır; çünkü içerikleri hem Allah'ın birliğini hem de karanlıkta, uykuda ve yalnızlıkta O'na sığınmayı doğrudan konu edinir."
+    },
+    { "type": "verse", "ref": "112:1", "note": "İhlas suresinin ilk ayeti, gece duasının temelini oluşturan tevhid inancını en yalın haliyle özetler." },
+    { "type": "verse", "ref": "112:2", "note": "Allah'ın hiçbir şeye muhtaç olmadığı, her şeyin O'na muhtaç olduğu vurgusu, geceyi teslimiyetle kapatmanın zeminini kurar." },
+    { "type": "verse", "ref": "112:3", "note": "Doğurmamış ve doğmamış olma vasfı, Allah tasavvurunu her türlü beşeri benzetmeden arındırır." },
+    { "type": "verse", "ref": "112:4", "note": "Sure, hiçbir şeyin O'na denk olmadığını söyleyerek kapanır — kısa ama yoğun bir tevhid beyanıdır." },
+    { "type": "verse", "ref": "113:1", "note": "Felak suresi, karanlığın çöktüğü an dahil çeşitli şerlerden Allah'a sığınmayı öğretir; bu yüzden geceye özellikle uygun görülür." },
+    { "type": "verse", "ref": "114:1", "note": "Nas suresi, içe dönük vesveselerden korunmayı diler; günü değerlendirirken zihne çöken kaygılı düşünceler için okunabilecek bir sığınma ifadesidir." },
+    { "type": "heading", "level": 2, "text": "Ayetel Kürsi: Güven ve Korunma Duygusu" },
+    {
+      "type": "paragraph",
+      "text": "Bakara suresinin 255. ayeti olan Ayetel Kürsi, Allah'ın uyumadığını, uyuklamadığını ve göklerdeki-yerdeki her şeyi kuşattığını anlatır. Bu içerik, gece uykuya dalarken \"koruyan hep uyanık, ben ise emanetteyim\" duygusunu pekiştirdiği için sıkça başvurulan bir ayettir."
+    },
+    { "type": "verse", "ref": "2:255", "note": "Ayet, Allah'ın hiçbir şeyin O'nu yormadığı, sürekli diri ve koruyucu olduğu vasıflarını sayar — geceye güvenle girmek isteyen biri için doğrudan bir teselli kaynağıdır." },
+    { "type": "heading", "level": 2, "text": "Bakara Suresinin Son İki Ayeti" },
+    {
+      "type": "paragraph",
+      "text": "Bakara suresinin 285 ve 286. ayetleri, imanı özetleyen ve kişiye gücünün üzerinde yük yüklenmeyeceğini bildiren bir bölümdür. Günü değerlendirirken kişinin kendi eksiklerini, hatalarını hatırladığı anlarda bu iki ayet, affedicilik ve merhamet vurgusuyla ferahlatıcı bir kapanış sunar."
+    },
+    { "type": "verse", "ref": "2:285", "note": "Ayet, iman esaslarını sayarken \"işittik ve itaat ettik, bağışlamanı dileriz\" diyen bir teslimiyet diliyle biter." },
+    { "type": "verse", "ref": "2:286", "note": "Allah'ın kimseye gücünün üzerinde yük yüklemeyeceği ve unutma ya da hata durumunda hesaba çekilmeyeceği vurgusu, günü suçluluk değil huzurla kapatmaya yardımcı olur." },
+    { "type": "heading", "level": 2, "text": "Kendi Cümlelerinle Edebileceğin Bir Gece Duası" },
+    {
+      "type": "dua",
+      "turkish_dua": "Allah'ım, bu günü Senin bilgin ve iznin dahilinde tamamladım. İçinde yaptığım hataları bağışla, yapabildiğim iyilikleri kabul et. Bu gece beni ve sevdiklerimi koru, kalbimi huzurla doldur, yarına Sana daha yakın bir kul olarak uyan.",
+      "note": "Bu metin ezberlenmesi gereken sabit bir formül değil, örnek bir başlangıç noktasıdır; kendi dilinde ve kendi kelimelerinle de edilebilir."
+    },
+    { "type": "heading", "level": 2, "text": "Gece Neden Manevi Açıdan Özel Bir Vakittir?" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, gece ile gündüzün birbiri ardınca gelişini ve gökyüzünün düzenini akıl sahipleri için bir düşünme vesilesi olarak sunar. Gündüzün gürültüsü dindiğinde zihnin sakinleşmesi, o günü daha net bir şekilde değerlendirmeyi kolaylaştırır."
+    },
+    { "type": "verse", "ref": "3:190", "note": "Göklerin ve yerin yaratılışı, gece ile gündüzün art arda gelişi, ayeti \"akıl sahipleri\" için birer düşünme işareti olarak tanımlar." },
+    { "type": "verse", "ref": "3:191", "note": "Ayakta, otururken ya da yan yatarken Allah'ı anmak — yani günün her anını, uykuya yatarken bile, bir hatırlama fırsatına çevirmek — bu ayette doğrudan tarif edilir." },
+    {
+      "type": "paragraph",
+      "text": "Kur'an ayrıca gecenin bir bölümünde kalkıp ibadet etmeyi, kişiye özel bir yakınlaşma fırsatı olarak anlatır. Bu, herkesin gece yarısı kalkması gerektiği anlamına gelmez; ama gecenin sessizliğinin ibadet için ayrı bir değer taşıdığını gösterir."
+    },
+    { "type": "verse", "ref": "17:79", "note": "Gece kalkıp kılınan namazın kişiye \"övülmüş bir makam\" kazandırabileceğinin bildirilmesi, gecenin ibadet açısından taşıdığı özel değere işaret eder." },
+    { "type": "heading", "level": 2, "text": "Gece Duasını Ne Zaman ve Nasıl Okumalısın?" },
+    {
+      "type": "paragraph",
+      "text": "Gece duası için belirli bir vakit şartı yoktur; yatağa girmeden hemen önce, ışıkları söndürmeden önce ya da telefonu bırakıp sessizliğe geçtiğin an okunabilir. Önemli olan belirli bir sıraya ya da uzunluğa bağlı kalmak değil, günü gerçekten kapatmak: o anki hâlini, yorgunluğunu ya da minnettarlığını içtenlikle Allah'a açmak."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Gece Duası İçin Yapabileceklerin",
+      "items": [
+        "Yatmadan önce telefonu bırakıp birkaç dakika sessizlikte İhlas, Felak ve Nas surelerini oku.",
+        "Ayetel Kürsi'yi anlamını düşünerek oku; kelimeleri ezbere tekrarlamak yerine \"korunuyorum\" duygusuna odaklan.",
+        "Günü kapatırken kısa bir öz muhasebe yap: neye şükrettiğini ve neyi bağışlanmak istediğini kendi cümlelerinle Allah'a söyle."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Gece okunacak dualar nelerdir?", "a": "En sık başvurulanlar İhlas, Felak ve Nas sureleri, Ayetel Kürsi ve Bakara suresinin son iki ayetidir (2:285-286). Bunlara ek olarak kişi kendi cümleleriyle bir günü kapama duası da edebilir." },
+    { "q": "Gece duası ne zaman okunmalı?", "a": "Belirli bir vakit şartı yoktur. Yatağa girmeden hemen önce, ışıkları söndürmeden ya da sessizliğe geçtiğin an okuyabilirsin." },
+    { "q": "Ayetel Kürsi gece neden okunur?", "a": "Ayetel Kürsi, Allah'ın uyumadığını ve her şeyi kuşattığını anlattığı için uykuya güvenle dalma duygusunu pekiştirir; bu yüzden gece sıkça tercih edilen bir ayettir." },
+    { "q": "Gece duasını Türkçe etmek caiz mi?", "a": "Evet. Kur'an'dan bir ayeti değiştirmeden, aslına sadık kalarak okumak elbette önemlidir; ama kişisel dua kısmı kendi dilinde, kendi kelimelerinle de edilebilir. Önemli olan içtenlik ve Allah'a yönelmektir." },
+    { "q": "Gece namazı (teheccüd) ile gece duası aynı şey mi?", "a": "Hayır. Gece namazı bir ibadet biçimidir; gece duası ise yatmadan önce okunan ayet ve dualardır. İkisi birlikte de yapılabilir, ayrı ayrı da." }
+  ],
+  "cta_text": "Duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
