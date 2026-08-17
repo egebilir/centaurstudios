@@ -1,0 +1,88 @@
+{
+  "id": "sabah-okunacak-dualar",
+  "content_type": "dua",
+  "cluster": "gunluk-dualar",
+  "slug": "sabah-okunacak-dualar",
+  "title": "Sabah Okunacak Dualar: Güne Huzurla Başlamak İçin Ayet ve Dualar",
+  "seo_title": "Sabah Okunacak Dualar: Güne Başlarken Okunacak Dua ve Ayetler | Pusula",
+  "meta_description": "Sabah okunacak dualar nelerdir? Güne huzurla başlamak için Kur'an'ın sabah zikriyle ilgili ayetleri, kısa bir dua ve pratik öneriler burada.",
+  "dek": "Güne başlarken kalbi Allah'a bağlayan ayetler, kısa bir dua ve sabahın Kur'an'daki manevi anlamı.",
+  "primary_keyword": "sabah okunacak dualar",
+  "published_date": "2026-08-17",
+  "updated_date": "2026-08-17",
+  "related_slugs": ["gece-okunacak-dualar", "uyaninca-okunacak-dua"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Sabah okunacak dualar, güne başlarken kalbi Allah'a bağlamak için okunan kısa dualar ve Kur'an'ın sabah zikriyle ilgili ayetleridir. Bunların temelinde Ahzâb suresinin 41-42. ayetlerindeki \"sabah akşam zikir ve tesbih\" çağrısı ile Tâhâ suresinin 130. ayetindeki güneş doğmadan önce Rabbi anma öğüdü yer alır. Aşağıda hem bu ayetleri hem de kendi cümlelerinle edebileceğin bir sabah duasını bulacaksın."
+    },
+    { "type": "heading", "level": 2, "text": "Kur'an'da Sabah Zikri: \"Sabah Akşam\" Tesbih Ayetleri" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, Allah'ı anmayı belirli bir vakte hapsetmez; ama sabah ve akşamı özellikle vurgulayan bir dil kullanır. Ahzâb suresinde önce çokça zikir çağrısı yapılır, hemen ardından bu zikrin sabah ve akşam tesbihle somutlaştırılması istenir:"
+    },
+    { "type": "verse", "ref": "33:41", "note": "Ayet, zikri genel bir tavsiye olarak değil doğrudan bir çağrı olarak sunar: \"Ey inananlar! Allah'ı çok anın.\"" },
+    { "type": "verse", "ref": "33:42", "note": "Bir önceki ayetteki genel çağrı burada zamana bağlanır — zikir, günün iki ucuna, sabaha ve akşama yerleştirilir." },
+    {
+      "type": "paragraph",
+      "text": "Aynı vurgu, Âl-i İmrân suresinde Hz. Zekeriyya'ya verilen bir öğütte de karşımıza çıkar. Kendisine bir işaret verildiğinde, ondan istenen şey uzun bir ibadet listesi değil, sabah akşam Rabbini anmasıdır:"
+    },
+    { "type": "verse", "ref": "3:41", "note": "Zekeriyya'ya konuşmama işaretiyle birlikte verilen somut talimat, Rabbini çokça anması ve bunu sabah akşam sürdürmesidir — zikir burada özel bir anın değil, günlük bir alışkanlığın parçasıdır." },
+    { "type": "heading", "level": 2, "text": "Kendi Cümlelerinle Edebileceğin Bir Sabah Duası" },
+    {
+      "type": "dua",
+      "turkish_dua": "Allah'ım, bu günü Senin adınla başlatıyorum. Bana bugün için hayır, bereket ve doğru karar verme gücü ver. Beni ve sevdiklerimi bu gün içindeki her türlü kötülükten koru, yaptığım işleri Senin rızana uygun kıl.",
+      "note": "Bu metin ezberlenmesi gereken sabit bir formül değil, örnek bir başlangıç noktasıdır; kendi dilinde ve kendi kelimelerinle de edilebilir."
+    },
+    { "type": "heading", "level": 2, "text": "Güneş Doğmadan Önce: Sabahın Öncelikli Zikri" },
+    {
+      "type": "paragraph",
+      "text": "Tâhâ suresinde Allah, Peygambere karşı gelenlerin sözlerine sabretmesini öğütledikten hemen sonra, bu sabrı besleyecek bir pratik önerir: günün belirli vakitlerinde, özellikle güneş doğmadan önce, tesbih etmek."
+    },
+    { "type": "verse", "ref": "20:130", "note": "Ayet tesbih vakitlerini tek tek sayar — güneşin doğuşundan önce, batışından önce, gece saatlerinde ve gündüz boyunca — ama \"doğmasından önce\" ifadesiyle sabahı özellikle öne çıkarır." },
+    {
+      "type": "paragraph",
+      "text": "Bu sıralama tesadüfi değildir: gün henüz başlamadan, zihin dış dünyanın gürültüsüyle dolmadan önce yapılan bir zikir, geri kalan saatlere de bir yön verir."
+    },
+    { "type": "heading", "level": 2, "text": "Sabah Namazı ve Fecrin Kur'an'daki Yeri" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, sabah vaktine ayrı bir önem atfeder; hem doğrudan sabah namazından söz eder hem de fecre — tan yerinin ağarmasına — yemin eder."
+    },
+    { "type": "verse", "ref": "17:78", "note": "Ayet, günün namaz vakitlerini sıralarken sabah namazını ayrıca zikreder ve bu vaktin \"şahitli\" olduğunu, yani özel bir şekilde tanıklık taşıdığını belirtir." },
+    { "type": "verse", "ref": "89:1", "note": "Fecr suresi, tan yerinin ağarmasına yemin ederek açılır — Kur'an'ın yemin ettiği vakitler, üzerinde düşünülmesi istenen kıymetli anlardır." },
+    {
+      "type": "paragraph",
+      "text": "Duhâ suresi de benzer bir dille kuşluk vaktine, yani sabahın ilerleyen saatlerine yemin ederek başlar; bu sure zorluktan sonra gelen ferahlığı ve Rabbin kulunu terk etmediğini hatırlatır — güne başlarken akılda tutulması güzel bir mesajdır."
+    },
+    { "type": "verse", "ref": "93:1", "note": "Sure kuşluk vaktine yemin ederek açılır; devamında gelen ayetler, zorluğun ardından mutlaka bir kolaylığın geldiğini hatırlatır — sabah, bu umudun sembolik bir başlangıcıdır." },
+    { "type": "heading", "level": 2, "text": "Sabah Duasını Ne Zaman ve Nasıl Okumalısın?" },
+    {
+      "type": "paragraph",
+      "text": "Sabah duası için belirli bir vakit şartı yoktur; uyandıktan hemen sonra, sabah namazının ardından ya da güne çıkmadan önceki birkaç dakikada okunabilir. Önemli olan belirli bir sıraya bağlı kalmak değil, günü bilinçli bir niyetle açmak: o günün ne getireceğini bilmeden, kalbi Allah'a teslim ederek başlamak."
+    },
+    { "type": "heading", "level": 3, "text": "Sabah Duası ile Uyanınca Okunacak Dua Arasındaki Fark" },
+    {
+      "type": "paragraph",
+      "text": "Uyanınca okunacak dua, gözünü açar açmaz, henüz yataktan kalkmadan söylenen kısa bir şükür ve niyet cümlesidir. Sabah duası ise biraz daha geniştir; kişi kalktıktan, güne hazırlandıktan sonra, o günü nasıl geçirmek istediğini düşünerek edebileceği bir duadır. İkisi birbirini dışlamaz, art arda da okunabilir."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Sabaha Böyle Başlayabilirsin",
+      "items": [
+        "Uyandıktan sonra telefona bakmadan önce birkaç dakika ayır ve 33:42. ayetteki gibi kısa bir tesbihle güne başla.",
+        "Güneş doğmadan önceki sessiz dakikaları, 20:130. ayetin işaret ettiği gibi, günün ilk ve en sakin zikir vaktine dönüştür.",
+        "Sabah duasını ezbere bir kalıp olarak değil, o günden ne beklediğini ve neye ihtiyacın olduğunu Allah'a anlatan içten bir konuşma olarak kur."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Sabah okunacak dualar nelerdir?", "a": "Belirli, sabit bir liste yoktur; ama Ahzâb suresinin 41-42. ayetlerindeki sabah akşam zikir çağrısı ve kendi cümlelerinle edeceğin bir güne başlama duası en temel örneklerdir." },
+    { "q": "Sabah duası ne zaman okunmalı?", "a": "Belirli bir vakit şartı yoktur. Uyandıktan hemen sonra, sabah namazının ardından ya da güne çıkmadan önceki sakin dakikalarda okunabilir." },
+    { "q": "Sabah namazının Kur'an'da özel bir yeri var mı?", "a": "Evet. İsrâ suresinin 78. ayeti sabah namazını ayrıca zikreder ve bu vaktin tanıklık taşıdığını belirtir; Fecr ve Duhâ sureleri de sabaha ait vakitlere yemin ederek başlar." },
+    { "q": "Sabah duasını Türkçe etmek caiz mi?", "a": "Evet. Kur'an ayetlerini aslına sadık kalarak okumak önemlidir; ama kişisel dua kısmı kendi dilinde, kendi kelimelerinle de edilebilir." },
+    { "q": "Sabah duası ile uyanınca okunacak dua aynı mı?", "a": "Hayır, ama birbirini tamamlarlar. Uyanınca okunacak dua daha kısa ve andaki bir şükürdür; sabah duası ise güne hazırlanırken edilen, biraz daha geniş bir duadır." }
+  ],
+  "cta_text": "Duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
