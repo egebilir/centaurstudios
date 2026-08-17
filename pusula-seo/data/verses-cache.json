@@ -720,6 +720,83 @@
       "tr_diyanet": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: \"Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru\"",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-16T06:21:08.901Z"
+    },
+    "33:41": {
+      "ref": "33:41",
+      "surah_number": 33,
+      "surah_name_arabic": "سُورَةُ الأَحۡزَابِ",
+      "surah_name_english": "Al-Ahzaab",
+      "ayah_number": 41,
+      "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ ٱللَّهَ ذِكْرًۭا كَثِيرًۭا",
+      "tr_diyanet": "Ey inananlar! Allah'ı çok anın.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-17T07:00:35.540Z"
+    },
+    "33:42": {
+      "ref": "33:42",
+      "surah_number": 33,
+      "surah_name_arabic": "سُورَةُ الأَحۡزَابِ",
+      "surah_name_english": "Al-Ahzaab",
+      "ayah_number": 42,
+      "arabic": "وَسَبِّحُوهُ بُكْرَةًۭ وَأَصِيلًا",
+      "tr_diyanet": "O'nu sabah akşam tesbih edin.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-17T07:00:35.602Z"
+    },
+    "3:41": {
+      "ref": "3:41",
+      "surah_number": 3,
+      "surah_name_arabic": "سُورَةُ آلِ عِمۡرَانَ",
+      "surah_name_english": "Aal-i-Imraan",
+      "ayah_number": 41,
+      "arabic": "قَالَ رَبِّ ٱجْعَل لِّىٓ ءَايَةًۭ ۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَٰثَةَ أَيَّامٍ إِلَّا رَمْزًۭا ۗ وَٱذْكُر رَّبَّكَ كَثِيرًۭا وَسَبِّحْ بِٱلْعَشِىِّ وَٱلْإِبْكَٰرِ",
+      "tr_diyanet": "\"Ya Rabbi! Bana bir alamet ver\" dedi, \"Alametin, üç gün, işaretle anlaşma dışında insanlarla konuşmamandır; Rabbini çok an, akşam sabah hamd et\" dedi.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-17T07:00:35.711Z"
+    },
+    "20:130": {
+      "ref": "20:130",
+      "surah_number": 20,
+      "surah_name_arabic": "سُورَةُ طه",
+      "surah_name_english": "Taa-Haa",
+      "ayah_number": 130,
+      "arabic": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا ۖ وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ",
+      "tr_diyanet": "Onların dediklerine sabret; güneşin doğmasından ve batmasından önce Rabbini hamd ile tesbih et; gece saatlerinde ve gündüzleri de tesbih et ki Rabbinin rızasına eresin.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-17T07:00:35.778Z"
+    },
+    "89:1": {
+      "ref": "89:1",
+      "surah_number": 89,
+      "surah_name_arabic": "سُورَةُ الفَجۡرِ",
+      "surah_name_english": "Al-Fajr",
+      "ayah_number": 1,
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
+      "tr_diyanet": "Tanyerinin ağarmasına and olsun;",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-17T07:00:35.879Z"
+    },
+    "93:1": {
+      "ref": "93:1",
+      "surah_number": 93,
+      "surah_name_arabic": "سُورَةُ الضُّحَىٰ",
+      "surah_name_english": "Ad-Dhuhaa",
+      "ayah_number": 1,
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
+      "tr_diyanet": "Kuşluk vaktine and olsun;",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-17T07:00:35.948Z"
+    },
+    "17:78": {
+      "ref": "17:78",
+      "surah_number": 17,
+      "surah_name_arabic": "سُورَةُ الإِسۡرَاءِ",
+      "surah_name_english": "Al-Israa",
+      "ayah_number": 78,
+      "arabic": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًۭا",
+      "tr_diyanet": "Güneşin batıya yönelmesinden gecenin kararmasına kadar namaz kıl; sabah vakti de namaz kıl, zira sabah namazına melekler şahit olur.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-17T07:00:36.047Z"
     }
   }
 }
