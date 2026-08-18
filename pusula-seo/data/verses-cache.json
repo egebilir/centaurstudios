@@ -797,6 +797,28 @@
       "tr_diyanet": "Güneşin batıya yönelmesinden gecenin kararmasına kadar namaz kıl; sabah vakti de namaz kıl, zira sabah namazına melekler şahit olur.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-17T07:00:36.047Z"
+    },
+    "21:87": {
+      "ref": "21:87",
+      "surah_number": 21,
+      "surah_name_arabic": "سُورَةُ الأَنبِيَاءِ",
+      "surah_name_english": "Al-Anbiyaa",
+      "ayah_number": 87,
+      "arabic": "وَذَا ٱلنُّونِ إِذ ذَّهَبَ مُغَٰضِبًۭا فَظَنَّ أَن لَّن نَّقْدِرَ عَلَيْهِ فَنَادَىٰ فِى ٱلظُّلُمَٰتِ أَن لَّآ إِلَٰهَ إِلَّآ أَنتَ سُبْحَٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ",
+      "tr_diyanet": "Zünnun (Balık Sahibi; Yunus) hakkında söylediğimizi de an. O, öfkelenerek giderken, kendisini sıkıntıya sokmayacağımızı sanmıştı; fakat sonunda karanlıklar içinde: \"Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim\" diye seslenmişti.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-18T06:21:10.640Z"
+    },
+    "21:88": {
+      "ref": "21:88",
+      "surah_number": 21,
+      "surah_name_arabic": "سُورَةُ الأَنبِيَاءِ",
+      "surah_name_english": "Al-Anbiyaa",
+      "ayah_number": 88,
+      "arabic": "فَٱسْتَجَبْنَا لَهُۥ وَنَجَّيْنَٰهُ مِنَ ٱلْغَمِّ ۚ وَكَذَٰلِكَ نُۨجِى ٱلْمُؤْمِنِينَ",
+      "tr_diyanet": "Biz de ona cevap verip, onu üzüntüden kurtarmıştık. inananları böyle kurtarırız.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-18T06:21:11.018Z"
     }
   }
 }
