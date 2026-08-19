@@ -12,7 +12,7 @@
         "2 related_slugs girdisi artık geçerli değil: nazarla-ilgili-ayet, felak-ve-nas-suresi-nazar-icin."
       ],
       "severity": 3,
-      "detected_at": "2026-08-19T05:16:25.344Z"
+      "detected_at": "2026-08-19T19:14:01.691Z"
     },
     {
       "id": "rizik-duasi",
@@ -24,7 +24,7 @@
         "3 related_slugs girdisi artık geçerli değil: rizikla-ilgili-ayetler, is-ve-rizik-icin-dua, rizik-kapilari-nasil-acilir."
       ],
       "severity": 3,
-      "detected_at": "2026-08-19T05:16:25.344Z"
+      "detected_at": "2026-08-19T19:14:01.691Z"
     },
     {
       "id": "sifa-duasi",
@@ -36,7 +36,7 @@
         "2 related_slugs girdisi artık geçerli değil: sifayla-ilgili-ayetler, hastaya-okunacak-dua."
       ],
       "severity": 3,
-      "detected_at": "2026-08-19T05:16:25.344Z"
+      "detected_at": "2026-08-19T19:14:01.691Z"
     },
     {
       "id": "sinav-duasi",
@@ -48,18 +48,7 @@
         "1 related_slugs girdisi artık geçerli değil: basari-ile-ilgili-ayetler."
       ],
       "severity": 3,
-      "detected_at": "2026-08-19T05:16:25.344Z"
-    },
-    {
-      "id": "zor-zamanlarda-okunacak-dualar",
-      "content_type": "dua",
-      "slug": "zor-zamanlarda-okunacak-dualar",
-      "cluster": "sabir",
-      "reasons": [
-        "Hiçbir başka sayfadan bağlantı almıyor (orphan sayfa)."
-      ],
-      "severity": 2,
-      "detected_at": "2026-08-19T05:16:25.344Z"
+      "detected_at": "2026-08-19T19:14:01.691Z"
     },
     {
       "id": "tevekkul-nedir",
@@ -70,7 +59,7 @@
         "1 related_slugs girdisi artık geçerli değil: tevekkulle-ilgili-ayetler."
       ],
       "severity": 1,
-      "detected_at": "2026-08-19T05:16:25.344Z"
+      "detected_at": "2026-08-19T19:14:01.691Z"
     },
     {
       "id": "bereket-duasi",
@@ -81,7 +70,7 @@
         "4 related_slugs girdisi artık geçerli değil: bereketle-ilgili-ayetler, ev-icin-bereket-duasi, kazancta-bereket-duasi, bereket-nedir-islamda."
       ],
       "severity": 1,
-      "detected_at": "2026-08-19T05:16:25.344Z"
+      "detected_at": "2026-08-19T19:14:01.691Z"
     },
     {
       "id": "gece-okunacak-dualar",
@@ -92,18 +81,7 @@
         "2 related_slugs girdisi artık geçerli değil: yatmadan-once-okunacak-dua, uyaninca-okunacak-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-08-19T05:16:25.344Z"
-    },
-    {
-      "id": "kaygi-icin-dua",
-      "content_type": "dua",
-      "slug": "kaygi-icin-dua",
-      "cluster": "kaygi-ve-stres",
-      "reasons": [
-        "1 related_slugs girdisi artık geçerli değil: kaygiyla-ilgili-ayetler."
-      ],
-      "severity": 1,
-      "detected_at": "2026-08-19T05:16:25.344Z"
+      "detected_at": "2026-08-19T19:14:01.691Z"
     },
     {
       "id": "sabah-okunacak-dualar",
@@ -114,7 +92,7 @@
         "1 related_slugs girdisi artık geçerli değil: uyaninca-okunacak-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-08-19T05:16:25.344Z"
+      "detected_at": "2026-08-19T19:14:01.691Z"
     },
     {
       "id": "stres-icin-dua",
@@ -125,8 +103,8 @@
         "1 related_slugs girdisi artık geçerli değil: huzur-icin-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-08-19T05:16:25.344Z"
+      "detected_at": "2026-08-19T19:14:01.691Z"
     }
   ],
-  "last_scan": "2026-08-19T05:16:25.344Z"
+  "last_scan": "2026-08-19T19:14:01.691Z"
 }
