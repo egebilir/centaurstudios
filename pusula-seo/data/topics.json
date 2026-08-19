@@ -171,9 +171,9 @@
       "primary_keyword": "kaygı ile ilgili ayetler",
       "search_intent": "informational",
       "priority": 4,
-      "status": "pool",
+      "status": "published",
       "task_type": "new",
-      "last_published": null,
+      "last_published": "2026-08-19",
       "cooldown_until": null,
       "related_slugs": [
         "kaygi-icin-dua"
