@@ -819,6 +819,28 @@
       "tr_diyanet": "Biz de ona cevap verip, onu üzüntüden kurtarmıştık. inananları böyle kurtarırız.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-18T06:21:11.018Z"
+    },
+    "39:53": {
+      "ref": "39:53",
+      "surah_number": 39,
+      "surah_name_arabic": "سُورَةُ الزُّمَرِ",
+      "surah_name_english": "Az-Zumar",
+      "ayah_number": 53,
+      "arabic": "۞ قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "tr_diyanet": "De ki: \"Ey kendilerine kötülük edip aşırı giden kullarım! Allah'ın rahmetinden umudunuzu kesmeyin. Doğrusu Allah günahların hepsini bağışlar. Çünkü O, bağışlayandır, merhametlidir.\"",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-19T06:23:15.491Z"
+    },
+    "20:124": {
+      "ref": "20:124",
+      "surah_number": 20,
+      "surah_name_arabic": "سُورَةُ طه",
+      "surah_name_english": "Taa-Haa",
+      "ayah_number": 124,
+      "arabic": "وَمَنْ أَعْرَضَ عَن ذِكْرِى فَإِنَّ لَهُۥ مَعِيشَةًۭ ضَنكًۭا وَنَحْشُرُهُۥ يَوْمَ ٱلْقِيَٰمَةِ أَعْمَىٰ",
+      "tr_diyanet": "Benim Kitap'ımdan yüz çeviren bilsin ki onun dar bir geçimi olur ve kıyamet günü de onu kör olarak haşrederiz.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-19T06:23:15.550Z"
     }
   }
 }
