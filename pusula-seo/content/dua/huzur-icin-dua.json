@@ -1,0 +1,81 @@
+{
+  "id": "huzur-icin-dua",
+  "content_type": "dua",
+  "cluster": "kaygi-ve-stres",
+  "slug": "huzur-icin-dua",
+  "title": "Huzur İçin Dua: Kalbin Sükunet Bulması İçin Okunacak Dua ve Ayetler",
+  "seo_title": "Huzur İçin Dua: Kalp Huzuru İçin Okunacak Dua ve Ayetler | Pusula",
+  "meta_description": "Huzur için dua nedir, nasıl edilir? Kalbin Allah'ı anmakla huzur bulmasına dair ayetler ışığında okunacak dua ve iç huzuru için atılabilecek somut adımlar.",
+  "dek": "İçindeki kargaşayı dindirmek isteyenler için: kalbin huzur bulmasına dair ayetler, okunabilecek bir dua ve gündelik hayatta uygulanabilecek adımlar.",
+  "primary_keyword": "huzur için dua",
+  "published_date": "2026-08-20",
+  "updated_date": "2026-08-20",
+  "related_slugs": ["stres-icin-dua", "kaygi-icin-dua", "kaygiyla-ilgili-ayetler"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Huzur için dua, içindeki karmaşayı, huzursuzluğu ya da açıklanamayan bir sıkıntıyı Allah'a taşımak, kalbin O'nu anarak sükunete kavuşmasını istemektir. Kur'an, huzurun dışarıdan gelen bir şart değil, kalbin Allah'a yönelmesiyle ortaya çıkan bir hal olduğunu açıkça söyler. Aşağıda hem bu anlayışa dayanan bir dua örneğini hem de konuyla ilgili temel ayetleri bulacaksın."
+    },
+    { "type": "heading", "level": 2, "text": "Huzurun Kaynağı: \"Kalpler Ancak Allah'ı Anmakla Huzur Bulur\"" },
+    {
+      "type": "paragraph",
+      "text": "Huzur arayışıyla ilgili Kur'an'daki en açık ifade, Ra'd suresinde geçer. Bu ayet, huzuru bir sonuç değil, doğrudan bir neden-sonuç ilişkisi olarak tarif eder:"
+    },
+    { "type": "verse", "ref": "13:28", "note": "Ayet, huzuru \"bazen gelir bazen gelmez\" bir ruh hali olarak değil, Allah'ı anmanın doğal bir sonucu olarak tanımlar — yani huzur, dışarıdan beklenecek değil, içeriden inşa edilecek bir şeydir." },
+    {
+      "type": "paragraph",
+      "text": "Bu ayetin tersinden okunması da öğreticidir: zikirden, yani Allah'ı hatırlamaktan uzaklaşmak, huzurun da uzaklaşması demektir."
+    },
+    { "type": "verse", "ref": "20:124", "note": "Bu ayet, Allah'ın hatırasından yüz çevirmenin sonucunu \"dar bir geçim\" olarak tarif eder — huzursuzluk, çoğu zaman dışarıdaki bir eksiklikten değil, kalbin Allah'tan uzaklaşmasından kaynaklanır." },
+    { "type": "heading", "level": 2, "text": "Huzur İçin Okunabilecek Bir Dua" },
+    {
+      "type": "dua",
+      "turkish_dua": "Allah'ım, kalbimi Sen'i anmakla huzura kavuştur. İçimdeki telaşı, kargaşayı ve tarifsiz sıkıntıyı gider. Bana, elimde olan ve olmayanı ayırt edecek bir sükunet ver; taşıyamayacağım hiçbir şeyi bana yükleme, taşıdıklarımı da benim için hafiflet.",
+      "note": "Bu dua, kendi cümlelerinle ve kendi dilinde de edilebilir; sabit bir formül değil, örnek bir başlangıç noktasıdır. Önemli olan içtenlik ve Allah'a yönelmektir."
+    },
+    { "type": "heading", "level": 2, "text": "Zorluğun Ortasında Huzur Mümkün mü?" },
+    {
+      "type": "paragraph",
+      "text": "Huzur, hayatın zorluklarının bitmesini beklemek değildir; zorluğun tam ortasında bile mümkün olan bir haldir. Kur'an, bunu güçlükle kolaylığın iç içe olduğunu vurgulayarak anlatır:"
+    },
+    { "type": "verse", "ref": "94:5", "note": "Bu kısa ve vurgulu ayet, güçlüğün huzuru imkansız kılmadığını, aksine kolaylığın güçlüğün içinde zaten var olduğunu hatırlatır." },
+    { "type": "verse", "ref": "94:6", "note": "Aynı ifadenin tekrarı, bu gerçeğin bir defalık bir teselli değil, üzerinde durulması gereken bir ilke olduğunu gösterir." },
+    {
+      "type": "paragraph",
+      "text": "Huzursuzluğun büyük bir bölümü, aslında gücümüzün yetmediğini düşündüğümüz bir yükün altında kalma korkusundan gelir. Kur'an bu korkuya doğrudan cevap verir:"
+    },
+    { "type": "verse", "ref": "2:286", "note": "Bu ayet, Allah'ın hiç kimseye taşıyamayacağı bir yük yüklemediğini açıkça bildirir — huzursuzluk çoğu zaman, elimizde olmayan bir gücü kendimizden beklememizden doğar." },
+    { "type": "heading", "level": 2, "text": "Huzur İçin Dua Ne Zaman ve Nasıl Edilir?" },
+    {
+      "type": "paragraph",
+      "text": "Huzur duası için belirli bir vakit ya da kalıp şart değildir. İçin daraldığında, aklın bir konudan diğerine sıçrayıp durduğunda, ya da sebebini tam olarak adlandıramadığın bir tedirginlik hissettiğinde edilebilir. Namazdan sonra birkaç dakika sessiz kalmak, gece uyumadan önce günü zihinde tekrar etmek yerine kısa bir dua ile kapatmak, ya da kalabalığın ortasında bile bir anlığına içe dönüp Allah'ı anmak — bunların hepsi huzur arayışının birer biçimidir."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bazı insanlar için huzur, sabah işe çıkmadan önceki birkaç dakikalık sessizlikte; bazıları için akşam eve dönüşte trafikte, telefonu bir kenara bırakıp kısa bir zikirle geçen birkaç saniyede bulunur. Önemli olan, huzuru büyük ve özel bir ana saklamak yerine, gün içindeki küçük boşluklara yerleştirmektir. Bir toplantı öncesi, bir sınav öncesi ya da zor bir konuşma öncesi edilen kısa bir dua da aynı işlevi görür: zihni tek başına taşıdığı yükten bir anlığına kurtarır."
+    },
+    { "type": "heading", "level": 3, "text": "Huzur, Duyguyu Bastırmak Değildir" },
+    {
+      "type": "paragraph",
+      "text": "Huzur için dua etmek, üzüntüyü, kaygıyı ya da öfkeyi yok saymak anlamına gelmez. Aksine, o duyguyu tanımak ve onu taşımanın yükünü Allah'a bırakmaktır. Zikrin huzur getirmesi, sorunların birdenbire ortadan kalkması değil, o sorunları tek başına taşımadığını hatırlaman anlamına gelir. Bu yüzden huzur, anlık bir rahatlama değil, tekrar edildikçe güçlenen bir alışkanlıktır. Bir gün huzur bulup ertesi gün yeniden tedirgin hissetmek, duanın işe yaramadığı anlamına gelmez; tıpkı bir kası çalıştırmak gibi, huzur da her tekrarda biraz daha kolay ulaşılabilir hale gelir."
+    },
+    {
+      "type": "takeaways",
+      "heading": "İç Huzurunu Beslemek İçin Yapabileceklerin",
+      "items": [
+        "Günde birkaç dakika, hiçbir talepte bulunmadan sadece Allah'ı anarak (tesbih, kısa bir dua, sessiz bir farkındalık ile) geçir; 13:28. ayetteki huzur buradan başlar.",
+        "Huzursuzluk hissettiğinde, önce neyin gerçekten elinde olup olmadığını ayırt et; 2:286. ayeti hatırlayarak taşıyamayacağın bir yükü kendine yüklemediğini fark et.",
+        "Zorluk anında \"bu da geçecek\" demek yerine, 94:5-6. ayetlerdeki gibi kolaylığın zaten güçlüğün içinde bulunduğunu hatırla — bu, beklemekten çok, şu anda da bir dayanak bulmaktır."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Huzur için dua Kur'an'da geçen bir ayet mi?", "a": "Kur'an'da \"huzur duası\" adında tek bir ayet yoktur, ama huzurun kaynağını doğrudan tarif eden 13:28. ayet (Ra'd suresi) bu konudaki en temel referanstır: kalpler ancak Allah'ı anmakla huzur bulur." },
+    { "q": "İç huzur bulmak için ne yapmalıyım?", "a": "Kur'an'a göre huzurun temeli Allah'ı anmaktır (13:28). Buna ek olarak, elinde olmayan şeyleri kendine yük etmemek (2:286) ve güçlükle kolaylığın iç içe olduğunu hatırlamak (94:5-6) da huzuru besler." },
+    { "q": "Huzur duasını ne zaman okumalıyım?", "a": "Belirli bir vakit şartı yoktur. İçin daraldığında, kaygılandığında ya da sebepsiz bir tedirginlik hissettiğinde, kendi cümlelerinle de edilebilir." },
+    { "q": "Huzursuzluk neden kaynaklanır?", "a": "Kur'an, Allah'ın hatırasından uzaklaşmayı huzursuzluğun bir sebebi olarak gösterir (20:124). Bu, tek açıklama olmasa da, iç huzurun kalple Allah arasındaki bağa yakından bağlı olduğunu gösterir." },
+    { "q": "Huzur, sorunların bitmesi mi demektir?", "a": "Hayır. Kur'an huzuru zorlukların yokluğu olarak değil, zorluğun ortasında bile mümkün olan bir hal olarak anlatır; 94:5-6. ayetler kolaylığın güçlükle birlikte var olduğunu vurgular." }
+  ],
+  "cta_text": "Duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
