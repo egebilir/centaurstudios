@@ -841,6 +841,72 @@
       "tr_diyanet": "Benim Kitap'ımdan yüz çeviren bilsin ki onun dar bir geçimi olur ve kıyamet günü de onu kör olarak haşrederiz.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-19T06:23:15.550Z"
+    },
+    "11:48": {
+      "ref": "11:48",
+      "surah_number": 11,
+      "surah_name_arabic": "سُورَةُ هُودٍ",
+      "surah_name_english": "Hud",
+      "ayah_number": 48,
+      "arabic": "قِيلَ يَٰنُوحُ ٱهْبِطْ بِسَلَٰمٍۢ مِّنَّا وَبَرَكَٰتٍ عَلَيْكَ وَعَلَىٰٓ أُمَمٍۢ مِّمَّن مَّعَكَ ۚ وَأُمَمٌۭ سَنُمَتِّعُهُمْ ثُمَّ يَمَسُّهُم مِّنَّا عَذَابٌ أَلِيمٌۭ",
+      "tr_diyanet": "\"Ey Nuh! Sana ve seninle beraber olan topluluklara bizden bir selamet ve bereketle gemiden in. Ama birçok toplulukları da geçindireceğiz, sonra onlara can yakıcı bir azab vereceğiz\" denildi.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-21T06:26:13.790Z"
+    },
+    "6:155": {
+      "ref": "6:155",
+      "surah_number": 6,
+      "surah_name_arabic": "سُورَةُ الأَنۡعَامِ",
+      "surah_name_english": "Al-An'aam",
+      "ayah_number": 155,
+      "arabic": "وَهَٰذَا كِتَٰبٌ أَنزَلْنَٰهُ مُبَارَكٌۭ فَٱتَّبِعُوهُ وَٱتَّقُوا۟ لَعَلَّكُمْ تُرْحَمُونَ",
+      "tr_diyanet": "Bu, indirdiğimiz kutsal Kitap'dır, ona uyun. \"Bizden önce iki topluluğa kitap indirildi, bizim onların okuduklarından haberimiz yok\" demekten veya \"Bize kitap indirilseydi onlardan daha doğru yolda olurduk\" demekten sakının ki merhamet olunasınız. Şüphesiz o, size Rabbinizden belge, yol gösteren ve rahmet olarak gelmiştir. Allah'ın ayetlerini yalanlayandan ve onlardan yüz çevirenden daha zalim kimdir? Ayetlerimizden yüz çevirenleri, yüz çevirmelerinden ötürü, kötü bir azabla cezalandıracağız.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-21T06:26:14.095Z"
+    },
+    "21:50": {
+      "ref": "21:50",
+      "surah_number": 21,
+      "surah_name_arabic": "سُورَةُ الأَنبِيَاءِ",
+      "surah_name_english": "Al-Anbiyaa",
+      "ayah_number": 50,
+      "arabic": "وَهَٰذَا ذِكْرٌۭ مُّبَارَكٌ أَنزَلْنَٰهُ ۚ أَفَأَنتُمْ لَهُۥ مُنكِرُونَ",
+      "tr_diyanet": "İşte bu, indirdiğimiz kutsal bir Kitap'dır. Siz mi onu inkar ediyorsunuz?",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-21T06:26:14.549Z"
+    },
+    "17:1": {
+      "ref": "17:1",
+      "surah_number": 17,
+      "surah_name_arabic": "سُورَةُ الإِسۡرَاءِ",
+      "surah_name_english": "Al-Israa",
+      "ayah_number": 1,
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ سُبْحَٰنَ ٱلَّذِىٓ أَسْرَىٰ بِعَبْدِهِۦ لَيْلًۭا مِّنَ ٱلْمَسْجِدِ ٱلْحَرَامِ إِلَى ٱلْمَسْجِدِ ٱلْأَقْصَا ٱلَّذِى بَٰرَكْنَا حَوْلَهُۥ لِنُرِيَهُۥ مِنْ ءَايَٰتِنَآ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
+      "tr_diyanet": "Kulunu (Muhammed'i) bir gece Mescidi Haram'dan (Mekke'den), kendisine bir kısım ayetlerimizi göstermek için, çevresini mübarek kıldığımız Mescidi Aksa'ya (Kudüs'e) götüren Allah'ın şanı yücedir. Doğrusu O, işitir ve görür.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-21T06:26:14.810Z"
+    },
+    "50:9": {
+      "ref": "50:9",
+      "surah_number": 50,
+      "surah_name_arabic": "سُورَةُ قٓ",
+      "surah_name_english": "Qaaf",
+      "ayah_number": 9,
+      "arabic": "وَنَزَّلْنَا مِنَ ٱلسَّمَآءِ مَآءًۭ مُّبَٰرَكًۭا فَأَنۢبَتْنَا بِهِۦ جَنَّٰتٍۢ وَحَبَّ ٱلْحَصِيدِ",
+      "tr_diyanet": "Gökten bereketli bir su indirdik, kullara rızık olmak üzere onunla bahçeler, biçilecek taneli ekinler, küme küme tomurcukları olan boylu hurma ağaçları yetiştirdik. O su ile ölü yeri dirilttik. İşte insanların diriltilmesi de böyledir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-21T06:26:40.082Z"
+    },
+    "41:10": {
+      "ref": "41:10",
+      "surah_number": 41,
+      "surah_name_arabic": "سُورَةُ فُصِّلَتۡ",
+      "surah_name_english": "Fussilat",
+      "ayah_number": 10,
+      "arabic": "وَجَعَلَ فِيهَا رَوَٰسِىَ مِن فَوْقِهَا وَبَٰرَكَ فِيهَا وَقَدَّرَ فِيهَآ أَقْوَٰتَهَا فِىٓ أَرْبَعَةِ أَيَّامٍۢ سَوَآءًۭ لِّلسَّآئِلِينَ",
+      "tr_diyanet": "Yeryüzüne üstünden ağır baskılar (dağlar) yerleştirdi, onu bereketli kıldı; arayıp soranlar için gıdalarını tam (toplam) dört gün içinde yetiştirmesi kanununu koydu (takdir etti).",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-21T06:26:40.620Z"
     }
   }
 }
