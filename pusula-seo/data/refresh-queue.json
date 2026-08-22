@@ -3,18 +3,6 @@
   "notes": "Populated by scripts/refresh/analyze-content.mjs. Entries reference an existing published slug (unlike topics.json, which is for new topics).",
   "candidates": [
     {
-      "id": "nazar-duasi",
-      "content_type": "dua",
-      "slug": "nazar-duasi",
-      "cluster": "nazar",
-      "reasons": [
-        "Hiçbir başka sayfadan bağlantı almıyor (orphan sayfa).",
-        "2 related_slugs girdisi artık geçerli değil: nazarla-ilgili-ayet, felak-ve-nas-suresi-nazar-icin."
-      ],
-      "severity": 3,
-      "detected_at": "2026-08-22T05:13:54.210Z"
-    },
-    {
       "id": "rizik-duasi",
       "content_type": "dua",
       "slug": "rizik-duasi",
@@ -24,7 +12,7 @@
         "3 related_slugs girdisi artık geçerli değil: rizikla-ilgili-ayetler, is-ve-rizik-icin-dua, rizik-kapilari-nasil-acilir."
       ],
       "severity": 3,
-      "detected_at": "2026-08-22T05:13:54.210Z"
+      "detected_at": "2026-08-22T18:14:05.515Z"
     },
     {
       "id": "sifa-duasi",
@@ -36,7 +24,7 @@
         "2 related_slugs girdisi artık geçerli değil: sifayla-ilgili-ayetler, hastaya-okunacak-dua."
       ],
       "severity": 3,
-      "detected_at": "2026-08-22T05:13:54.210Z"
+      "detected_at": "2026-08-22T18:14:05.516Z"
     },
     {
       "id": "sinav-duasi",
@@ -48,7 +36,7 @@
         "1 related_slugs girdisi artık geçerli değil: basari-ile-ilgili-ayetler."
       ],
       "severity": 3,
-      "detected_at": "2026-08-22T05:13:54.210Z"
+      "detected_at": "2026-08-22T18:14:05.516Z"
     },
     {
       "id": "bereketle-ilgili-ayetler",
@@ -59,7 +47,7 @@
         "3 related_slugs girdisi artık geçerli değil: ev-icin-bereket-duasi, kazancta-bereket-duasi, bereket-nedir-islamda."
       ],
       "severity": 1,
-      "detected_at": "2026-08-22T05:13:54.209Z"
+      "detected_at": "2026-08-22T18:14:05.515Z"
     },
     {
       "id": "tevekkul-nedir",
@@ -70,7 +58,7 @@
         "1 related_slugs girdisi artık geçerli değil: tevekkulle-ilgili-ayetler."
       ],
       "severity": 1,
-      "detected_at": "2026-08-22T05:13:54.209Z"
+      "detected_at": "2026-08-22T18:14:05.515Z"
     },
     {
       "id": "bereket-duasi",
@@ -81,7 +69,7 @@
         "3 related_slugs girdisi artık geçerli değil: ev-icin-bereket-duasi, kazancta-bereket-duasi, bereket-nedir-islamda."
       ],
       "severity": 1,
-      "detected_at": "2026-08-22T05:13:54.209Z"
+      "detected_at": "2026-08-22T18:14:05.515Z"
     },
     {
       "id": "gece-okunacak-dualar",
@@ -92,7 +80,18 @@
         "2 related_slugs girdisi artık geçerli değil: yatmadan-once-okunacak-dua, uyaninca-okunacak-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-08-22T05:13:54.209Z"
+      "detected_at": "2026-08-22T18:14:05.515Z"
+    },
+    {
+      "id": "nazar-duasi",
+      "content_type": "dua",
+      "slug": "nazar-duasi",
+      "cluster": "nazar",
+      "reasons": [
+        "1 related_slugs girdisi artık geçerli değil: felak-ve-nas-suresi-nazar-icin."
+      ],
+      "severity": 1,
+      "detected_at": "2026-08-22T18:14:05.515Z"
     },
     {
       "id": "sabah-okunacak-dualar",
@@ -103,8 +102,8 @@
         "1 related_slugs girdisi artık geçerli değil: uyaninca-okunacak-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-08-22T05:13:54.210Z"
+      "detected_at": "2026-08-22T18:14:05.516Z"
     }
   ],
-  "last_scan": "2026-08-22T05:13:54.210Z"
+  "last_scan": "2026-08-22T18:14:05.516Z"
 }
