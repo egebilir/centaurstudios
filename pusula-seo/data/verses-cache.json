@@ -907,6 +907,39 @@
       "tr_diyanet": "Yeryüzüne üstünden ağır baskılar (dağlar) yerleştirdi, onu bereketli kıldı; arayıp soranlar için gıdalarını tam (toplam) dört gün içinde yetiştirmesi kanununu koydu (takdir etti).",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-21T06:26:40.620Z"
+    },
+    "17:30": {
+      "ref": "17:30",
+      "surah_number": 17,
+      "surah_name_arabic": "سُورَةُ الإِسۡرَاءِ",
+      "surah_name_english": "Al-Israa",
+      "ayah_number": 30,
+      "arabic": "إِنَّ رَبَّكَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرًۢا بَصِيرًۭا",
+      "tr_diyanet": "Doğrusu senin Rabbin dilediği kimsenin rızkını genişletir ve bir ölçüye göre verir. O kullarını gören ve haberdar olandır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-23T06:14:26.391Z"
+    },
+    "67:15": {
+      "ref": "67:15",
+      "surah_number": 67,
+      "surah_name_arabic": "سُورَةُ المُلۡكِ",
+      "surah_name_english": "Al-Mulk",
+      "ayah_number": 15,
+      "arabic": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًۭا فَٱمْشُوا۟ فِى مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
+      "tr_diyanet": "Yeryüzünü, size boyun eğdiren O'dur; öyleyse yerin sırtlarında dolaşın, Allah'ın verdiği rızıktan yiyin; sonunda dönüş O'nadır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-23T06:14:26.888Z"
+    },
+    "20:132": {
+      "ref": "20:132",
+      "surah_number": 20,
+      "surah_name_arabic": "سُورَةُ طه",
+      "surah_name_english": "Taa-Haa",
+      "ayah_number": 132,
+      "arabic": "وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا ۖ لَا نَسْـَٔلُكَ رِزْقًۭا ۖ نَّحْنُ نَرْزُقُكَ ۗ وَٱلْعَٰقِبَةُ لِلتَّقْوَىٰ",
+      "tr_diyanet": "Ehline namaz kılmalarını emret, kendin de onda devamlı ol. Biz senden rızık istemiyoruz, sana rızık veren Biziz. Sonuç Allah'a karşı gelmekten sakınanındır.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-23T06:15:05.396Z"
     }
   }
 }
