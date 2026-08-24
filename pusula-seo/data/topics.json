@@ -481,9 +481,9 @@
       "primary_keyword": "sınav öncesi okunacak dualar",
       "search_intent": "prayer-lookup",
       "priority": 4,
-      "status": "pool",
+      "status": "published",
       "task_type": "new",
-      "last_published": null,
+      "last_published": "2026-08-24",
       "cooldown_until": null,
       "related_slugs": [
         "sinav-duasi"
