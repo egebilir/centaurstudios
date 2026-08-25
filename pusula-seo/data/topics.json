@@ -533,9 +533,9 @@
       "primary_keyword": "şifayla ilgili ayetler",
       "search_intent": "informational",
       "priority": 4,
-      "status": "pool",
+      "status": "published",
       "task_type": "new",
-      "last_published": null,
+      "last_published": "2026-08-25",
       "cooldown_until": null,
       "related_slugs": [
         "sifa-duasi"
