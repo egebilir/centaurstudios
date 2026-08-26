@@ -1,0 +1,92 @@
+{
+  "id": "hastaya-okunacak-dua",
+  "content_type": "dua",
+  "cluster": "sifa",
+  "slug": "hastaya-okunacak-dua",
+  "title": "Hastaya Okunacak Dua: Ziyarette ve Uzaktan Nasıl Dua Edilir?",
+  "seo_title": "Hastaya Okunacak Dua: Ziyarette Nasıl Dua Edilir? | Pusula",
+  "meta_description": "Hastaya nasıl dua edilir? Ziyarette ve uzaktan okunacak dua örneği, ilgili ayetler ve hasta yanında nelere dikkat edilmesi gerektiği bu yazıda.",
+  "dek": "Bir yakınının hastalığında ne söyleyeceğini bilemediğin anlar için: okuyabileceğin bir dua, ilgili ayetler ve ziyarette dikkat edilmesi gerekenler.",
+  "primary_keyword": "hastaya okunacak dua",
+  "published_date": "2026-08-26",
+  "updated_date": "2026-08-26",
+  "related_slugs": ["sifa-duasi", "sifayla-ilgili-ayetler", "zor-zamanlarda-okunacak-dualar"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Hastaya okunacak dua, bir yakınının hastalığı karşısında onun için Allah'a sığınmak, iyileşmesini ve acısının hafiflemesini dilemektir. Kendi hastalığın için edilen bir duadan farklı olarak burada mesele başkasının derdini taşımak: elini tutup ne söyleyeceğini bilememek, ya da uzakta olup sadece içinden dua edebilmek. Aşağıda hem kendi cümlelerinle edebileceğin bir dua örneğini hem de Kur'an'dan bu duaya ilham olacak ayetleri bulacaksın."
+    },
+    { "type": "heading", "level": 2, "text": "Hasta Bir Yakının İçin Edebileceğin Bir Dua" },
+    {
+      "type": "dua",
+      "turkish_dua": "Allah'ım, bu kuluna şifa ver. Bedenindeki acıyı hafiflet, kalbindeki korkuyu gider. Ona sabır ve iyileşme ver, bu hastalığı hakkında hayra çevir. Yanında olamadığım anlarda bile onu Sana emanet ediyorum; Sen şifa verenlerin en hayırlısısın.",
+      "note": "Bu dua, ezberlenmesi gereken sabit bir metin değil, örnek bir başlangıç noktasıdır. Kişinin adını anarak, kendi cümlelerinle de aynı içerikte dua edebilirsin."
+    },
+    { "type": "heading", "level": 2, "text": "Kur'an'dan İlham: Hz. Eyyub'un Duası" },
+    {
+      "type": "paragraph",
+      "text": "Bir başkası için dua ederken bile, model alınacak en somut örnek yine Hz. Eyyub'un kendi hastalığı karşısında Allah'a yönelişidir. Uzun bir şikayet yerine, kısa ve içten bir cümle kurar:"
+    },
+    { "type": "verse", "ref": "21:83", "note": "Hz. Eyyub, hastalığını Allah'a arz ederken şikayet değil, sığınma ve teslimiyet dilini kullanır." },
+    { "type": "verse", "ref": "21:84", "note": "Ayetin devamı, bu duanın karşılıksız kalmadığını, sıkıntının ardından gerçek bir iyileşmenin geldiğini gösterir." },
+    {
+      "type": "paragraph",
+      "text": "Bir yakının için dua ederken de aynı sadeliği taşıyabilirsin: onun derdini uzun uzun anlatmak yerine, \"Allah'ım, ona bir sıkıntı geldi, ama Sen merhametlilerin en merhametlisisin\" demek yeterlidir."
+    },
+    { "type": "heading", "level": 2, "text": "Şifanın Kaynağı Allah'tır" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an, iyileşmenin kaynağını açıkça Allah'a bağlar. İbrahim'in kendi hastalığı için söylediği şu cümle, hem kendimiz hem başkaları için dua ederken hatırlanması gereken bir bakış açısı sunar:"
+    },
+    { "type": "verse", "ref": "26:80", "note": "\"Hasta olduğumda bana O şifa verir\" cümlesi, iyileşmenin ilaçtan ya da tedaviden önce, gerçek kaynağının Allah olduğunu hatırlatır." },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'ın kendisi de bir şifa kaynağı olarak tanımlanır — hem bedendeki hem kalpteki sıkıntı için:"
+    },
+    { "type": "verse", "ref": "17:82", "note": "Kur'an burada inananlar için bir şifa ve rahmet olarak nitelenir; hasta yanında okumak ya da dinletmek, kalbi rahatlatan bir eylem olarak düşünülebilir." },
+    { "type": "verse", "ref": "10:57", "note": "Bu ayet şifayı doğrudan \"kalplerdeki\" sıkıntıya bağlar — yani hasta bir yakının için dilediğin şifa, yalnızca bedensel değil, onun içindeki korku ve endişeyi de kapsamalı." },
+    { "type": "heading", "level": 2, "text": "Hasta Ziyaretinde Nasıl Davranılır, Ne Söylenmeli?" },
+    {
+      "type": "paragraph",
+      "text": "Hasta bir yakının yanında doğru kelimeyi bulmak zor olabilir. Durumu abartan, korkutan ya da moralini bozan sözlerden kaçınmak, Kur'an'ın konuşma biçimine dair verdiği genel bir ölçüyle örtüşür:"
+    },
+    { "type": "verse", "ref": "3:159", "note": "Bu ayet Allah'ın rahmeti sayesinde yumuşak ve kırıcı olmayan bir üslubu över; hasta bir kişinin yanında sert ya da umutsuzlaştırıcı konuşmak yerine bu yumuşaklığı esas almak yerinde olur." },
+    {
+      "type": "paragraph",
+      "text": "Pratikte bu, uzun ve resmi bir dua kurmak zorunda olmadığın anlamına gelir. Elini tutup içinden ya da sessizce \"Allah'ım, ona şifa ver, acısını hafiflet\" demek yeterlidir. Önemli olan orada bulunmak, onu dinlemek ve gerçekten ilgilenmektir — dua, bu ilginin yerini tutan bir formalite değil, bir parçasıdır."
+    },
+    { "type": "heading", "level": 2, "text": "Taşıdığı Yük, Gücünün Üzerinde Değil" },
+    {
+      "type": "paragraph",
+      "text": "Hasta bir yakınına söyleyebileceğin, hem doğru hem teselli edici bir hatırlatma da şudur: bu sınama, taşıyamayacağı bir yük değildir."
+    },
+    { "type": "verse", "ref": "2:286", "note": "Bu ayet, Allah'ın hiç kimseye gücünün yetmeyeceği bir yük yüklemediğini bildirir — hastalıkla boğuşan birine, \"bu senin gücünün üzerinde değil\" demek, boş bir teselli değil, ayete dayanan bir gerçektir." },
+    {
+      "type": "paragraph",
+      "text": "Bu hatırlatmayı yaparken abartılı bir iyimserlikten de kaçınmak gerekir. Hastalık gerçek, acı gerçek; mesele bunu inkâr etmek değil, bu gerçeğin yanına Allah'ın rahmetini ve gücünün ölçüsünü de koymaktır."
+    },
+    { "type": "heading", "level": 3, "text": "Uzaktan Dua Etmek de Aynı Değeri Taşır" },
+    {
+      "type": "paragraph",
+      "text": "Her zaman yanında olamayabilirsin — şehir dışında olabilirsin, hastane ziyaret saatleri dışında kalabilirsin ya da sadece telefonla haber alabilirsin. Bu durumda dua etmenin değeri azalmaz. Bir mesaj yazarken, telefonu kapatırken ya da sadece haberini aldığın anda içinden dua etmek, elini tutarak edilen duadan farksız bir sığınmadır. Önemli olan fiziksel yakınlık değil, kalbin o kişi için Allah'a yönelmesidir."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Hasta Bir Yakının İçin Yapabileceklerin",
+      "items": [
+        "Uzun bir dua kurmak zorunda değilsin; elini tutup ya da içinden \"Allah'ım, ona şifa ver\" demek yeterlidir.",
+        "Yanındayken 3:159. ayetteki gibi yumuşak konuş; durumu abartan ya da korkutan sözlerden kaçın.",
+        "Uzaktaysan da dua etmenin değeri aynıdır — haberini aldığın anda içinden dua etmek, elini tutarak edilen duadan farksızdır."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Hastaya nasıl dua edilir?", "a": "Uzun ve kalıp bir metin şart değildir. Elini tutup içinden ya da sesli olarak \"Allah'ım, ona şifa ver, acısını hafiflet\" demek yeterlidir; önemli olan içtenlik ve o kişiyi gerçekten düşünerek dua etmektir." },
+    { "q": "Hasta ziyaretinde ne söylenmemeli?", "a": "Durumu abartan, korkutan ya da umutsuzlaştıran sözlerden kaçınmak gerekir. Kur'an'ın 3:159. ayette övdüğü yumuşak ve kırıcı olmayan konuşma biçimi, hasta yanında da esas alınmalıdır." },
+    { "q": "Hastaya dua ederken hangi ayetler okunabilir?", "a": "Hz. Eyyub'un duasını içeren 21:83-84, şifanın kaynağını Allah'a bağlayan 26:80, ve Kur'an'ı bir şifa kaynağı olarak tanımlayan 17:82 ile 10:57 bu bağlamda okunabilecek ayetler arasındadır." },
+    { "q": "Uzaktan, hastanın yanında olmadan dua edilebilir mi?", "a": "Evet. Fiziksel olarak yanında olmak dua etmenin şartı değildir; telefonla haber aldığın anda ya da mesaj yazarken içinden dua etmek de aynı değeri taşır." },
+    { "q": "Hastaya okunacak dua Arapça mı olmalı?", "a": "Hayır. Arapça bilmiyorsan kendi dilinde de dua edebilirsin. Önemli olan kalıp bir metni ezberden okumak değil, o kişi için içtenlikle Allah'a yönelmektir." }
+  ],
+  "cta_text": "Bir yakının hastaysa, duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
