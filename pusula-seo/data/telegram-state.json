@@ -4,12 +4,12 @@
   "paused": false,
   "pending_commands": [],
   "last_run": {
-    "morning_report": "2026-08-27T05:41:03.000Z",
-    "evening_summary": "2026-08-26T18:15:05.000Z",
-    "gsc_pull": "2026-08-27T00:19:04.062Z",
-    "gsc_milestones": "2026-08-27T00:21:20.936Z",
-    "refresh_scan": "2026-08-23T21:13:54.096Z",
-    "advisor_recommendations": "2026-08-23T21:14:51.310Z",
-    "new_article": "2026-08-27T06:35:55.350Z"
+    "morning_report": "2026-08-22T05:14:00.681Z",
+    "evening_summary": "2026-08-21T19:15:07.000Z",
+    "gsc_pull": "2026-08-27T11:31:43.880Z",
+    "gsc_milestones": "2026-08-27T11:33:29.417Z",
+    "refresh_scan": "2026-08-09T21:17:17.374Z",
+    "advisor_recommendations": "2026-08-09T21:18:34.810Z",
+    "new_article": "2026-08-27T11:36:29.000Z"
   }
 }
