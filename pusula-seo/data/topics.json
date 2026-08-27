@@ -414,7 +414,7 @@
       "priority": 4,
       "status": "published",
       "task_type": "new",
-      "last_published": "2026-08-23",
+      "last_published": "2026-08-27",
       "cooldown_until": null,
       "related_slugs": [
         "rizik-duasi"
@@ -481,9 +481,9 @@
       "primary_keyword": "sınav öncesi okunacak dualar",
       "search_intent": "prayer-lookup",
       "priority": 4,
-      "status": "published",
+      "status": "pool",
       "task_type": "new",
-      "last_published": "2026-08-24",
+      "last_published": null,
       "cooldown_until": null,
       "related_slugs": [
         "sinav-duasi"
@@ -533,9 +533,9 @@
       "primary_keyword": "şifayla ilgili ayetler",
       "search_intent": "informational",
       "priority": 4,
-      "status": "published",
+      "status": "pool",
       "task_type": "new",
-      "last_published": "2026-08-25",
+      "last_published": null,
       "cooldown_until": null,
       "related_slugs": [
         "sifa-duasi"
@@ -567,9 +567,9 @@
       "primary_keyword": "hastaya okunacak dua",
       "search_intent": "prayer-lookup",
       "priority": 4,
-      "status": "published",
+      "status": "pool",
       "task_type": "new",
-      "last_published": "2026-08-26",
+      "last_published": null,
       "cooldown_until": null,
       "related_slugs": [
         "sifa-duasi"
@@ -602,9 +602,9 @@
       "primary_keyword": "tevekkülle ilgili ayetler",
       "search_intent": "informational",
       "priority": 4,
-      "status": "published",
+      "status": "pool",
       "task_type": "new",
-      "last_published": "2026-08-27",
+      "last_published": null,
       "cooldown_until": null,
       "related_slugs": [
         "tevekkul-nedir"
