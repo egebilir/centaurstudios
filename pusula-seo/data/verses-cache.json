@@ -917,7 +917,18 @@
       "arabic": "إِنَّ رَبَّكَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرًۢا بَصِيرًۭا",
       "tr_diyanet": "Doğrusu senin Rabbin dilediği kimsenin rızkını genişletir ve bir ölçüye göre verir. O kullarını gören ve haberdar olandır.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-23T06:14:26.391Z"
+      "fetched_at": "2026-08-27T11:34:18.473Z"
+    },
+    "42:12": {
+      "ref": "42:12",
+      "surah_number": 42,
+      "surah_name_arabic": "سُورَةُ الشُّورَىٰ",
+      "surah_name_english": "Ash-Shura",
+      "ayah_number": 12,
+      "arabic": "لَهُۥ مَقَالِيدُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍ عَلِيمٌۭ",
+      "tr_diyanet": "Göklerin ve yerin kilitleri O'nundur. Dilediğine rızkı yayar ve isterse kısar, bir ölçüye göre verir. Doğrusu O herşeyi bilendir.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-27T11:34:18.945Z"
     },
     "67:15": {
       "ref": "67:15",
@@ -928,7 +939,7 @@
       "arabic": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًۭا فَٱمْشُوا۟ فِى مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
       "tr_diyanet": "Yeryüzünü, size boyun eğdiren O'dur; öyleyse yerin sırtlarında dolaşın, Allah'ın verdiği rızıktan yiyin; sonunda dönüş O'nadır.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-23T06:14:26.888Z"
+      "fetched_at": "2026-08-27T11:34:19.799Z"
     },
     "20:132": {
       "ref": "20:132",
@@ -939,84 +950,7 @@
       "arabic": "وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا ۖ لَا نَسْـَٔلُكَ رِزْقًۭا ۖ نَّحْنُ نَرْزُقُكَ ۗ وَٱلْعَٰقِبَةُ لِلتَّقْوَىٰ",
       "tr_diyanet": "Ehline namaz kılmalarını emret, kendin de onda devamlı ol. Biz senden rızık istemiyoruz, sana rızık veren Biziz. Sonuç Allah'a karşı gelmekten sakınanındır.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-23T06:15:05.396Z"
-    },
-    "20:114": {
-      "ref": "20:114",
-      "surah_number": 20,
-      "surah_name_arabic": "سُورَةُ طه",
-      "surah_name_english": "Taa-Haa",
-      "ayah_number": 114,
-      "arabic": "فَتَعَٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۗ وَلَا تَعْجَلْ بِٱلْقُرْءَانِ مِن قَبْلِ أَن يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ ۖ وَقُل رَّبِّ زِدْنِى عِلْمًۭا",
-      "tr_diyanet": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, \"Rabbim! ilmimi artır\" de.",
-      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-24T06:30:52.021Z"
-    },
-    "9:14": {
-      "ref": "9:14",
-      "surah_number": 9,
-      "surah_name_arabic": "سُورَةُ التَّوۡبَةِ",
-      "surah_name_english": "At-Tawba",
-      "ayah_number": 14,
-      "arabic": "قَٰتِلُوهُمْ يُعَذِّبْهُمُ ٱللَّهُ بِأَيْدِيكُمْ وَيُخْزِهِمْ وَيَنصُرْكُمْ عَلَيْهِمْ وَيَشْفِ صُدُورَ قَوْمٍۢ مُّؤْمِنِينَ",
-      "tr_diyanet": "Onlarla savaşın ki Allah sizin elinizle onları azablandırsın, rezil etsin ve sizi üstün getirsin de müminlerin gönüllerini ferahlandırsın, kalblerindeki öfkeyi gidersin. Allah dilediğinin tevbesini kabul eder. Allah Bilendir, Hakimdir.",
-      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-25T06:35:17.014Z"
-    },
-    "16:69": {
-      "ref": "16:69",
-      "surah_number": 16,
-      "surah_name_arabic": "سُورَةُ النَّحۡلِ",
-      "surah_name_english": "An-Nahl",
-      "ayah_number": 69,
-      "arabic": "ثُمَّ كُلِى مِن كُلِّ ٱلثَّمَرَٰتِ فَٱسْلُكِى سُبُلَ رَبِّكِ ذُلُلًۭا ۚ يَخْرُجُ مِنۢ بُطُونِهَا شَرَابٌۭ مُّخْتَلِفٌ أَلْوَٰنُهُۥ فِيهِ شِفَآءٌۭ لِّلنَّاسِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَتَفَكَّرُونَ",
-      "tr_diyanet": "Rabbin bal arısına: \"Dağlarda, ağaçlarda ve hazırlanmış kovanlarda yuva edin; sonra her çeşit üründen ye; sonra da Rabbinin işlemen için gösterdiği yollardan yürü\" diye öğretti. Karınlarından insanlara şifa olan çeşitli renklerde bal çıkar. Düşünen bir millet için bunda ibret vardır.",
-      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-25T06:35:17.535Z"
-    },
-    "41:44": {
-      "ref": "41:44",
-      "surah_number": 41,
-      "surah_name_arabic": "سُورَةُ فُصِّلَتۡ",
-      "surah_name_english": "Fussilat",
-      "ayah_number": 44,
-      "arabic": "وَلَوْ جَعَلْنَٰهُ قُرْءَانًا أَعْجَمِيًّۭا لَّقَالُوا۟ لَوْلَا فُصِّلَتْ ءَايَٰتُهُۥٓ ۖ ءَا۬عْجَمِىٌّۭ وَعَرَبِىٌّۭ ۗ قُلْ هُوَ لِلَّذِينَ ءَامَنُوا۟ هُدًۭى وَشِفَآءٌۭ ۖ وَٱلَّذِينَ لَا يُؤْمِنُونَ فِىٓ ءَاذَانِهِمْ وَقْرٌۭ وَهُوَ عَلَيْهِمْ عَمًى ۚ أُو۟لَٰٓئِكَ يُنَادَوْنَ مِن مَّكَانٍۭ بَعِيدٍۢ",
-      "tr_diyanet": "Biz bu Kuran'ı yabancı bir dil ile ortaya koysaydık: \"Ayetleri uzun açıklanmalı değil miydi? Araba yabancı bir dille söylenir mi?\" derlerdi. De ki: \"Bu, inananlara doğruluk rehberi ve gönüllerine şifadır.\" İnanmayanların kulaklarında ağırlık vardır ve onlara kapalıdır; sanki bunlara uzak bir mesafeden sesleniliyor da anlamıyorlar.",
-      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-25T06:35:18.052Z"
-    },
-    "11:123": {
-      "ref": "11:123",
-      "surah_number": 11,
-      "surah_name_arabic": "سُورَةُ هُودٍ",
-      "surah_name_english": "Hud",
-      "ayah_number": 123,
-      "arabic": "وَلِلَّهِ غَيْبُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَإِلَيْهِ يُرْجَعُ ٱلْأَمْرُ كُلُّهُۥ فَٱعْبُدْهُ وَتَوَكَّلْ عَلَيْهِ ۚ وَمَا رَبُّكَ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
-      "tr_diyanet": "Göklerin ve yerin gaybı Allah'a aittir. Bütün işler O'na döndürülür. Öyleyse O'na kulluk et, O'na güven. Rabbin, yaptıklarınızdan habersiz değildir.",
-      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-27T06:34:04.864Z"
-    },
-    "9:51": {
-      "ref": "9:51",
-      "surah_number": 9,
-      "surah_name_arabic": "سُورَةُ التَّوۡبَةِ",
-      "surah_name_english": "At-Tawba",
-      "ayah_number": 51,
-      "arabic": "قُل لَّن يُصِيبَنَآ إِلَّا مَا كَتَبَ ٱللَّهُ لَنَا هُوَ مَوْلَىٰنَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
-      "tr_diyanet": "De ki: \"Allah'ın bize yazdığından başkası başımıza gelmez. O bizim Mevlamızdır, inananlar Allah'a güvensin.\"",
-      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-27T06:34:05.340Z"
-    },
-    "3:160": {
-      "ref": "3:160",
-      "surah_number": 3,
-      "surah_name_arabic": "سُورَةُ آلِ عِمۡرَانَ",
-      "surah_name_english": "Aal-i-Imraan",
-      "ayah_number": 160,
-      "arabic": "إِن يَنصُرْكُمُ ٱللَّهُ فَلَا غَالِبَ لَكُمْ ۖ وَإِن يَخْذُلْكُمْ فَمَن ذَا ٱلَّذِى يَنصُرُكُم مِّنۢ بَعْدِهِۦ ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
-      "tr_diyanet": "Allah size yardım ederse, sizi yenecek yoktur; eğer sizi yardımsız bırakıverirse, O'ndan başka size yardım edecek kimdir? İnananlar yalnız Allah'a güvensinler.",
-      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
-      "fetched_at": "2026-08-27T06:34:05.684Z"
+      "fetched_at": "2026-08-27T11:34:20.156Z"
     }
   }
 }
