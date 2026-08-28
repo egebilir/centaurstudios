@@ -1,0 +1,93 @@
+{
+  "id": "hz-yusufun-kissasi",
+  "content_type": "kissa",
+  "cluster": "kissalar",
+  "slug": "hz-yusufun-kissasi",
+  "title": "Hz. Yusuf'un Kıssası: Kur'an'daki Hikayesi ve Dersleri",
+  "seo_title": "Hz. Yusuf'un Kıssası — Kur'an'daki Hikayesi ve Dersleri | Pusula",
+  "meta_description": "Hz. Yusuf'un kıssası Kur'an'da nasıl anlatılır? Yusuf suresindeki ayetlerle rüya, ihanet, zindan ve kavuşma hikayesi ve hayata dair dersleri.",
+  "dek": "Kur'an'ın tek bir surede, baştan sona anlattığı Yusuf kıssası: bir rüyayla başlayan, ihanet ve sınavla süren, kavuşmayla biten hikaye ve dersleri.",
+  "primary_keyword": "Hz. Yusuf'un kıssası",
+  "published_date": "2026-08-28",
+  "updated_date": "2026-08-28",
+  "related_slugs": ["hz-eyyubun-sabri", "sabir-duasi", "tevekkul-nedir"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Hz. Yusuf'un kıssası, Kur'an'da tek bir surede -- Yusuf suresinde -- baştan sona anlatılan tek peygamber kıssasıdır. Kardeşlerinin kıskançlığıyla başlayan, köle olarak satılma, iftiraya uğrama ve zindanda yıllarca kalma gibi ağır sınavlarla süren hikaye, sonunda Mısır'a hükmeden bir vezir olarak ailesiyle kavuşmasıyla sona erer. Kur'an bu kıssayı \"kıssaların en güzeli\" olarak tanıtır; aşağıda hikayeyi ayet ayet, sırasıyla bulacaksın."
+    },
+    { "type": "heading", "level": 2, "text": "Rüya ve Kardeşlerin Kıskançlığı" },
+    {
+      "type": "paragraph",
+      "text": "Kıssa, henüz genç bir çocuk olan Yusuf'un gördüğü bir rüyayla başlar:"
+    },
+    { "type": "verse", "ref": "12:4", "note": "Yusuf, on bir yıldızın, güneşin ve ayın kendisine secde ettiğini gördüğü rüyayı babasına anlatır -- bu rüya, kıssanın sonunda gerçekleşecek olan yüksek makamın bir işaretidir." },
+    { "type": "verse", "ref": "12:5", "note": "Baba Yakub, rüyanın anlamını sezer ama oğluna bunu kardeşlerine anlatmamasını söyler; kıskançlığın bir tuzağa dönüşebileceğini önceden görür." },
+    {
+      "type": "paragraph",
+      "text": "Yakub'un endişesi boşuna değildir. Yusuf'un kardeşleri, babalarının onu daha çok sevdiğini düşünerek kıskançlığa kapılır ve onu bir kuyuya atıp gömleğine sahte kan bulaştırarak babalarına bir kurdun onu yediğini söylerler. Yakub'un bu habere verdiği tepki, kıssanın en çok hatırlanan cümlelerinden birini içerir:"
+    },
+    { "type": "verse", "ref": "12:18", "note": "Yakub, oğullarının anlattığına inanmaz ama onları da suçlamaz; \"bana güzelce sabır gerekir\" diyerek acısını doğrudan Allah'a havale eder -- kıssa boyunca tekrar eden bir sabır tutumunun ilk örneğidir bu." },
+    { "type": "heading", "level": 2, "text": "Mısır'a Köle Olarak Gidişi ve Zindanda Geçirdiği Yıllar" },
+    {
+      "type": "paragraph",
+      "text": "Kuyudan çıkarılan Yusuf, bir kervan tarafından bulunup köle olarak Mısır'a götürülür ve orada nüfuzlu bir ailenin evinde büyür. Gençliğinde, evin hanımı ona yönelir; Yusuf bu ağır sınavdan Allah'a sığınarak çıkar:"
+    },
+    { "type": "verse", "ref": "12:24", "note": "Ayet, Yusuf'un da bir insan olarak zayıf kalabileceğini, ama Rabbinden gelen bir işaretin onu kötülükten alıkoyduğunu açıkça söyler -- iffeti kendi başına bir kahramanlık değil, Allah'ın yardımıyla mümkün olan bir korunma olarak sunulur." },
+    {
+      "type": "paragraph",
+      "text": "İftiraya uğrayan Yusuf, suçsuzluğu bir bir ortaya çıkmasına rağmen bir süre daha hapiste tutulur. Onun bu duruma verdiği cevap, kıssanın en dikkat çekici anlarından biridir:"
+    },
+    { "type": "verse", "ref": "12:33", "note": "Yusuf, kendisini günaha çağıran ortamdan kurtulmak için hapsi bilerek tercih ettiğini söyler -- özgürlüğü değil, ilkelerinden ödün vermemeyi öncelikli görür." },
+    { "type": "heading", "level": 2, "text": "Mısır'ın Yönetimine Gelişi" },
+    {
+      "type": "paragraph",
+      "text": "Zindanda yıllarca kalan Yusuf, rüya yorumlama konusundaki bilgisi sayesinde kralın gördüğü bir rüyayı doğru yorumlar ve bu, hem hapisten çıkmasına hem de Mısır'ın hazinelerinden sorumlu bir göreve getirilmesine yol açar. Kendi isteğiyle talep ettiği bu görev, sonraki yıllarda bölgeyi vuran kıtlık döneminde hem Mısır halkını hem de kendi ailesini kurtaracak konuma gelmesini sağlar."
+    },
+    { "type": "heading", "level": 2, "text": "Kardeşleriyle Kavuşma ve Bağışlama" },
+    {
+      "type": "paragraph",
+      "text": "Kıtlık yıllarında erzak almak için Mısır'a gelen kardeşleri, karşılarındaki yüksek makamdaki kişinin yıllar önce kuyuya attıkları Yusuf olduğunu fark etmez. Bu arada, evde kalan baba Yakub'un sözleri kıssanın bir başka önemli anını oluşturur:"
+    },
+    { "type": "verse", "ref": "12:87", "note": "Yakub, oğullarını Yusuf'u ve kardeşini aramaya gönderirken \"Allah'ın rahmetinden ümidinizi kesmeyin\" der -- yıllar süren bir ayrılığın ardından bile umudunu kaybetmemiş bir babanın sözleridir bunlar." },
+    {
+      "type": "paragraph",
+      "text": "Kardeşler sonunda Yusuf'un karşısında, kim olduğunu bilmeden dururken, Yusuf kendini onlara tanıtır:"
+    },
+    { "type": "verse", "ref": "12:90", "note": "Kardeşleri şaşkınlıkla \"Yoksa sen Yusuf musun?\" diye sorar; Yusuf, kendini tanıtırken sabrın ve Allah'tan korkmanın karşılıksız kalmadığını da hatırlatır." },
+    { "type": "verse", "ref": "12:92", "note": "Yusuf, kendisine yapılan onca kötülüğe rağmen kardeşlerini suçlamaz, açıkça bağışlar ve merhametin Allah'a ait olduğunu hatırlatarak babasına haber gönderir." },
+    { "type": "heading", "level": 2, "text": "Rüyanın Gerçekleşmesi" },
+    {
+      "type": "paragraph",
+      "text": "Kıssa, tıpkı başladığı gibi bir rüyayla, ama bu kez onun gerçekleşmesiyle son bulur. Yusuf'un ailesi Mısır'a gelir ve yıllar önce gördüğü rüya, gözlerinin önünde gerçekleşir:"
+    },
+    { "type": "verse", "ref": "12:100", "note": "Ana babası ve kardeşleri Yusuf'un önünde eğilince, Yusuf çocukluğunda gördüğü rüyayı hatırlatır ve bunu kendi başarısına değil, tamamen Rabbinin lütfuna bağlar." },
+    { "type": "heading", "level": 3, "text": "Kıssadan Çıkan Dersler" },
+    {
+      "type": "paragraph",
+      "text": "Yusuf kıssasının en belirgin özelliği, sabrın kıssa boyunca farklı biçimlerde tekrar etmesidir: Yakub'un evladını kaybetme acısına sabrı, Yusuf'un iffetini korurken gösterdiği sabrı, hapiste haksız yere geçirdiği yılların sabrı. Kıssa, sabrın tek bir anlık tepki değil, yıllara yayılan bir tutum olabileceğini gösterir."
+    },
+    {
+      "type": "paragraph",
+      "text": "İkinci önemli ders, bağışlamayla ilgilidir. Yusuf, kendisine en büyük kötülüğü yapan kardeşlerine karşı elinde tam bir güç ve fırsat varken onları cezalandırmayı değil bağışlamayı seçer. Bu, kıssanın sonunu yalnızca bir \"mutlu son\" olmaktan çıkarıp, gücün nasıl kullanılması gerektiğine dair bir örneğe dönüştürür. Üçüncü ders ise 12:100'de açıkça görülür: Yusuf, ulaştığı yüksek makamı kendi zekasına ya da çabasına değil, doğrudan Allah'ın lütfuna bağlar -- başarıyı kişisel bir övünme vesilesi yapmaz."
+    },
+    {
+      "type": "takeaways",
+      "heading": "Yusuf Kıssasından Hayatına Taşıyabileceklerin",
+      "items": [
+        "Haksızlığa uğradığında Yakub gibi \"bana güzelce sabır gerekir\" diyerek acını doğrudan Allah'a taşı; şikayet etmeden sabretmek mümkündür.",
+        "Seni günaha çağıran bir ortamdan uzak durmayı, kısa vadeli rahatlığa tercih et; 12:33'teki Yusuf'un tercihi bunun somut bir örneğidir.",
+        "Elinde güç ya da fırsat varken bile, sana kötülük yapmış birini bağışlamayı düşün; 12:92'deki Yusuf'un tavrı bunun mümkün olduğunu gösterir."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Hz. Yusuf'un kıssası Kur'an'ın hangi suresinde anlatılır?", "a": "Kıssa, adını da bu hikayeden alan Yusuf suresinde, tek bir surede baştan sona anlatılır. Kur'an'da bir peygamber kıssasının bu şekilde bütünüyle tek surede işlendiği başka bir örnek yoktur." },
+    { "q": "Yusuf'u kuyuya atan kimdir?", "a": "Yusuf'u kuyuya atanlar, babaları Yakub'un onu daha çok sevdiğini düşünüp kıskançlığa kapılan öz kardeşleridir." },
+    { "q": "Yusuf kıssasının ana teması nedir?", "a": "Kıssa, sabır, iffet ve bağışlama temaları etrafında döner; haksızlığa uğrayan birinin yıllar içinde nasıl sabırla ve ilkelerinden ödün vermeden yoluna devam edebileceğini anlatır." },
+    { "q": "Yusuf kardeşlerini affetti mi?", "a": "Evet. 12:92. ayette Yusuf, kendisine kötülük yapan kardeşlerini açıkça bağışlar ve onları suçlamaz." },
+    { "q": "Yusuf'un rüyası ne zaman gerçekleşti?", "a": "Yusuf'un çocukken gördüğü, on bir yıldızın, güneşin ve ayın kendisine secde ettiği rüya, kıssanın sonunda ailesinin Mısır'a gelip önünde eğilmesiyle, yıllar sonra gerçekleşir (12:100)." }
+  ],
+  "cta_text": "Duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
