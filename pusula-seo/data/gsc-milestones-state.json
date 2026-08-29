@@ -19,5 +19,12 @@
       "title": "Stres İçin Dua: Yoğunluk Anında Okunacak Dua ve Ayetler"
     }
   },
-  "page_queries": {}
+  "page_queries": {
+    "https://centaurstudios.online/pusula/dua/stres-icin-dua/ stres için dua": {
+      "first_impression_notified": true,
+      "first_click_notified": false,
+      "top10_notified": false,
+      "last_notified_position": null
+    }
+  }
 }
