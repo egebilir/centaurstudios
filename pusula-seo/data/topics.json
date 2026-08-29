@@ -103,9 +103,9 @@
       "primary_keyword": "sabır nedir",
       "search_intent": "informational",
       "priority": 3,
-      "status": "pool",
+      "status": "published",
       "task_type": "new",
-      "last_published": null,
+      "last_published": "2026-08-29",
       "cooldown_until": null,
       "related_slugs": [
         "sabir-ile-ilgili-ayetler"
