@@ -1138,6 +1138,72 @@
       "tr_diyanet": "Ana babasını tahtın üzerine oturttu, hepsi onun önünde (Allah'a secde edip) eğildiler. O zaman Yusuf: \"Babacığım! İşte bu, vaktiyle gördüğüm rüyanın çıkışıdır; Rabbim onu gerçekleştirdi. Şeytan, benimle kardeşlerimin arasını bozduktan sonra, beni hapisten çıkaran, sizi çölden getiren Rabbim bana pek çok iyilikte bulundu. Doğrusu Rabbim dilediğine lütufkardır, O şüphesiz bilendir, Hakim'dir\" dedi.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-28T08:22:00.094Z"
+    },
+    "94:1": {
+      "ref": "94:1",
+      "surah_number": 94,
+      "surah_name_arabic": "سُورَةُ الشَّرۡحِ",
+      "surah_name_english": "Ash-Sharh",
+      "ayah_number": 1,
+      "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "tr_diyanet": "Senin gönlünü açmadık mı?",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-31T07:29:02.441Z"
+    },
+    "94:2": {
+      "ref": "94:2",
+      "surah_number": 94,
+      "surah_name_arabic": "سُورَةُ الشَّرۡحِ",
+      "surah_name_english": "Ash-Sharh",
+      "ayah_number": 2,
+      "arabic": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+      "tr_diyanet": "Belini büken yükünü üzerinden almadık mı?",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-31T07:29:02.888Z"
+    },
+    "94:3": {
+      "ref": "94:3",
+      "surah_number": 94,
+      "surah_name_arabic": "سُورَةُ الشَّرۡحِ",
+      "surah_name_english": "Ash-Sharh",
+      "ayah_number": 3,
+      "arabic": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+      "tr_diyanet": "Belini büken yükünü üzerinden almadık mı?",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-31T07:29:03.158Z"
+    },
+    "94:4": {
+      "ref": "94:4",
+      "surah_number": 94,
+      "surah_name_arabic": "سُورَةُ الشَّرۡحِ",
+      "surah_name_english": "Ash-Sharh",
+      "ayah_number": 4,
+      "arabic": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+      "tr_diyanet": "Senin şanını yükseltmedik mi?",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-31T07:29:03.589Z"
+    },
+    "94:7": {
+      "ref": "94:7",
+      "surah_number": 94,
+      "surah_name_arabic": "سُورَةُ الشَّرۡحِ",
+      "surah_name_english": "Ash-Sharh",
+      "ayah_number": 7,
+      "arabic": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+      "tr_diyanet": "Öyleyse, bir işi bitirince diğerine giriş;",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-31T07:29:03.929Z"
+    },
+    "94:8": {
+      "ref": "94:8",
+      "surah_number": 94,
+      "surah_name_arabic": "سُورَةُ الشَّرۡحِ",
+      "surah_name_english": "Ash-Sharh",
+      "ayah_number": 8,
+      "arabic": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+      "tr_diyanet": "Ve ümit edeceğini yalnız Rabbinden iste.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-08-31T07:29:04.193Z"
     }
   }
 }
