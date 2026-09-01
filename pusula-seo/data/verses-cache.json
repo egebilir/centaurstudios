@@ -1204,6 +1204,61 @@
       "tr_diyanet": "Ve ümit edeceğini yalnız Rabbinden iste.",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-08-31T07:29:04.193Z"
+    },
+    "24:36": {
+      "ref": "24:36",
+      "surah_number": 24,
+      "surah_name_arabic": "سُورَةُ النُّورِ",
+      "surah_name_english": "An-Noor",
+      "ayah_number": 36,
+      "arabic": "فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ وَٱلْءَاصَالِ",
+      "tr_diyanet": "Allah'ın yüksek tutulmasına ve içlerinde adının anılmasına izin verdiği evlerde, insanlar sabah akşam O'nu tesbih ederler.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-09-01T06:34:48.750Z"
+    },
+    "24:61": {
+      "ref": "24:61",
+      "surah_number": 24,
+      "surah_name_arabic": "سُورَةُ النُّورِ",
+      "surah_name_english": "An-Noor",
+      "ayah_number": 61,
+      "arabic": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌۭ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌۭ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌۭ وَلَا عَلَىٰٓ أَنفُسِكُمْ أَن تَأْكُلُوا۟ مِنۢ بُيُوتِكُمْ أَوْ بُيُوتِ ءَابَآئِكُمْ أَوْ بُيُوتِ أُمَّهَٰتِكُمْ أَوْ بُيُوتِ إِخْوَٰنِكُمْ أَوْ بُيُوتِ أَخَوَٰتِكُمْ أَوْ بُيُوتِ أَعْمَٰمِكُمْ أَوْ بُيُوتِ عَمَّٰتِكُمْ أَوْ بُيُوتِ أَخْوَٰلِكُمْ أَوْ بُيُوتِ خَٰلَٰتِكُمْ أَوْ مَا مَلَكْتُم مَّفَاتِحَهُۥٓ أَوْ صَدِيقِكُمْ ۚ لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَأْكُلُوا۟ جَمِيعًا أَوْ أَشْتَاتًۭا ۚ فَإِذَا دَخَلْتُم بُيُوتًۭا فَسَلِّمُوا۟ عَلَىٰٓ أَنفُسِكُمْ تَحِيَّةًۭ مِّنْ عِندِ ٱللَّهِ مُبَٰرَكَةًۭ طَيِّبَةًۭ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَعْقِلُونَ",
+      "tr_diyanet": "Kör için bir sorumluluk yoktur. Topal için bir sorumluluk yoktur. Hastaya da bir sorumluluk yoktur. Evlerinizde veya babalarınızın evlerinde veya annelerinizin evlerinde veya erkek kardeşlerinizin evlerinde veya kız kardeşlerinizin evlerinde veya amcalarınızın evlerinde veya halalarınızın evlerinde veya dayılarınızın evlerinde veya teyzelerinizin evlerinde veya kahyası olup anahtarları elinde olan evlerde, ya da dostlarınızın evlerinde izinsiz yemek yemenizde bir sorumluluk yoktur. Bir arada veya ayrı ayrı yemenizde de bir sorumluluk yoktur. Evlere girdiğiniz zaman, kendinize ehlinize Allah katından bereket, esenlik ve güzellik dileyerek selam verin. Allah size ayetleri, düşünesiniz diye böylece açıklar.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-09-01T06:34:49.116Z"
+    },
+    "71:10": {
+      "ref": "71:10",
+      "surah_number": 71,
+      "surah_name_arabic": "سُورَةُ نُوحٍ",
+      "surah_name_english": "Nooh",
+      "ayah_number": 10,
+      "arabic": "فَقُلْتُ ٱسْتَغْفِرُوا۟ رَبَّكُمْ إِنَّهُۥ كَانَ غَفَّارًۭا",
+      "tr_diyanet": "Dedim ki: \"Rabbinizden bağışlanma dileyin; doğrusu O, çok bağışlayandır. Size gökten bol bol yağmur indirsin.\"",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-09-01T06:34:49.467Z"
+    },
+    "71:11": {
+      "ref": "71:11",
+      "surah_number": 71,
+      "surah_name_arabic": "سُورَةُ نُوحٍ",
+      "surah_name_english": "Nooh",
+      "ayah_number": 11,
+      "arabic": "يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًۭا",
+      "tr_diyanet": "Dedim ki: \"Rabbinizden bağışlanma dileyin; doğrusu O, çok bağışlayandır. Size gökten bol bol yağmur indirsin.\"",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-09-01T06:34:49.976Z"
+    },
+    "71:12": {
+      "ref": "71:12",
+      "surah_number": 71,
+      "surah_name_arabic": "سُورَةُ نُوحٍ",
+      "surah_name_english": "Nooh",
+      "ayah_number": 12,
+      "arabic": "وَيُمْدِدْكُم بِأَمْوَٰلٍۢ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّٰتٍۢ وَيَجْعَل لَّكُمْ أَنْهَٰرًۭا",
+      "tr_diyanet": "\"Sizi, mallar ve oğullarla desteklesin; sizin için bahçeler var etsin, ırmaklar akıtsın.\"",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-09-01T06:34:50.401Z"
     }
   }
 }
