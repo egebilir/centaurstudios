@@ -1259,6 +1259,28 @@
       "tr_diyanet": "\"Sizi, mallar ve oğullarla desteklesin; sizin için bahçeler var etsin, ırmaklar akıtsın.\"",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-09-01T06:34:50.401Z"
+    },
+    "62:10": {
+      "ref": "62:10",
+      "surah_number": 62,
+      "surah_name_arabic": "سُورَةُ الجُمُعَةِ",
+      "surah_name_english": "Al-Jumu'a",
+      "ayah_number": 10,
+      "arabic": "فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًۭا لَّعَلَّكُمْ تُفْلِحُونَ",
+      "tr_diyanet": "Namaz bitince yeryüzüne yayılın; Allah'ın lütfundan rızık isteyin; Allah'ı çok anın ki saadete erişesiniz.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-09-02T06:25:47.060Z"
+    },
+    "2:267": {
+      "ref": "2:267",
+      "surah_number": 2,
+      "surah_name_arabic": "سُورَةُ البَقَرَةِ",
+      "surah_name_english": "Al-Baqara",
+      "ayah_number": 267,
+      "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَنفِقُوا۟ مِن طَيِّبَٰتِ مَا كَسَبْتُمْ وَمِمَّآ أَخْرَجْنَا لَكُم مِّنَ ٱلْأَرْضِ ۖ وَلَا تَيَمَّمُوا۟ ٱلْخَبِيثَ مِنْهُ تُنفِقُونَ وَلَسْتُم بِـَٔاخِذِيهِ إِلَّآ أَن تُغْمِضُوا۟ فِيهِ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ",
+      "tr_diyanet": "Ey İnananlar! Kazandıklarınızın temizlerinden ve size yerden çıkardıklarımızdan sarfedin; iğrenmeden alamıyacağınız pis şeyleri vermeye kalkmayın. Allah'ın müstağni ve övülmeye layık olduğunu bilin.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-09-02T06:25:47.129Z"
     }
   }
 }
