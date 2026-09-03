@@ -309,9 +309,9 @@
       "primary_keyword": "İslam'da bereket nedir",
       "search_intent": "informational",
       "priority": 3,
-      "status": "pool",
+      "status": "published",
       "task_type": "new",
-      "last_published": null,
+      "last_published": "2026-09-03",
       "cooldown_until": null,
       "related_slugs": [
         "bereketle-ilgili-ayetler"
