@@ -3,6 +3,17 @@
   "notes": "Populated by scripts/refresh/analyze-content.mjs. Entries reference an existing published slug (unlike topics.json, which is for new topics).",
   "candidates": [
     {
+      "id": "islamda-nazar-var-mi",
+      "content_type": "blog",
+      "slug": "islamda-nazar-var-mi",
+      "cluster": "nazar",
+      "reasons": [
+        "Hiçbir başka sayfadan bağlantı almıyor (orphan sayfa)."
+      ],
+      "severity": 2,
+      "detected_at": "2026-09-04T18:14:04.036Z"
+    },
+    {
       "id": "sinav-oncesi-okunacak-dualar",
       "content_type": "dua",
       "slug": "sinav-oncesi-okunacak-dualar",
@@ -11,7 +22,7 @@
         "Hiçbir başka sayfadan bağlantı almıyor (orphan sayfa)."
       ],
       "severity": 2,
-      "detected_at": "2026-09-04T05:23:54.649Z"
+      "detected_at": "2026-09-04T18:14:04.036Z"
     },
     {
       "id": "hz-yusufun-kissasi",
@@ -22,7 +33,7 @@
         "Hiçbir başka sayfadan bağlantı almıyor (orphan sayfa)."
       ],
       "severity": 2,
-      "detected_at": "2026-09-04T05:23:54.650Z"
+      "detected_at": "2026-09-04T18:14:04.036Z"
     },
     {
       "id": "insirah-suresi-anlami",
@@ -33,7 +44,7 @@
         "Hiçbir başka sayfadan bağlantı almıyor (orphan sayfa)."
       ],
       "severity": 2,
-      "detected_at": "2026-09-04T05:23:54.650Z"
+      "detected_at": "2026-09-04T18:14:04.036Z"
     },
     {
       "id": "rizikla-ilgili-ayetler",
@@ -44,7 +55,7 @@
         "2 related_slugs girdisi artık geçerli değil: rizik-kapilari-nasil-acilir, is-ve-rizik-icin-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-09-04T05:23:54.649Z"
+      "detected_at": "2026-09-04T18:14:04.035Z"
     },
     {
       "id": "gece-okunacak-dualar",
@@ -55,7 +66,7 @@
         "2 related_slugs girdisi artık geçerli değil: yatmadan-once-okunacak-dua, uyaninca-okunacak-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-09-04T05:23:54.649Z"
+      "detected_at": "2026-09-04T18:14:04.036Z"
     },
     {
       "id": "kazancta-bereket-duasi",
@@ -66,7 +77,7 @@
         "1 related_slugs girdisi artık geçerli değil: is-ve-rizik-icin-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-09-04T05:23:54.649Z"
+      "detected_at": "2026-09-04T18:14:04.036Z"
     },
     {
       "id": "nazar-duasi",
@@ -77,7 +88,7 @@
         "1 related_slugs girdisi artık geçerli değil: felak-ve-nas-suresi-nazar-icin."
       ],
       "severity": 1,
-      "detected_at": "2026-09-04T05:23:54.649Z"
+      "detected_at": "2026-09-04T18:14:04.036Z"
     },
     {
       "id": "rizik-duasi",
@@ -88,7 +99,7 @@
         "2 related_slugs girdisi artık geçerli değil: is-ve-rizik-icin-dua, rizik-kapilari-nasil-acilir."
       ],
       "severity": 1,
-      "detected_at": "2026-09-04T05:23:54.649Z"
+      "detected_at": "2026-09-04T18:14:04.036Z"
     },
     {
       "id": "sabah-okunacak-dualar",
@@ -99,7 +110,7 @@
         "1 related_slugs girdisi artık geçerli değil: uyaninca-okunacak-dua."
       ],
       "severity": 1,
-      "detected_at": "2026-09-04T05:23:54.649Z"
+      "detected_at": "2026-09-04T18:14:04.036Z"
     },
     {
       "id": "sinav-duasi",
@@ -110,8 +121,8 @@
         "1 related_slugs girdisi artık geçerli değil: basari-ile-ilgili-ayetler."
       ],
       "severity": 1,
-      "detected_at": "2026-09-04T05:23:54.649Z"
+      "detected_at": "2026-09-04T18:14:04.036Z"
     }
   ],
-  "last_scan": "2026-09-04T05:23:54.650Z"
+  "last_scan": "2026-09-04T18:14:04.037Z"
 }
