@@ -23,8 +23,8 @@
     "https://centaurstudios.online/pusula/dua/stres-icin-dua/ stres için dua": {
       "first_impression_notified": true,
       "first_click_notified": false,
-      "top10_notified": false,
-      "last_notified_position": 18.666666666666668
+      "top10_notified": true,
+      "last_notified_position": 9
     }
   }
 }
