@@ -1303,6 +1303,17 @@
       "tr_diyanet": "\"Ey milletim! Rabbinizden mağfiret dileyin, sonra O'na tevbe edin ki size gökten bol bol yağmur göndersin, kuvvetinize kuvvet katsın; suçlular olarak yüz çevirmeyin.\"",
       "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
       "fetched_at": "2026-09-03T06:26:29.704Z"
+    },
+    "18:39": {
+      "ref": "18:39",
+      "surah_number": 18,
+      "surah_name_arabic": "سُورَةُ الكَهۡفِ",
+      "surah_name_english": "Al-Kahf",
+      "ayah_number": 39,
+      "arabic": "وَلَوْلَآ إِذْ دَخَلْتَ جَنَّتَكَ قُلْتَ مَا شَآءَ ٱللَّهُ لَا قُوَّةَ إِلَّا بِٱللَّهِ ۚ إِن تَرَنِ أَنَا۠ أَقَلَّ مِنكَ مَالًۭا وَوَلَدًۭا",
+      "tr_diyanet": "Kendisiyle konuştuğu arkadaşı ona: \"Seni topraktan, sonra nutfeden yaratanı, sonunda de seni insan kılığına koyanı mı inkar ediyorsun? İşte O benim Rabbim olan Allah'tır. Rabbime kimseyi ortak koşmam. Bahçene girdiğin zaman, her ne kadar beni kendinden mal ve nüfus bakımından daha az buluyorsan da: \"Maşallah! Kuvvet ancak Allah'a mahsustur!\" demen gerekmez mi? Rabbim, senin bahçenden daha iyisini bana verebilir ve seninkinin üzerine gökten bir felaket gönderir de bahçen yerle bir olabilir. Yahut suyu çekilir bir daha da bulamazsın\" dedi.",
+      "source": "api.alquran.cloud (quran-uthmani + tr.diyanet)",
+      "fetched_at": "2026-09-04T07:26:15.944Z"
     }
   }
 }
