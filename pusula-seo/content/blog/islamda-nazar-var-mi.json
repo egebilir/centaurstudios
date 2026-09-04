@@ -1,0 +1,92 @@
+{
+  "id": "islamda-nazar-var-mi",
+  "content_type": "blog",
+  "cluster": "nazar",
+  "slug": "islamda-nazar-var-mi",
+  "title": "İslam'da Nazar Var mı? Kur'an'ın Bakışa Dair Söyledikleri",
+  "seo_title": "İslam'da Nazar Var mı? Kur'an Ne Diyor? | Pusula",
+  "meta_description": "İslam'da nazar var mı? Kur'an'ın hasede ve bakışa dair ayetleri ışığında nazarın İslami çerçevesi, sınırları ve batıl inançtan farkı.",
+  "dek": "Nazar İslam'da inkar edilmez ama merkeze de alınmaz: Kur'an'ın çizdiği çerçeve, tedirginlikle batıl inanç arasındaki sınırı nasıl gösteriyor?",
+  "primary_keyword": "İslam'da nazar var mı",
+  "published_date": "2026-09-04",
+  "updated_date": "2026-09-04",
+  "related_slugs": ["nazarla-ilgili-ayet", "nazar-duasi", "tevekkul-nedir"],
+  "requires_hadith": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "İslam'da nazar, yani bir bakışın kıskançlık ya da aşırı hayranlıkla birleşip zarar verebileceği inancı, tamamen reddedilmez. Kur'an hem bakışın kötü niyetle güçlü bir etkiye dönüşebileceğinden hem de hasetçinin şerrinden Allah'a sığınmaktan söz eder. Ama nazar İslam'da imanın bir şartı ya da merkezi bir konu değildir; asıl mesele, bu inancı korkuya ya da batıl bir bağımlılığa dönüştürmeden doğru bir çerçevede tutabilmektir."
+    },
+    { "type": "heading", "level": 2, "text": "Kur'an Nazarı Nasıl Ele Alır?" },
+    {
+      "type": "paragraph",
+      "text": "Kur'an'da \"nazar\" kelimesi ayrı bir başlık olarak geçmez; konu, bakışın etkisi ve hasetten sığınma temaları üzerinden işlenir. Kalem suresinde, inkârcıların Hz. Peygamber'i dinlerken duydukları rahatsızlığın bakışlarına nasıl yansıdığı anlatılır:"
+    },
+    { "type": "verse", "ref": "68:51", "note": "Bu ayet, düşmanca bir bakışın salt bir duygu değil, gerçek bir etki iddiası taşıyabileceğini gösteren örnek olarak nazar tartışmalarında sıkça anılır." },
+    {
+      "type": "paragraph",
+      "text": "Felak suresinin son ayeti ise nazarla en çok ilişkilendirilen ayettir; burada sığınılan şey doğrudan hasedin kendisidir:"
+    },
+    { "type": "verse", "ref": "113:5", "note": "İslam geleneğinde nazar, çoğu zaman ayrı ve bağımsız bir güç değil, hasedin -kıskançlığın- görünür bir yansıması olarak anlaşılır; bu yüzden çözüm de korkuda değil, hasetten Allah'a sığınmada aranır." },
+    { "type": "heading", "level": 2, "text": "Nazar İnancı ile Batıl İnanç Arasındaki Sınır" },
+    {
+      "type": "paragraph",
+      "text": "Nazarın varlığını kabul etmek başka, ona bağımsız bir güç atfetmek başkadır. İslam'ın temel ilkesi tevhiddir: zarar verme ya da koruma gücü yalnızca Allah'a aittir. Bir bakışın, bir nesnenin ya da bir sözün kendi başına -Allah'tan bağımsız- etki edebileceğine inanmak, bu ilkeyle çelişir."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bu yüzden nazar boncuğu ya da muska gibi nesnelere kendiliğinden koruyucu güç atfetmek İslam alimlerinin çoğunluğu tarafından sakıncalı görülür; oysa aynı tedirginliği Felak ve Nas surelerini okuyarak, yani doğrudan Allah'a sığınarak ifade etmek Kur'an'ın gösterdiği yoldur. Aradaki fark ince ama önemlidir: biri korumayı bir nesneye ya da sembole yüklerken, diğeri korumayı olduğu yerde, Allah'ta bırakır. Aynı tedirginlik hissi, iki farklı yöne akabilir."
+    },
+    { "type": "heading", "level": 2, "text": "Tedbir Almak Batıl İnanç mıdır?" },
+    {
+      "type": "paragraph",
+      "text": "Hayır. Kur'an'da Hz. Yakub'un öğüdü, tam olarak bu ayrımı gösterir:"
+    },
+    { "type": "verse", "ref": "12:67", "note": "Yakub, oğullarına dikkat çekmemeleri için makul bir tedbir önerir, ama hemen ardından bu tedbirin kendisinin bir güvence olmadığını, asıl hükmün Allah'a ait olduğunu hatırlatır. Yani tedbir almak batıl inanç değildir; batıl olan, tedbiri ya da bir nesneyi güvenin kaynağı haline getirmektir." },
+    {
+      "type": "paragraph",
+      "text": "Bu ayet, nazar konusunda dengeyi kuran en somut örnektir: ne tedbiri tamamen reddetmek, ne de tedbire aşırı bir güven bağlamak."
+    },
+    { "type": "heading", "level": 2, "text": "\"Maşallah\" Demenin Kur'an'daki Kökeni" },
+    {
+      "type": "paragraph",
+      "text": "Bir şeye hayranlık duyduğunda \"maşallah\" demek alışkanlığı da Kur'an'a dayanır. Kehf suresinde anlatılan iki bahçe sahibinin kıssasında, zengin olan bahçesine girip malıyla övünür; arkadaşı ise onu şu sözü söylemediği için uyarır:"
+    },
+    { "type": "verse", "ref": "18:39", "note": "\"Maşallah, kuvvet ancak Allah'a mahsustur\" cümlesi, bir nimeti gördüğünde ya da bir başarıyı fark ettiğinde onu kendi gücüne değil Allah'a bağlamayı öğretir. Kıssanın devamında bahçe gerçekten yok olur — anlatı, hayranlığı Allah'a bağlamamanın bedelini somutlaştırır." },
+    {
+      "type": "paragraph",
+      "text": "Bu alışkanlık nazarla iç içe anlatılır: birinin sahip olduğuna hayranlık duyarken bunu \"maşallah\" ya da \"Allah nazardan saklasın\" gibi bir ifadeyle Allah'a bağlamak, hem söyleyenin hem dinleyenin kalbini kıskançlıktan uzak tutar. Yani bu söz, bir büyü ya da tılsım değil, hayranlığın kaynağını doğru yere, Allah'a yönlendiren bir hatırlatmadır."
+    },
+    { "type": "heading", "level": 2, "text": "Nazar Korkusu Ne Zaman Sorun Haline Gelir?" },
+    {
+      "type": "paragraph",
+      "text": "Nazar inancı, sürekli bir kaygıya dönüştüğünde amacından sapar. Her başarısızlığı, her hastalığı ya da her aksiliği \"birisi nazar etti\" diye açıklamaya çalışmak hem gerçek sebepleri görmeyi engeller hem de günlük hayatı bir şüphe haline sokar. Kur'an'ın önerdiği tutum, tedirginliği bir kez Felak ve Nas sureleriyle Allah'a teslim edip günlük hayata güvenle devam etmektir — sürekli \"acaba nazar mı değdi\" diye sorgulamak değil."
+    },
+    {
+      "type": "quote_callout",
+      "text": "İslam'ın nazara bakışının özeti şudur: bakışın etkisi inkâr edilmez, ama güvenin kaynağı hiçbir zaman bir nesne ya da tedbir değil, doğrudan Allah'tır."
+    },
+    { "type": "heading", "level": 3, "text": "Peki Bilimsel Açıdan Nazar?" },
+    {
+      "type": "paragraph",
+      "text": "Nazarın fiziksel bir mekanizmayla nasıl işlediğine dair bilimsel bir açıklama yoktur ve İslam da bunu iddia etmez. Kur'an'ın vurgusu, bakışın \"nasıl\" etki ettiğini açıklamak değil, kişinin haset karşısında ne yapması gerektiğini göstermektir: sığınmak, ölçülü tedbir almak ve güveni Allah'ta tutmak. Mekanizmayı sorgulamak yerine tutumu doğru kurmak, Kur'an'ın önceliğidir."
+    },
+    {
+      "type": "takeaways",
+      "heading": "İslam'da Nazarı Doğru Bir Çerçevede Yaşamak İçin",
+      "items": [
+        "Bir bakıştan ya da başkasının kıskançlığından tedirgin olduğunda önce Felak ve Nas surelerini oku; sığınmayı bir nesneye değil, doğrudan Allah'a yönelt.",
+        "Nazar boncuğu ya da benzer bir nesne kullanıyorsan, ona kendiliğinden bir güç atfetmediğinden emin ol — asıl güven her zaman Allah'a ait olmalı.",
+        "12:67'deki gibi makul, ölçülü tedbirler almaktan çekinme; ama bu tedbiri korkuya ya da saplantıya dönüştürme."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "İslam'da nazar var mı, yoksa batıl inanç mıdır?", "a": "Nazar tamamen reddedilmez; Kur'an hem bakışın etkisinden (68:51) hem de hasetten sığınmaktan (113:5) söz eder. Ama nazara bağımsız bir güç atfetmek ya da onu imanın merkezine koymak İslam'ın tevhid ilkesiyle çelişir." },
+    { "q": "Nazar boncuğu takmak caiz midir?", "a": "Yaygın görüş, nazar boncuğuna kendiliğinden koruyucu bir güç atfetmenin sakıncalı olduğu, korumanın tek kaynağının Allah olduğu yönündedir. Tedirginlik duyulduğunda önerilen yol, Felak ve Nas surelerini okumaktır." },
+    { "q": "Nazar bir günah mıdır?", "a": "Nazarın kendisi değil, ona neden olan haset (kıskançlık) İslam'da uyarılan bir tutumdur. Felak suresi doğrudan \"hasedçinin şerrinden\" Allah'a sığınmayı öğretir (113:5)." },
+    { "q": "Nazardan tedirgin olmak imanla çelişir mi?", "a": "Ölçülü bir tedirginlik ve makul tedbir (12:67) çelişmez; ama sürekli bir kaygıya dönüşen nazar korkusu, sonucu Allah'a bırakma anlayışıyla çelişir." },
+    { "q": "Nazardan korunmak için ne yapılmalı?", "a": "Felak ve Nas surelerini okumak, hasede kapılmamaya dikkat etmek ve gerektiğinde makul, ölçülü tedbirler almak; ama bunların hiçbirini korkuya ya da saplantıya dönüştürmemek." }
+  ],
+  "cta_text": "Duygularına uygun bir Kur'an ayeti, kişiselleştirilmiş bir dua ve yapay zeka destekli manevi rehberlik için Pusula'yı ücretsiz deneyebilirsin."
+}
